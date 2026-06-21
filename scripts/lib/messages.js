@@ -28,7 +28,7 @@ function reservedByOtherMessage() {
 function remindReserverMessage(config, issueNumber, user, reservedAt) {
   return [
     `@${user}님은 이미 예약 상태입니다.`,
-    `${config.reservationHours}시간 이내에 ①송금 ②예약 폼 작성을 완료하신 뒤, 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주시면 예약이 확정됩니다.`,
+    `${config.reservationHours}시간 이내에 ①물품 가액 전액 송금 ②예약 폼 작성을 완료하신 뒤, 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주시면 예약이 확정됩니다.`,
     `💳 ${config.depositInfo}`,
     `📝 예약 폼: ${buildFormUrl(config, issueNumber, user)}`,
     `⏰ 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
@@ -38,7 +38,7 @@ function remindReserverMessage(config, issueNumber, user, reservedAt) {
 function reserveConfirmMessage(config, issueNumber, winner, reservedAt) {
   return [
     `**@${winner}**님 예약 완료 ✅`,
-    `${config.reservationHours}시간 이내에 ①송금 ②예약 폼 작성을 완료하신 뒤, 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주시면 예약이 확정됩니다.`,
+    `${config.reservationHours}시간 이내에 ①물품 가액 전액 송금 ②예약 폼 작성을 완료하신 뒤, 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주시면 예약이 확정됩니다.`,
     `(${config.reservationHours}시간 내 \`${config.paidKeyword}\` 댓글이 없으면 예약은 자동 취소되어 다시 구매 가능 상태로 전환됩니다.)`,
     `💳 ${config.depositInfo}`,
     `📝 예약 폼: ${buildFormUrl(config, issueNumber, winner)}`,
@@ -62,7 +62,7 @@ function reservationFooter(config) {
     '## 📌 예약 방법',
     '',
     `1. 구매를 원하시는 글에 \`${config.keyword}\` 키워드를 넣어 댓글을 남겨주세요.`,
-    '2. 봇 안내에 따라 3시간 이내에 송금 및 예약 폼 작성을 완료해 주세요.',
+    '2. 봇 안내에 따라 3시간 이내에 **물품 가액 전액 입금** 및 예약 폼 작성을 완료해 주세요.',
     `3. 완료 후 같은 판매글에 \`${config.paidKeyword}\` 댓글을 남기면 예약이 확정됩니다.`,
     '',
     `3시간 이내에 \`${config.paidKeyword}\` 댓글이 없을 경우 예약은 자동 취소되며, 판매글은 다시 구매 가능 상태로 전환됩니다.`,
@@ -73,9 +73,16 @@ function reservationFooter(config) {
     '',
     config.depositInfo,
     '',
-    '## 🗓 예약 기간',
+    '## 🗓 예약 기간 / 접수 안내',
     '',
     '2026년 6월 24일(수) 12:00 ~ 2026년 7월 1일(수) 12:00 (KST)',
+    '',
+    '- 판매 기간 **시작 전에는 접수를 받지 않습니다.**',
+    '- 판매 기간 **종료 후에는 신규 접수는 받지 않으나, 이미 예약된 건의 입금은 가능합니다.**',
+    '',
+    '## 🙋 예약 없이 참가',
+    '',
+    `예약 없이 행사에 단순 방문을 원하시면 [예약 없이 참가 희망](${config.visitIssueUrl}) 이슈에 댓글로 신청해 주세요. 예약자 대비 초청 우선순위가 낮으며, 주최 사정에 따라 선착순으로 마감될 수 있습니다.`,
     '',
     '물건의 수량이 많아 다른 곳에 보관하고 있습니다. 올려드린 사진 외에 추가적인 상태·구성품 확인이 어려운 점 양해 부탁드립니다.',
   ].join('\n');
