@@ -1,0 +1,31 @@
+const { test } = require('node:test');
+const assert = require('node:assert');
+const { buildIssue } = require('../scripts/lib/build-issue');
+const { readListing, readState } = require('../scripts/lib/markers');
+
+const config = {
+  csvMapping: { id: '번호', title: '매물명', price: '가격', image: '사진', body: ['상태', '설명'] },
+  labels: { scope: '매물', available: '구매 가능', reserved: '예약금 대기중', paid: '입금 확인 완료' },
+};
+
+test('buildIssue maps title, price marker, labels, image, body fields', () => {
+  const row = { 번호: '1', 매물명: 'Keychron Q1', 가격: '120,000', 사진: 'https://img/q1.png', 상태: 'A급', 설명: '거의 새것' };
+  const out = buildIssue(row, config);
+  assert.strictEqual(out.title, 'Keychron Q1');
+  assert.deepStrictEqual(out.labels, ['매물', '구매 가능']);
+  assert.match(out.body, /!\[\]\(https:\/\/img\/q1\.png\)/);  // image as markdown
+  assert.match(out.body, /A급/);
+  assert.match(out.body, /거의 새것/);
+  const listing = readListing(out.body);
+  assert.strictEqual(listing.id, '1');
+  assert.strictEqual(listing.price, '120,000');
+  assert.strictEqual(listing.name, 'Keychron Q1');
+  assert.deepStrictEqual(readState(out.body), { reserver: null, reservedAt: null, availableSince: null });
+});
+
+test('buildIssue tolerates missing optional columns', () => {
+  const row = { 번호: '2', 매물명: 'NK65' };
+  const out = buildIssue(row, config);
+  assert.strictEqual(out.title, 'NK65');
+  assert.strictEqual(readListing(out.body).id, '2');
+});
