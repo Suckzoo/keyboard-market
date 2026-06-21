@@ -1,0 +1,10 @@
+{
+  "openAt": "2026-07-01T11:00:00.000Z",
+  "keyword": "#구매신청",
+  "reservationHours": 3,
+  "formBaseUrl": "https://f",
+  "formIssueEntryId": "entry.1",
+  "formUserEntryId": "entry.2",
+  "depositInfo": "BANK",
+  "labels": { "scope": "매물", "available": "구매 가능", "reserved": "예약금 대기중", "paid": "입금 확인 완료" }
+}
