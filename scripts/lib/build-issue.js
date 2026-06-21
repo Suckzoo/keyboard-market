@@ -15,6 +15,8 @@ function buildIssue(row, config, opts = {}) {
   }
 
   const sections = [];
+  // Visible PID so pid↔issue-number mapping works from the issue alone.
+  sections.push(`PID: ${id}`);
   for (const url of images) {
     if (/^https?:\/\//.test(url)) sections.push(`![](${url})`);
   }

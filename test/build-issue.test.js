@@ -44,6 +44,14 @@ test('opts.images takes precedence over single image column', () => {
   assert.doesNotMatch(out.body, /single\.png/);
 });
 
+test('buildIssue writes the pid as visible content, not only in the hidden marker', () => {
+  const row = { 번호: '42', 매물명: 'X' };
+  const out = buildIssue(row, config);
+  const visible = out.body.replace(/<!--[\s\S]*?-->/g, ''); // strip hidden markers
+  assert.match(visible, /PID/);
+  assert.match(visible, /42/);
+});
+
 test('buildIssue appends opts.footer before the hidden markers', () => {
   const row = { 번호: '8', 매물명: 'F' };
   const out = buildIssue(row, config, { footer: '## 예약 방법\n자세한 내용' });
