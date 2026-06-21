@@ -8,6 +8,12 @@ const STATUS_DISPLAY = {
 };
 const STATUS_ORDER = { available: 0, reserved: 1, paid: 2, unknown: 3 };
 
+// Issues tagged "[Test Purpose]" in their title are live test fixtures kept in
+// the repo for rehearsing on production; they are hidden from the public board.
+function isTestPurpose(title) {
+  return typeof title === 'string' && title.includes('[Test Purpose]');
+}
+
 function sortListings(models) {
   return [...models].sort((a, b) => {
     const d = STATUS_ORDER[a.status] - STATUS_ORDER[b.status];
@@ -36,4 +42,4 @@ function spliceBoard(readme, tableMarkdown) {
   return `${before}\n${tableMarkdown}\n${after}`;
 }
 
-module.exports = { BOARD_START, BOARD_END, STATUS_DISPLAY, sortListings, renderTable, spliceBoard };
+module.exports = { BOARD_START, BOARD_END, STATUS_DISPLAY, isTestPurpose, sortListings, renderTable, spliceBoard };

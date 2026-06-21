@@ -36,6 +36,26 @@ test('writes a new README when the board changes', async () => {
   assert.strictEqual(put.sha, 'abc123');
 });
 
+test('excludes [Test Purpose] issues from the board', async () => {
+  const issues = [
+    {
+      number: 1, title: '[Test Purpose] Dummy', html_url: 'u1',
+      labels: [{ name: '매물' }, { name: '구매 가능' }],
+      body: '<!-- market-listing: {"price":"1"} -->',
+    },
+    {
+      number: 2, title: 'Real Listing', html_url: 'u2',
+      labels: [{ name: '매물' }, { name: '구매 가능' }],
+      body: '<!-- market-listing: {"price":"2"} -->',
+    },
+  ];
+  const { github, calls } = fakeGithub(issues, README);
+  await run({ github, context, configPath });
+  const written = Buffer.from(calls.find((c) => c[0] === 'put')[1].content, 'base64').toString('utf8');
+  assert.match(written, /Real Listing/);
+  assert.doesNotMatch(written, /Dummy/);
+});
+
 test('does not write when the board is unchanged', async () => {
   const issues = [{
     number: 12, title: 'Keychron Q1', html_url: 'u12',

@@ -7,6 +7,7 @@ const { loadConfig } = require('./lib/config');
 const { buildIssue } = require('./lib/build-issue');
 const { readListing } = require('./lib/markers');
 const { formatPriceWon, imagesForPid } = require('./lib/listing-import');
+const { isTestPurpose } = require('./lib/render-board');
 
 const OWNER = 'Suckzoo';
 const REPO = 'keyboard-market';
@@ -52,7 +53,7 @@ async function existingIds(octokit, config) {
   });
   const ids = new Set();
   for (const i of issues) {
-    if (i.pull_request) continue;
+    if (i.pull_request || isTestPurpose(i.title)) continue;
     const id = readListing(i.body || '').id;
     if (id) ids.add(String(id));
   }

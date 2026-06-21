@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
-const { sortListings, renderTable, spliceBoard, BOARD_START, BOARD_END } = require('../scripts/lib/render-board');
+const { sortListings, renderTable, spliceBoard, isTestPurpose, BOARD_START, BOARD_END } = require('../scripts/lib/render-board');
 
 const models = [
   { number: 14, title: 'Tofu60', price: '70,000', status: 'paid', reserver: 'hubot', url: 'u14' },
@@ -30,4 +30,12 @@ test('spliceBoard replaces only between markers', () => {
 
 test('spliceBoard throws when markers absent', () => {
   assert.throws(() => spliceBoard('no markers', 'x'), /BOARD/);
+});
+
+test('isTestPurpose flags titles tagged [Test Purpose]', () => {
+  assert.strictEqual(isTestPurpose('[Test Purpose] Keychron Q1'), true);
+  assert.strictEqual(isTestPurpose('[Test Purpose]'), true);
+  assert.strictEqual(isTestPurpose('Keychron Q1 화이트'), false);
+  assert.strictEqual(isTestPurpose(''), false);
+  assert.strictEqual(isTestPurpose(undefined), false);
 });
