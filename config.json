@@ -1,0 +1,22 @@
+{
+  "openAt": "2026-07-01T20:00:00+09:00",
+  "keyword": "#구매신청",
+  "reservationHours": 3,
+  "formBaseUrl": "https://docs.google.com/forms/d/e/REPLACE_ID/viewform",
+  "formIssueEntryId": "entry.111111",
+  "formUserEntryId": "entry.222222",
+  "depositInfo": "○○은행 123-456-7890 (예금주: 홍길동)",
+  "csvMapping": {
+    "id": "번호",
+    "title": "매물명",
+    "price": "가격",
+    "image": "사진",
+    "body": ["상태", "설명"]
+  },
+  "labels": {
+    "scope": "매물",
+    "available": "구매 가능",
+    "reserved": "예약금 대기중",
+    "paid": "입금 확인 완료"
+  }
+}

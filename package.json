@@ -1,0 +1,15 @@
+{
+  "name": "keyboard-market",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "import": "node scripts/import-listings.js"
+  },
+  "devDependencies": {
+    "@octokit/rest": "^21.0.0",
+    "csv-parse": "^5.5.0"
+  }
+}
