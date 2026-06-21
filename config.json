@@ -5,8 +5,8 @@
   "paidKeyword": "#입금완료",
   "reservationHours": 3,
   "formBaseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdaATeLG6BFlXNkfdTNgKqNVfh3sCEh7j_3KRVtfEf1AwdnrA/viewform",
-  "formIssueEntryId": "",
-  "formUserEntryId": "",
+  "formIssueEntryId": "entry.998374622",
+  "formUserEntryId": "entry.1008119258",
   "depositInfo": "카카오페이로 아래 QR을 통해 송금해주세요.\n![카카오페이 송금 QR](https://raw.githubusercontent.com/Suckzoo/keyboard-market/master/assets/kakaopay-qr.jpeg)",
   "csvMapping": {
     "id": "pid",
