@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
-const { sortListings, renderTable, spliceBoard, isTestPurpose, BOARD_START, BOARD_END } = require('../scripts/lib/render-board');
+const { sortListings, renderTable, renderBoard, spliceBoard, isTestPurpose, BOARD_START, BOARD_END } = require('../scripts/lib/render-board');
 
 const models = [
   { number: 14, title: 'Tofu60', price: '70,000', status: 'paid', reserver: 'hubot', url: 'u14' },
@@ -13,15 +13,26 @@ test('sortListings orders available, reserved, paid', () => {
   assert.deepStrictEqual(order, [12, 13, 14]);
 });
 
-test('renderTable shows reserver as @handle or dash', () => {
+test('renderTable shows reserver as @handle or dash (no 비고 column)', () => {
   const md = renderTable(sortListings(models));
-  assert.match(md, /\| Keychron Q1 \| 120,000 \| - \| 🟢 구매 가능 \| - \|/);
+  assert.match(md, /\| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/);
+  assert.match(md, /\| Keychron Q1 \| 120,000 \| 🟢 구매 가능 \| - \|/);
   assert.match(md, /@octocat/);
 });
 
-test('renderTable shows the note in a 비고 column', () => {
-  const md = renderTable([{ number: 9, title: 'X', price: '가격 문의', note: '협의 필요', status: 'available', reserver: null, url: 'u' }]);
-  assert.match(md, /\| X \| 가격 문의 \| 협의 필요 \| 🟢 구매 가능 \| - \|/);
+test('renderBoard appends a 비고 section below the table for notes', () => {
+  const md = renderBoard([
+    { number: 3, title: 'A', price: '150,000원', note: '', status: 'available', reserver: null, url: 'u3' },
+    { number: 9, title: 'B', price: '하단 비고 참조', note: '정보 확인이 어려워 적정 가격을 제시받고 있습니다', status: 'available', reserver: null, url: 'u9' },
+  ]);
+  assert.match(md, /\| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/); // table has no 비고 column
+  assert.match(md, /\*\*비고\*\*/);
+  assert.match(md, /정보 확인이 어려워 적정 가격을 제시받고 있습니다/);
+});
+
+test('renderBoard with no notes is just the table', () => {
+  const md = renderBoard([{ number: 3, title: 'A', price: '150,000원', note: '', status: 'available', reserver: null, url: 'u3' }]);
+  assert.doesNotMatch(md, /비고/);
 });
 
 test('spliceBoard replaces only between markers', () => {

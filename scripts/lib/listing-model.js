@@ -11,7 +11,7 @@ function toListingModel(issue, config) {
   return {
     number: issue.number,
     title: issue.title,
-    price: unknown ? '가격 문의' : rawPrice,
+    price: unknown ? '하단 비고 참조' : rawPrice,
     note: unknown ? PRICE_UNKNOWN : '',
     status: deriveStatus(labelNames, config),
     reserver: state.reserver || null,

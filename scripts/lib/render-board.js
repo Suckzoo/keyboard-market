@@ -22,14 +22,22 @@ function sortListings(models) {
 }
 
 function renderTable(models) {
-  const header = '| 매물 | 가격 | 비고 | 상태 | 예약자 | 이슈 |\n|---|---|---|---|---|---|';
+  const header = '| 매물 | 가격 | 상태 | 예약자 | 이슈 |\n|---|---|---|---|---|';
   const rows = models.map((m) => {
     const reserver = m.reserver ? `@${m.reserver}` : '-';
     const price = m.price || '-';
-    const note = m.note || '-';
-    return `| ${m.title} | ${price} | ${note} | ${STATUS_DISPLAY[m.status] || '❔'} | ${reserver} | [#${m.number}](${m.url}) |`;
+    return `| ${m.title} | ${price} | ${STATUS_DISPLAY[m.status] || '❔'} | ${reserver} | [#${m.number}](${m.url}) |`;
   });
   return [header, ...rows].join('\n');
+}
+
+// Full board = table + a 비고 section listing distinct notes below it.
+function renderBoard(models) {
+  const table = renderTable(models);
+  const notes = [...new Set(models.map((m) => m.note).filter(Boolean))];
+  if (notes.length === 0) return table;
+  const noteLines = notes.map((n) => `- ${n}`).join('\n');
+  return `${table}\n\n**비고**\n${noteLines}`;
 }
 
 function spliceBoard(readme, tableMarkdown) {
@@ -43,4 +51,4 @@ function spliceBoard(readme, tableMarkdown) {
   return `${before}\n${tableMarkdown}\n${after}`;
 }
 
-module.exports = { BOARD_START, BOARD_END, STATUS_DISPLAY, isTestPurpose, sortListings, renderTable, spliceBoard };
+module.exports = { BOARD_START, BOARD_END, STATUS_DISPLAY, isTestPurpose, sortListings, renderTable, renderBoard, spliceBoard };
