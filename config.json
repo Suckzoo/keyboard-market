@@ -1,11 +1,11 @@
 {
-  "openAt": "2026-07-01T20:00:00+09:00",
+  "openAt": "2030-01-01T00:00:00+09:00",
   "keyword": "#구매신청",
   "reservationHours": 3,
-  "formBaseUrl": "https://docs.google.com/forms/d/e/REPLACE_ID/viewform",
+  "formBaseUrl": "https://docs.google.com/forms/d/e/DUMMY_FORM_ID/viewform",
   "formIssueEntryId": "entry.111111",
   "formUserEntryId": "entry.222222",
-  "depositInfo": "○○은행 123-456-7890 (예금주: 홍길동)",
+  "depositInfo": "테스트은행 000-0000-0000 (예금주: 테스트)",
   "csvMapping": {
     "id": "번호",
     "title": "매물명",
