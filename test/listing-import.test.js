@@ -46,6 +46,6 @@ test('prepareRow uses the unified text for empty price and adds no 비고', () =
   const row = { price: '' };
   prepareRow(row, config);
   assert.strictEqual(row.price, PRICE_UNKNOWN);
-  assert.strictEqual(row.price, '정보 확인이 어려워 적정 가격을 제시받고 있습니다');
+  assert.match(row.price, /정확한 가격 정보 확인이 어려운 키보드/);
   assert.strictEqual(row['비고'], undefined);
 });
