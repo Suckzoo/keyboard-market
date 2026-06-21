@@ -1,0 +1,21 @@
+name: sweeper
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch: {}
+permissions:
+  issues: write
+concurrency:
+  group: market-sweeper
+  cancel-in-progress: false
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const run = require('./scripts/sweep-timeouts.js')
+            const { swept } = await run({ github, context })
+            core.info(`swept ${swept} expired reservation(s)`)
