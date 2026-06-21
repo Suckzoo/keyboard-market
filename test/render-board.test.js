@@ -15,8 +15,13 @@ test('sortListings orders available, reserved, paid', () => {
 
 test('renderTable shows reserver as @handle or dash', () => {
   const md = renderTable(sortListings(models));
-  assert.match(md, /\| Keychron Q1 \| 120,000 \| 🟢 구매 가능 \| - \|/);
+  assert.match(md, /\| Keychron Q1 \| 120,000 \| - \| 🟢 구매 가능 \| - \|/);
   assert.match(md, /@octocat/);
+});
+
+test('renderTable shows the note in a 비고 column', () => {
+  const md = renderTable([{ number: 9, title: 'X', price: '가격 문의', note: '협의 필요', status: 'available', reserver: null, url: 'u' }]);
+  assert.match(md, /\| X \| 가격 문의 \| 협의 필요 \| 🟢 구매 가능 \| - \|/);
 });
 
 test('spliceBoard replaces only between markers', () => {

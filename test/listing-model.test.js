@@ -1,6 +1,7 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
 const { toListingModel } = require('../scripts/lib/listing-model');
+const { PRICE_UNKNOWN } = require('../scripts/lib/listing-import');
 
 const config = { labels: { scope: '매물', available: '구매 가능', reserved: '예약금 대기중', paid: '입금 확인 완료' } };
 
@@ -17,4 +18,16 @@ test('builds a model from an issue', () => {
   assert.strictEqual(m.status, 'reserved');
   assert.strictEqual(m.reserver, 'octocat');
   assert.strictEqual(m.url, 'https://github.com/o/r/issues/12');
+  assert.strictEqual(m.note, '');
+});
+
+test('price-unknown listing maps to 가격 문의 with the note', () => {
+  const issue = {
+    number: 9, title: '9번', html_url: 'u',
+    labels: [{ name: '매물' }, { name: '구매 가능' }],
+    body: `<!-- market-listing: {"price":"${PRICE_UNKNOWN}"} -->`,
+  };
+  const m = toListingModel(issue, config);
+  assert.strictEqual(m.price, '가격 문의');
+  assert.strictEqual(m.note, PRICE_UNKNOWN);
 });

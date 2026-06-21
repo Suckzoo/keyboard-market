@@ -22,11 +22,12 @@ function sortListings(models) {
 }
 
 function renderTable(models) {
-  const header = '| 매물 | 가격 | 상태 | 예약자 | 이슈 |\n|---|---|---|---|---|';
+  const header = '| 매물 | 가격 | 비고 | 상태 | 예약자 | 이슈 |\n|---|---|---|---|---|---|';
   const rows = models.map((m) => {
     const reserver = m.reserver ? `@${m.reserver}` : '-';
     const price = m.price || '-';
-    return `| ${m.title} | ${price} | ${STATUS_DISPLAY[m.status] || '❔'} | ${reserver} | [#${m.number}](${m.url}) |`;
+    const note = m.note || '-';
+    return `| ${m.title} | ${price} | ${note} | ${STATUS_DISPLAY[m.status] || '❔'} | ${reserver} | [#${m.number}](${m.url}) |`;
   });
   return [header, ...rows].join('\n');
 }

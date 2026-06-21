@@ -22,6 +22,7 @@ function buildIssue(row, config, opts = {}) {
   for (const col of map.body || []) {
     if (row[col]) sections.push(`**${col}:** ${row[col]}`);
   }
+  if (opts.footer) sections.push(opts.footer);
 
   let body = sections.join('\n\n');
   body = setMarker(body, MARKER.listing, { id: String(id), name: title, price });

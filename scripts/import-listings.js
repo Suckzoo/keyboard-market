@@ -8,6 +8,7 @@ const { buildIssue } = require('./lib/build-issue');
 const { readListing, readState, setMarker, MARKER } = require('./lib/markers');
 const { imagesForPid, prepareRow } = require('./lib/listing-import');
 const { isTestPurpose } = require('./lib/render-board');
+const { reservationFooter } = require('./lib/messages');
 
 const OWNER = 'Suckzoo';
 const REPO = 'keyboard-market';
@@ -55,6 +56,7 @@ async function main() {
   const rows = parse(fs.readFileSync(csvPath, 'utf8'), { columns: true, skip_empty_lines: true, trim: true });
   const existing = await existingByPid(octokit, config);
   const filenames = photoFilenames();
+  const footer = reservationFooter(config);
 
   let created = 0;
   let updated = 0;
@@ -62,7 +64,7 @@ async function main() {
     const pid = String(row[config.csvMapping.id]);
     const images = imagesForPid(pid, filenames, RAW_BASE);
     prepareRow(row, config);
-    const issue = buildIssue(row, config, { images });
+    const issue = buildIssue(row, config, { images, footer });
 
     const ex = existing.get(pid);
     if (ex) {

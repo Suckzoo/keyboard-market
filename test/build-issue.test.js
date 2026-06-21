@@ -44,6 +44,14 @@ test('opts.images takes precedence over single image column', () => {
   assert.doesNotMatch(out.body, /single\.png/);
 });
 
+test('buildIssue appends opts.footer before the hidden markers', () => {
+  const row = { 번호: '8', 매물명: 'F' };
+  const out = buildIssue(row, config, { footer: '## 예약 방법\n자세한 내용' });
+  assert.match(out.body, /## 예약 방법/);
+  // footer must come before the market-listing marker
+  assert.ok(out.body.indexOf('예약 방법') < out.body.indexOf('market-listing'));
+});
+
 test('buildIssue renders 비고 body column when present', () => {
   const config2 = { ...config, csvMapping: { ...config.csvMapping, body: ['비고'] } };
   const row = { 번호: '7', 매물명: 'Q', 비고: '적정 가격 제시를 받습니다' };

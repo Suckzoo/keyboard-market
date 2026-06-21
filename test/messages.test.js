@@ -37,6 +37,15 @@ test('remindReserverMessage instructs to leave the paid keyword comment', () => 
   assert.match(msg, /#입금완료/);
 });
 
+test('reservationFooter includes steps, payment (deposit), and period', () => {
+  const f = m.reservationFooter(cfg);
+  assert.match(f, /예약 방법/);
+  assert.match(f, /#구매신청/);
+  assert.match(f, /#입금완료/);
+  assert.match(f, /BANK 123/);      // depositInfo (입금 방법)
+  assert.match(f, /예약 기간/);
+});
+
 test('notOpenMessage includes openAt', () => {
   assert.match(m.notOpenMessage({ ...cfg, openAt: '2026-07-01T20:00:00+09:00' }), /2026-07-01/);
 });

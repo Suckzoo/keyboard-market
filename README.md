@@ -1,107 +1,78 @@
 # ⌨️ 키보드 장터
 
-<!-- ANNOUNCE:PLACEHOLDER — 운영자가 별도 준비한 안내 문구로 교체하세요 -->
-## 📢 안내
-- 오픈: (config.json의 openAt 시각 기준)
-- 참여 방법: 원하는 매물 이슈에 `#구매신청` 댓글
-- 오픈 전 댓글은 무효 처리됩니다
-- 선착순 1명 예약 → 봇이 입금 안내 + 폼 링크 댓글
-- **3시간 내 입금 + 폼 작성** 필수, 미완료 시 자동으로 다시 구매 가능 전환
-- 입금 확인되면 판매 완료 처리
+## 🕯 소개
 
-## 🛒 거래 규칙 / 주의사항
+안녕하세요.
 
-### 예약 & 입금
-- 예약은 **선착순 1명**, `#구매신청` 댓글 시각 기준입니다.
-- 봇 안내 댓글 후 **3시간 이내 입금 + 폼 작성**을 완료해야 예약이 유지됩니다.
-- 3시간이 지나면 자동으로 예약이 해제되어 다시 구매 가능 상태가 되며,
-  이후 `#구매신청` 댓글을 단 다음 분에게 권한이 넘어갑니다.
-- 입금 확인은 운영자가 수동으로 처리하며, 확인되면 `입금 확인 완료`로 변경됩니다.
+최근 친척의 유품을 정리하는 과정에서 키보드 관련 물품을 많이 정리하게 되었습니다.
 
-### 거래 방식
-- 거래 방식(직거래/택배)과 배송비 부담은 폼에서 조율합니다.
-- 폼에 남겨주신 선호 시간/연락처로 개별 안내드립니다.
+친척분께서는 생전에 깊은 취미로 키보드를 수집하고 계셨는데, 갑작스럽게 세상을 떠나셨습니다.
+저희 가족이 유품 정리를 맡게 되면서 뒤늦게 그 사실을 알게 되었고,
+고인이 아끼며 모아두셨던 키보드 관련 물품들을 필요한 분들께 판매 및 나눔으로 보내드리고자 합니다.
 
-### 환불 & 취소
-- 입금 후 단순 변심 환불은 어렵습니다(신중히 신청해주세요).
-- 매물 하자가 고지와 다를 경우에 한해 환불/조정합니다.
+## 🎪 행사 방식
 
-### 매물 상태 고지
-- 모든 매물은 중고이며, 사진·설명에 상태를 최대한 고지했습니다.
-- 추가 문의는 해당 이슈 댓글로 남겨주세요(예약과 무관한 질문 환영).
+물품 수량이 많고 현장 혼잡을 줄이기 위해,
+사전에 온라인으로 물품을 확인하신 뒤 예약/입금해 주시면
+행사 당일 현장에서 수령 및 작동 확인하는 방식으로 진행하려고 합니다.
+예약판매가 되지 않은 물건들은 현장에서 판매 예정입니다.
 
-### 주의
-- 오픈 시각 이전 `#구매신청` 댓글은 무효이며 예약으로 인정되지 않습니다.
-- 한 사람이 여러 매물 예약 가능하나, 각 매물은 개별로 입금/폼 작성이 필요합니다.
+행사장에는 다양한 물건의 나눔도 예정되어 있습니다.
+나눔 물품의 경우 시간대별로 랜덤하게 물품을 준비해서 배치할 예정입니다.
+필요하신 물건을 자유롭게 가져가시면 되지만, 다른 분들을 위해 필요하신 만큼만 가져가주시면 감사하겠습니다.
+
+저희는 키보드에 대해 전문적인 지식이 많지 않아, 지인분의 도움을 받아 물품명과 대략적인 시세를 확인한 뒤 가격을 책정하였습니다.
+원래 저희가 사용하던 물건이 아니기 때문에 사용 이력이나 세부 상태를 완벽하게 설명드리기 어려운 점 양해 부탁드립니다.
+대부분의 물품은 뽁뽁이, 비닐 포장 등이 되어 있어 사용감이 적고 깨끗한 상태로 보였지만, 개봉 여부나 실제 사용 여부를 정확히 알기 어려운 물품도 있습니다. 키보드 및 관련 부품에 대해 어느 정도 이해가 있으신 분의 구매를 권장드립니다.
+
+행사 당일 현장에서 수령 후에는 가능한 범위 내에서 직접 상태를 확인하실 수 있도록 준비하겠습니다. 현장 확인 과정에서 안내 내용과 명백히 다른 문제가 있거나 작동에 이상이 확인되는 경우에는 전액 환불해 드립니다. 다만 현장 확인 후 수령이 완료된 이후에는 단순 변심, 취향 차이, 미세한 사용감, 구성품에 대한 추가 이의 등으로 인한 환불은 어려운 점 양해 부탁드립니다.
+
+고인께서 아끼던 물건들이 필요한 분들께 잘 전달되었으면 합니다.
+
+감사합니다.
+
+## 🗓 온라인 예약판매 기간
+
+**2026년 6월 24일(수) 낮 12시(KST) ~ 2026년 7월 1일(수) 낮 12시(KST)**
+
+> 물건의 수량이 많아 다른 곳에 보관하고 있습니다. 올려드린 사진 외에 추가적인 상태·구성품 확인이 어려운 점 양해 부탁드립니다.
+
+## 📍 날짜와 장소
+
+**7월 4일(토) · 서울특별시 서초구 방배동 528-82 B1 오션스타 파티룸**
+
+| 부 | 시간 |
+|---|---|
+| 1부 | 12:30 ~ 13:20 |
+| 2부 | 13:30 ~ 14:20 |
+| 3부 | 14:30 ~ 15:20 |
+| 4부 | 15:30 ~ 16:20 |
+
+구글폼을 통해 희망 참가 시간대를 받고, 그걸 기반으로 시간대를 배정해서 7월 1일 이후 이메일로 회신드릴 예정입니다.
+
+## 📌 예약 방법
+
+1. 구매를 원하시는 글에 `#구매신청` 키워드를 넣어 댓글을 남겨주세요.
+2. 봇 안내에 따라 3시간 이내에 송금 및 예약 폼 작성을 완료해 주세요.
+3. 완료 후 같은 판매글에 `#입금완료` 댓글을 남기면 예약이 확정됩니다.
+
+3시간 이내에 `#입금완료` 댓글이 없을 경우 예약은 자동 취소되며, 판매글은 다시 구매 가능 상태로 전환됩니다.
+
+입금 후 `#입금완료` 댓글을 남기지 않아 예약이 취소된 사이 다른 분의 예약이 확정된 경우, 나중에 예약을 완료하신 분께 구매 권한이 있으며 기존 입금분은 수동 환불해 드립니다.
+
+## 💳 입금 방법
+
+카카오페이로 아래 QR을 통해 송금해주세요.
+
+![카카오페이 송금 QR](https://raw.githubusercontent.com/Suckzoo/keyboard-market/master/assets/kakaopay-qr.jpeg)
+
+## 📨 문의
+
+tjkj555+keyboards@gmail.com
 
 ## 📋 예약 현황
 
 <!-- BOARD:START -->
-| 매물 | 가격 | 상태 | 예약자 | 이슈 |
-|---|---|---|---|---|
-| ASUS ROG Azoth | 150,000원 | 🟢 구매 가능 | - | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
-| Jay Studio Radio75 | 150,000원 | 🟢 구매 가능 | - | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
-| ABKO AR61D | 50,000원 | 🟢 구매 가능 | - | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
-| Owlab Link65 | 170,000원 | 🟢 구매 가능 | - | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
-| mm studio class 1800 | 350,000원 | 🟢 구매 가능 | - | [#7](https://github.com/Suckzoo/keyboard-market/issues/7) |
-| Mode Encore | 200,000원 | 🟢 구매 가능 | - | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
-| 9번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
-| TX87 V1 anodized pink TKL | 200,000원 | 🟢 구매 가능 | - | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
-| TX PAD pink | 80,000원 | 🟢 구매 가능 | - | [#11](https://github.com/Suckzoo/keyboard-market/issues/11) |
-| Paper80 | 200,000원 | 🟢 구매 가능 | - | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
-| Lucky65 | 50,000원 | 🟢 구매 가능 | - | [#13](https://github.com/Suckzoo/keyboard-market/issues/13) |
-| MONOKEI x TGR Tomo | 400,000원 | 🟢 구매 가능 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
-| XVX L75 Air | 50,000원 | 🟢 구매 가능 | - | [#15](https://github.com/Suckzoo/keyboard-market/issues/15) |
-| DOMIKEY LABY81 | 250,000원 | 🟢 구매 가능 | - | [#16](https://github.com/Suckzoo/keyboard-market/issues/16) |
-| 18번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
-| Rainy75 | 50,000원 | 🟢 구매 가능 | - | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
-| GMMK numpad | 80,000원 | 🟢 구매 가능 | - | [#19](https://github.com/Suckzoo/keyboard-market/issues/19) |
-| 루버제인 그레이 | 850,000원 | 🟢 구매 가능 | - | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
-| TX 넘패드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#21](https://github.com/Suckzoo/keyboard-market/issues/21) |
-| TX 넘패드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#22](https://github.com/Suckzoo/keyboard-market/issues/22) |
-| TX 넘패드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#23](https://github.com/Suckzoo/keyboard-market/issues/23) |
-| TX 넘패드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#24](https://github.com/Suckzoo/keyboard-market/issues/24) |
-| 27번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
-| QK 101 | 200,000원 | 🟢 구매 가능 | - | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
-| Geon W1-AT | 300,000원 | 🟢 구매 가능 | - | [#27](https://github.com/Suckzoo/keyboard-market/issues/27) |
-| Tactile Pro | (아래 비고 참조) | 🟢 구매 가능 | - | [#28](https://github.com/Suckzoo/keyboard-market/issues/28) |
-| 32번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
-| CHERRY G80-3000 | (아래 비고 참조) | 🟢 구매 가능 | - | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
-| CHERRY G80-8113 | (아래 비고 참조) | 🟢 구매 가능 | - | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
-| Versakey Quest | (아래 비고 참조) | 🟢 구매 가능 | - | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
-| CHERRY G80-3000 | (아래 비고 참조) | 🟢 구매 가능 | - | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
-| 37번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
-| 38번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
-| 39번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
-| 40번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
-| 41번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
-| ND75 | 40,000원 | 🟢 구매 가능 | - | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
-| Paper80 | 200,000원 | 🟢 구매 가능 | - | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
-| Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
-| Matias Mini Tactile Pro | 40,000원 | 🟢 구매 가능 | - | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
-| 47번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
-| 48번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
-| TENET70 | 350,000원 | 🟢 구매 가능 | - | [#45](https://github.com/Suckzoo/keyboard-market/issues/45) |
-| 50번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
-| 51번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
-| 52번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
-| 53번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
-| Cloudnine | 600,000원 | 🟢 구매 가능 | - | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
-| STARS80 | 50,000원 | 🟢 구매 가능 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
-| rosewill | (아래 비고 참조) | 🟢 구매 가능 | - | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
-| 58번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#53](https://github.com/Suckzoo/keyboard-market/issues/53) |
-| Macintosh Apple M0110 | 100,000원 | 🟢 구매 가능 | - | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
-| 60번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
-| 61번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#56](https://github.com/Suckzoo/keyboard-market/issues/56) |
-| Orbit | 450,000원 | 🟢 구매 가능 | - | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
-| LZSQ? | (아래 비고 참조) | 🟢 구매 가능 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
-| 356MINI | (아래 비고 참조) | 🟢 구매 가능 | - | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
-| Transition Lite | (아래 비고 참조) | 🟢 구매 가능 | - | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
-| RO75 | 50,000원 | 🟢 구매 가능 | - | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
-| 67번 키보드 | (아래 비고 참조) | 🟢 구매 가능 | - | [#62](https://github.com/Suckzoo/keyboard-market/issues/62) |
-| 68번 키보드 (상태불량) | (아래 비고 참조) | 🟢 구매 가능 | - | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
-| Chilkey Paw65 | 50,000원 | 🟢 구매 가능 | - | [#64](https://github.com/Suckzoo/keyboard-market/issues/64) |
-| Sin65 | 250,000원 | 🟢 구매 가능 | - | [#65](https://github.com/Suckzoo/keyboard-market/issues/65) |
-| LZ CLS | (아래 비고 참조) | 🟢 구매 가능 | - | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
-| NCR workstation keyboard | 150,000원 | 🟢 구매 가능 | - | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
+| 매물 | 가격 | 비고 | 상태 | 예약자 | 이슈 |
+|---|---|---|---|---|---|
 <!-- BOARD:END -->
