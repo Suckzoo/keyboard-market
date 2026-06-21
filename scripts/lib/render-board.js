@@ -22,7 +22,7 @@ function sortListings(models) {
 }
 
 function renderTable(models) {
-  const header = '| 번호 | 매물 | 가격 | 상태 | 예약자 | 이슈 |\n|---|---|---|---|---|---|';
+  const header = '| PID | 매물 | 가격 | 상태 | 예약자 | 이슈 |\n|---|---|---|---|---|---|';
   const rows = models.map((m) => {
     const reserver = m.reserver ? `@${m.reserver}` : '-';
     const price = m.price || '-';
