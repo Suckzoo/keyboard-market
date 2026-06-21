@@ -2,6 +2,11 @@ name: update-readme
 on:
   issues:
     types: [labeled, unlabeled, closed, reopened]
+  workflow_run:
+    # 봇(GITHUB_TOKEN)이 라벨을 바꾸면 issues 이벤트가 다른 워크플로를 트리거하지
+    # 못한다. comment-handler/sweeper 완료를 받아 보드를 자동 갱신한다.
+    workflows: [comment-handler, sweeper]
+    types: [completed]
   workflow_dispatch: {}
 permissions:
   contents: write
