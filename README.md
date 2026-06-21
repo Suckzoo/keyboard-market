@@ -40,5 +40,5 @@
 | 매물 | 가격 | 상태 | 예약자 | 이슈 |
 |---|---|---|---|---|
 | Keychron Q1 화이트 | 120000 | 🟢 구매 가능 | - | [#1](https://github.com/Suckzoo/keyboard-market/issues/1) |
-| NK65 Entry | 90000 | 🟡 예약금 대기중 | @Suckzoo | [#2](https://github.com/Suckzoo/keyboard-market/issues/2) |
+| NK65 Entry | 90000 | ✅ 판매 완료 | @Suckzoo | [#2](https://github.com/Suckzoo/keyboard-market/issues/2) |
 <!-- BOARD:END -->
