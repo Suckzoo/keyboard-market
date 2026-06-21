@@ -87,10 +87,10 @@ tjkj555+keyboards@gmail.com
 ## 📋 예약 현황
 
 아래 현황판은 GitHub Actions 봇이 판매글의 라벨과 예약 상태를 기준으로 자동 갱신합니다.
-정확한 모델명을 알기 어려운 물품은 `n번 키보드`처럼 원본 물품 번호로 표기하며, `ID`는 사진 및 판매글 본문에 표시된 PID와 같은 물품 번호입니다.
+정확한 모델명을 알기 어려운 물품은 `n번 키보드`처럼 원본 물품 번호로 표기하며, `번호`는 사진 및 판매글 본문에 표시된 PID와 같은 물품 번호입니다.
 
 <!-- BOARD:START -->
-| ID | 매물 | 가격 | 상태 | 예약자 | 이슈 |
+| 번호 | 매물 | 가격 | 상태 | 예약자 | 이슈 |
 |---|---|---|---|---|---|
 | 1 | ASUS ROG Azoth | 150,000원 | 🟢 구매 가능 | - | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 150,000원 | 🟢 구매 가능 | - | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |

@@ -15,7 +15,7 @@ test('sortListings orders available, reserved, paid', () => {
 
 test('renderTable shows reserver as @handle or dash (no 비고 column)', () => {
   const md = renderTable(sortListings(models));
-  assert.match(md, /\| ID \| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/);
+  assert.match(md, /\| 번호 \| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/);
   assert.match(md, /\| 1 \| Keychron Q1 \| 120,000 \| 🟢 구매 가능 \| - \|/);
   assert.match(md, /@octocat/);
 });
@@ -34,7 +34,7 @@ test('renderBoard appends a 비고 section below the table for notes', () => {
       url: 'u9',
     },
   ]);
-  assert.match(md, /\| ID \| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/); // table has no 비고 column
+  assert.match(md, /\| 번호 \| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/); // table has no 비고 column
   assert.match(md, /\*\*비고\*\*/);
   assert.match(md, /정확한 가격 정보 확인이 어려운 키보드/);
 });
