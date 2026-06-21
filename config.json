@@ -7,7 +7,7 @@
   "formBaseUrl": "https://docs.google.com/forms/d/e/DUMMY_FORM_ID/viewform",
   "formIssueEntryId": "entry.111111",
   "formUserEntryId": "entry.222222",
-  "depositInfo": "테스트은행 000-0000-0000 (예금주: 테스트)",
+  "depositInfo": "카카오페이로 아래 QR을 통해 송금해주세요.\n![카카오페이 송금 QR](https://raw.githubusercontent.com/Suckzoo/keyboard-market/master/assets/kakaopay-qr.jpeg)",
   "csvMapping": {
     "id": "pid",
     "title": "name",

@@ -27,20 +27,20 @@ function reservedByOtherMessage() {
 
 function remindReserverMessage(config, issueNumber, user, reservedAt) {
   return [
-    `@${user}님은 이미 예약 상태입니다. 아래로 입금 + 폼 작성 부탁드립니다.`,
+    `@${user}님은 이미 예약 상태입니다. 입금 후 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주세요.`,
     `💳 ${config.depositInfo}`,
-    `📝 폼: ${buildFormUrl(config, issueNumber, user)}`,
-    `⏰ 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
+    `📝 희망 수령 시간대 폼: ${buildFormUrl(config, issueNumber, user)}`,
+    `⏰ 입금 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
   ].join('\n');
 }
 
 function reserveConfirmMessage(config, issueNumber, winner, reservedAt) {
   return [
     `**@${winner}**님 예약 완료 ✅`,
-    `${config.reservationHours}시간 내 아래 계좌로 입금 + 폼 작성 부탁드립니다.`,
+    `${config.reservationHours}시간 내 입금 후, 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주세요. (미입금 시 자동으로 다시 구매 가능 전환)`,
     `💳 ${config.depositInfo}`,
-    `📝 폼: ${buildFormUrl(config, issueNumber, winner)}`,
-    `⏰ 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
+    `📝 희망 수령 시간대 폼: ${buildFormUrl(config, issueNumber, winner)}`,
+    `⏰ 입금 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
   ].join('\n');
 }
 

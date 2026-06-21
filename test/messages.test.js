@@ -3,7 +3,7 @@ const assert = require('node:assert');
 const m = require('../scripts/lib/messages');
 
 const cfg = {
-  keyword: '#구매신청', reservationHours: 3, depositInfo: 'BANK 123 (홍길동)',
+  keyword: '#구매신청', paidKeyword: '#입금완료', reservationHours: 3, depositInfo: 'BANK 123 (홍길동)',
   formBaseUrl: 'https://docs.google.com/forms/d/e/ID/viewform',
   formIssueEntryId: 'entry.111', formUserEntryId: 'entry.222',
 };
@@ -25,6 +25,16 @@ test('reserveConfirmMessage mentions winner, deposit, form link', () => {
   assert.match(msg, /@octocat/);
   assert.match(msg, /BANK 123/);
   assert.match(msg, /entry\.111=12/);
+});
+
+test('reserveConfirmMessage instructs to leave the paid keyword comment', () => {
+  const msg = m.reserveConfirmMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z');
+  assert.match(msg, /#입금완료/);
+});
+
+test('remindReserverMessage instructs to leave the paid keyword comment', () => {
+  const msg = m.remindReserverMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z');
+  assert.match(msg, /#입금완료/);
 });
 
 test('notOpenMessage includes openAt', () => {
