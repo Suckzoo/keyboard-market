@@ -22,7 +22,12 @@ test('setMarker replaces an existing marker, not duplicates it', () => {
 });
 
 test('readState supplies defaults when marker missing', () => {
-  assert.deepStrictEqual(readState('plain body'), { reserver: null, reservedAt: null, availableSince: null });
+  assert.deepStrictEqual(readState('plain body'), { reserver: null, reservedAt: null, availableSince: null, paidClaimedAt: null });
+});
+
+test('readState parses paidClaimedAt when present', () => {
+  const body = '<!-- market-state: {"reserver":"a","reservedAt":"t","availableSince":null,"paidClaimedAt":"2026-07-01T12:00:00Z"} -->';
+  assert.strictEqual(readState(body).paidClaimedAt, '2026-07-01T12:00:00Z');
 });
 
 test('readListing returns {} when marker missing', () => {

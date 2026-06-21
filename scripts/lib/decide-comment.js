@@ -9,7 +9,20 @@ function isBot(author) {
 function decideComment(input) {
   const { issueNumber, commentBody, commenter, labelNames, issueBody, comments, config, now } = input;
 
-  if (!commentBody || !commentBody.includes(config.keyword)) {
+  const body = commentBody || '';
+
+  // #입금완료: the reserver claims they paid -> pause the auto-sweep until an
+  // operator verifies the actual transfer. Only the current reserver counts.
+  if (config.paidKeyword && body.includes(config.paidKeyword)) {
+    const status = deriveStatus(labelNames, config);
+    const state = readState(issueBody);
+    if (status === 'reserved' && state.reserver && state.reserver === commenter) {
+      return { action: 'paid_claim', comment: messages.paidClaimedMessage(config) };
+    }
+    return { action: 'ignore' };
+  }
+
+  if (!body.includes(config.keyword)) {
     return { action: 'ignore' };
   }
 
@@ -38,6 +51,11 @@ function decideComment(input) {
   // status === 'available' (or 'unknown' treated as not reservable)
   if (status !== 'available') {
     return { action: 'ignore' };
+  }
+
+  // New reservations close at closeAt; existing reservers can still pay/remind.
+  if (config.closeAt && now >= new Date(config.closeAt)) {
+    return { action: 'comment_only', comment: messages.closedMessage(config) };
   }
 
   const since = state.availableSince ? new Date(state.availableSince) : openAt;

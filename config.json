@@ -1,6 +1,8 @@
 {
   "openAt": "2026-06-24T12:00:00+09:00",
+  "closeAt": "2026-07-01T12:00:00+09:00",
   "keyword": "#구매신청",
+  "paidKeyword": "#입금완료",
   "reservationHours": 3,
   "formBaseUrl": "https://docs.google.com/forms/d/e/DUMMY_FORM_ID/viewform",
   "formIssueEntryId": "entry.111111",

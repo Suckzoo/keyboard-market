@@ -67,6 +67,40 @@ test('available + open -> ignores bot-authored keyword comments as candidates', 
   assert.strictEqual(r.winner, 'alice');
 });
 
+test('rejects new reservation after closeAt', () => {
+  const cfg = { ...config, closeAt: '2026-07-08T11:00:00.000Z' };
+  const r = decideComment({ ...base, config: cfg, commentBody: '#구매신청', labelNames: ['매물', '구매 가능'],
+    comments: [{ author: 'alice', body: '#구매신청', createdAt: '2026-07-08T12:00:00Z' }],
+    now: new Date('2026-07-08T12:00:00Z') });
+  assert.strictEqual(r.action, 'comment_only');
+  assert.match(r.comment, /종료|마감/);
+});
+
+test('still reserves before closeAt when closeAt is set', () => {
+  const cfg = { ...config, closeAt: '2026-07-08T11:00:00.000Z' };
+  const r = decideComment({ ...base, config: cfg, commentBody: '#구매신청', labelNames: ['매물', '구매 가능'],
+    comments: [{ author: 'alice', body: '#구매신청', createdAt: '2026-07-01T12:00:00Z' }],
+    now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r.action, 'reserve');
+});
+
+test('#입금완료 by reserver -> paid_claim (pauses sweep)', () => {
+  const cfg = { ...config, paidKeyword: '#입금완료' };
+  const issueBody = 'desc\n<!-- market-state: {"reserver":"alice","reservedAt":"2026-07-01T11:30:00Z","availableSince":null} -->';
+  const r = decideComment({ ...base, config: cfg, commenter: 'alice', commentBody: '#입금완료',
+    labelNames: ['매물', '예약금 대기중'], issueBody, comments: [], now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r.action, 'paid_claim');
+  assert.match(r.comment, /입금/);
+});
+
+test('#입금완료 by non-reserver is ignored', () => {
+  const cfg = { ...config, paidKeyword: '#입금완료' };
+  const issueBody = 'desc\n<!-- market-state: {"reserver":"bob","reservedAt":"2026-07-01T11:30:00Z","availableSince":null} -->';
+  const r = decideComment({ ...base, config: cfg, commenter: 'alice', commentBody: '#입금완료',
+    labelNames: ['매물', '예약금 대기중'], issueBody, comments: [], now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r.action, 'ignore');
+});
+
 test('reopened round uses availableSince as the first-come baseline', () => {
   const issueBody = 'desc\n<!-- market-state: {"reserver":null,"reservedAt":null,"availableSince":"2026-07-01T15:00:00Z"} -->';
   const comments = [

@@ -33,6 +33,21 @@ test('reserve flow: adds reserved label, removes available, writes marker, comme
   assert.match(update.body, /"reserver":"alice"/);
 });
 
+test('paid_claim flow: writes paidClaimedAt marker and comments, no label change', async () => {
+  const issueBody = 'desc\n<!-- market-state: {"reserver":"alice","reservedAt":"2026-07-01T11:00:01Z","availableSince":null} -->';
+  const { github, calls } = makeFakeGithub({ comments: [] });
+  const context = ctx({ body: '#입금완료', login: 'alice', labels: ['매물', '예약금 대기중'], issueBody });
+  const r = await run({ github, context, configPath, now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r.action, 'paid_claim');
+  const names = calls.map((c) => c[0]);
+  assert.ok(names.includes('update'));
+  assert.ok(names.includes('createComment'));
+  assert.ok(!names.includes('addLabels'));
+  const update = calls.find((c) => c[0] === 'update')[1];
+  assert.match(update.body, /"paidClaimedAt":"/);
+  assert.match(update.body, /"reserver":"alice"/);
+});
+
 test('ignore flow: no keyword -> no octokit writes', async () => {
   const { github, calls } = makeFakeGithub({ comments: [] });
   const context = ctx({ body: '그냥 질문', login: 'alice', labels: ['매물', '구매 가능'], issueBody: 'desc' });

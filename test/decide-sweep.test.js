@@ -15,3 +15,7 @@ test('not expired when not reserved', () => {
   const r = decideSweep({ status: 'available', reservedAt: null, config, now: new Date('2026-07-02T00:00:00Z') });
   assert.strictEqual(r.expired, false);
 });
+test('not expired when payment claimed (#입금완료)', () => {
+  const r = decideSweep({ status: 'reserved', reservedAt: '2026-07-01T11:00:00Z', paidClaimedAt: '2026-07-01T11:30:00Z', config, now: new Date('2026-07-01T20:00:00Z') });
+  assert.strictEqual(r.expired, false);
+});

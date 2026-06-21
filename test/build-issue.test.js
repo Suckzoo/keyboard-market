@@ -20,7 +20,7 @@ test('buildIssue maps title, price marker, labels, image, body fields', () => {
   assert.strictEqual(listing.id, '1');
   assert.strictEqual(listing.price, '120,000');
   assert.strictEqual(listing.name, 'Keychron Q1');
-  assert.deepStrictEqual(readState(out.body), { reserver: null, reservedAt: null, availableSince: null });
+  assert.deepStrictEqual(readState(out.body), { reserver: null, reservedAt: null, availableSince: null, paidClaimedAt: null });
 });
 
 test('buildIssue tolerates missing optional columns', () => {

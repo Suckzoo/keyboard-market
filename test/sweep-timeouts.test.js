@@ -38,6 +38,18 @@ test('sweeps an expired reserved issue and resets marker', async () => {
   assert.ok(calls.some((c) => c[0] === 'createComment'));
 });
 
+test('leaves a payment-claimed reservation untouched even if past 3h', async () => {
+  const issues = [{
+    number: 9,
+    labels: [{ name: '매물' }, { name: '예약금 대기중' }],
+    body: '<!-- market-state: {"reserver":"bob","reservedAt":"2026-07-01T11:00:00Z","availableSince":null,"paidClaimedAt":"2026-07-01T11:30:00Z"} -->',
+  }];
+  const { github, calls } = fakeGithub(issues);
+  const r = await run({ github, context, configPath, now: new Date('2026-07-01T20:00:00Z') });
+  assert.strictEqual(r.swept, 0);
+  assert.strictEqual(calls.length, 0);
+});
+
 test('leaves a fresh reservation untouched', async () => {
   const issues = [{
     number: 8,

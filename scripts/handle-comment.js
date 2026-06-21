@@ -34,12 +34,26 @@ module.exports = async function run({ github, context, configPath = 'config.json
     return result;
   }
 
+  if (result.action === 'paid_claim') {
+    const state = readState(issue.body || '');
+    const newBody = setMarker(issue.body || '', MARKER.state, {
+      reserver: state.reserver,
+      reservedAt: state.reservedAt,
+      availableSince: state.availableSince,
+      paidClaimedAt: now.toISOString(),
+    });
+    await github.rest.issues.update({ owner, repo, issue_number, body: newBody });
+    await github.rest.issues.createComment({ owner, repo, issue_number, body: result.comment });
+    return result;
+  }
+
   // result.action === 'reserve'
   const state = readState(issue.body || '');
   const newBody = setMarker(issue.body || '', MARKER.state, {
     reserver: result.winner,
     reservedAt: result.reservedAt,
     availableSince: state.availableSince,
+    paidClaimedAt: null,
   });
   await github.rest.issues.update({ owner, repo, issue_number, body: newBody });
   await github.rest.issues.removeLabel({ owner, repo, issue_number, name: config.labels.available })

@@ -17,11 +17,11 @@ module.exports = async function run({ github, context, configPath = 'config.json
     const labelNames = (issue.labels || []).map((l) => (typeof l === 'string' ? l : l.name));
     const status = deriveStatus(labelNames, config);
     const state = readState(issue.body || '');
-    if (!decideSweep({ status, reservedAt: state.reservedAt, config, now }).expired) continue;
+    if (!decideSweep({ status, reservedAt: state.reservedAt, paidClaimedAt: state.paidClaimedAt, config, now }).expired) continue;
 
     const issue_number = issue.number;
     const newBody = setMarker(issue.body || '', MARKER.state, {
-      reserver: null, reservedAt: null, availableSince: now.toISOString(),
+      reserver: null, reservedAt: null, availableSince: now.toISOString(), paidClaimedAt: null,
     });
     await github.rest.issues.update({ owner, repo, issue_number, body: newBody });
     await github.rest.issues.removeLabel({ owner, repo, issue_number, name: config.labels.reserved }).catch(() => {});

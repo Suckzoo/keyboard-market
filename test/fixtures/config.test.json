@@ -1,6 +1,7 @@
 {
   "openAt": "2026-07-01T11:00:00.000Z",
   "keyword": "#구매신청",
+  "paidKeyword": "#입금완료",
   "reservationHours": 3,
   "formBaseUrl": "https://f",
   "formIssueEntryId": "entry.1",
