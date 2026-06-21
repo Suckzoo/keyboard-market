@@ -5,8 +5,8 @@ const { parse } = require('csv-parse/sync');
 const { Octokit } = require('@octokit/rest');
 const { loadConfig } = require('./lib/config');
 const { buildIssue } = require('./lib/build-issue');
-const { readListing } = require('./lib/markers');
-const { formatPriceWon, imagesForPid } = require('./lib/listing-import');
+const { readListing, readState, setMarker, MARKER } = require('./lib/markers');
+const { imagesForPid, prepareRow } = require('./lib/listing-import');
 const { isTestPurpose } = require('./lib/render-board');
 
 const OWNER = 'Suckzoo';
@@ -14,25 +14,10 @@ const REPO = 'keyboard-market';
 const LABEL_COLORS = { '매물': '5319e7', '구매 가능': '0e8a16', '예약금 대기중': 'fbca04', '입금 확인 완료': 'b60205' };
 const ASSETS_DIR = 'assets/photos';
 const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/master/${ASSETS_DIR}`;
-const PRICE_TBD = '(아래 비고 참조)';
-const PRICE_TBD_NOTE = '정보 확인이 어려워 적정 가격 제시를 받습니다';
 
 function photoFilenames() {
   if (!fs.existsSync(ASSETS_DIR)) return [];
   return fs.readdirSync(ASSETS_DIR).filter((f) => /^\d+_/.test(f) && /\.jpg$/i.test(f));
-}
-
-// Format price (만원 → 원) and fill 비고 in place for unknown-price listings.
-function prepareRow(row, config) {
-  const map = config.csvMapping;
-  const won = formatPriceWon(row[map.price]);
-  if (won) {
-    row[map.price] = won;
-  } else {
-    row[map.price] = PRICE_TBD;
-    row['비고'] = PRICE_TBD_NOTE;
-  }
-  return row;
 }
 
 async function ensureLabels(octokit, config) {
@@ -47,17 +32,17 @@ async function ensureLabels(octokit, config) {
   }
 }
 
-async function existingIds(octokit, config) {
+async function existingByPid(octokit, config) {
   const issues = await octokit.paginate(octokit.rest.issues.listForRepo, {
     owner: OWNER, repo: REPO, state: 'all', labels: config.labels.scope, per_page: 100,
   });
-  const ids = new Set();
+  const map = new Map();
   for (const i of issues) {
     if (i.pull_request || isTestPurpose(i.title)) continue;
     const id = readListing(i.body || '').id;
-    if (id) ids.add(String(id));
+    if (id) map.set(String(id), { number: i.number, body: i.body || '' });
   }
-  return ids;
+  return map;
 }
 
 async function main() {
@@ -68,24 +53,35 @@ async function main() {
 
   await ensureLabels(octokit, config);
   const rows = parse(fs.readFileSync(csvPath, 'utf8'), { columns: true, skip_empty_lines: true, trim: true });
-  const seen = await existingIds(octokit, config);
+  const existing = await existingByPid(octokit, config);
   const filenames = photoFilenames();
 
   let created = 0;
+  let updated = 0;
   for (const row of rows) {
-    const pid = row[config.csvMapping.id];
+    const pid = String(row[config.csvMapping.id]);
     const images = imagesForPid(pid, filenames, RAW_BASE);
     prepareRow(row, config);
     const issue = buildIssue(row, config, { images });
-    const id = readListing(issue.body).id;
-    if (seen.has(String(id))) { console.log(`skip (dup id ${id}): ${issue.title}`); continue; }
+
+    const ex = existing.get(pid);
+    if (ex) {
+      // Upsert: refresh listing content but keep the live reservation state.
+      const newBody = setMarker(issue.body, MARKER.state, readState(ex.body));
+      if (newBody === ex.body) { console.log(`unchanged #${ex.number}: ${issue.title}`); continue; }
+      await octokit.rest.issues.update({ owner: OWNER, repo: REPO, issue_number: ex.number, body: newBody });
+      console.log(`updated #${ex.number}: ${issue.title}`);
+      updated += 1;
+      continue;
+    }
+
     const res = await octokit.rest.issues.create({
       owner: OWNER, repo: REPO, title: issue.title, body: issue.body, labels: issue.labels,
     });
     console.log(`created #${res.data.number}: ${issue.title}`);
     created += 1;
   }
-  console.log(`done. created ${created} issue(s).`);
+  console.log(`done. created ${created}, updated ${updated} issue(s).`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

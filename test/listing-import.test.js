@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
-const { formatPriceWon, imagesForPid } = require('../scripts/lib/listing-import');
+const { formatPriceWon, imagesForPid, prepareRow, PRICE_UNKNOWN } = require('../scripts/lib/listing-import');
 
 test('formatPriceWon converts 만원 integer to won string with separators', () => {
   assert.strictEqual(formatPriceWon('15'), '150,000원');
@@ -32,4 +32,20 @@ test('imagesForPid returns all photos for a pid in sorted order', () => {
 
 test('imagesForPid returns empty array when no photos match', () => {
   assert.deepStrictEqual(imagesForPid('99', ['1_a.jpg'], 'https://raw/assets'), []);
+});
+
+test('prepareRow formats a 만원 price into won', () => {
+  const config = { csvMapping: { price: 'price' } };
+  const row = { price: '15' };
+  prepareRow(row, config);
+  assert.strictEqual(row.price, '150,000원');
+});
+
+test('prepareRow uses the unified text for empty price and adds no 비고', () => {
+  const config = { csvMapping: { price: 'price' } };
+  const row = { price: '' };
+  prepareRow(row, config);
+  assert.strictEqual(row.price, PRICE_UNKNOWN);
+  assert.strictEqual(row.price, '정보 확인이 어려워 적정 가격을 제시받고 있습니다');
+  assert.strictEqual(row['비고'], undefined);
 });

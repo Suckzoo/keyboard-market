@@ -13,7 +13,7 @@
     "title": "name",
     "price": "price",
     "image": "사진",
-    "body": ["비고"]
+    "body": []
   },
   "labels": {
     "scope": "매물",
