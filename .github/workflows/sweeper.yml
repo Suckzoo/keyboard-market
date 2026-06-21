@@ -4,6 +4,7 @@ on:
     - cron: '*/10 * * * *'
   workflow_dispatch: {}
 permissions:
+  contents: read
   issues: write
 concurrency:
   group: market-sweeper
