@@ -1,5 +1,5 @@
 {
-  "openAt": "2030-01-01T00:00:00+09:00",
+  "openAt": "2020-01-01T00:00:00+09:00",
   "keyword": "#구매신청",
   "reservationHours": 3,
   "formBaseUrl": "https://docs.google.com/forms/d/e/DUMMY_FORM_ID/viewform",
