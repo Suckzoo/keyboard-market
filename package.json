@@ -6,7 +6,7 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "test": "node --test",
-    "import": "node scripts/import-listings.js"
+    "import": "node scripts/import-listings.js keyboard.csv"
   },
   "devDependencies": {
     "@octokit/rest": "^21.0.0",

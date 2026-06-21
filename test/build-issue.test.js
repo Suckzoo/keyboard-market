@@ -29,3 +29,24 @@ test('buildIssue tolerates missing optional columns', () => {
   assert.strictEqual(out.title, 'NK65');
   assert.strictEqual(readListing(out.body).id, '2');
 });
+
+test('buildIssue renders multiple images from opts.images', () => {
+  const row = { 번호: '5', 매물명: 'Multi' };
+  const out = buildIssue(row, config, { images: ['https://img/a.jpg', 'https://img/b.jpg'] });
+  assert.match(out.body, /!\[\]\(https:\/\/img\/a\.jpg\)/);
+  assert.match(out.body, /!\[\]\(https:\/\/img\/b\.jpg\)/);
+});
+
+test('opts.images takes precedence over single image column', () => {
+  const row = { 번호: '6', 매물명: 'P', 사진: 'https://img/single.png' };
+  const out = buildIssue(row, config, { images: ['https://img/multi.jpg'] });
+  assert.match(out.body, /multi\.jpg/);
+  assert.doesNotMatch(out.body, /single\.png/);
+});
+
+test('buildIssue renders 비고 body column when present', () => {
+  const config2 = { ...config, csvMapping: { ...config.csvMapping, body: ['비고'] } };
+  const row = { 번호: '7', 매물명: 'Q', 비고: '적정 가격 제시를 받습니다' };
+  const out = buildIssue(row, config2);
+  assert.match(out.body, /\*\*비고:\*\* 적정 가격 제시를 받습니다/);
+});

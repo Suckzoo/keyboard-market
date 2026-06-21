@@ -7,11 +7,11 @@
   "formUserEntryId": "entry.222222",
   "depositInfo": "테스트은행 000-0000-0000 (예금주: 테스트)",
   "csvMapping": {
-    "id": "번호",
-    "title": "매물명",
-    "price": "가격",
+    "id": "pid",
+    "title": "name",
+    "price": "price",
     "image": "사진",
-    "body": ["상태", "설명"]
+    "body": ["비고"]
   },
   "labels": {
     "scope": "매물",
