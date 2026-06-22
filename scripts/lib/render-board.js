@@ -16,6 +16,12 @@ function isTestPurpose(title) {
   return typeof title === 'string' && title.includes('[Test Purpose]');
 }
 
+// Public board scope: real owner-authored listing issues only.
+function selectListingIssues(issues, config) {
+  return (issues || []).filter((i) =>
+    !i.pull_request && !isTestPurpose(i.title) && i.user && i.user.login === config.owner);
+}
+
 function sortListings(models) {
   return [...models].sort((a, b) => {
     const d = STATUS_ORDER[a.status] - STATUS_ORDER[b.status];
@@ -54,4 +60,4 @@ function spliceBoard(readme, tableMarkdown) {
   return `${before}\n${tableMarkdown}\n${after}`;
 }
 
-module.exports = { BOARD_START, BOARD_END, STATUS_DISPLAY, isTestPurpose, sortListings, renderTable, renderBoard, spliceBoard };
+module.exports = { BOARD_START, BOARD_END, STATUS_DISPLAY, isTestPurpose, selectListingIssues, sortListings, renderTable, renderBoard, spliceBoard };
