@@ -23,12 +23,22 @@ test('classifyReactions: accepted-active when owner 👍 and no expiry', () => {
   assert.strictEqual(n.classifyReactions([{ content: '+1', user: { login: 'Suckzoo' } }], 'Suckzoo'), 'accepted-active');
 });
 
-test('classifyReactions: done when owner 👎 or any 😕', () => {
+test('classifyReactions: done when owner 👎 or owner/bot 😕', () => {
   assert.strictEqual(n.classifyReactions([{ content: '-1', user: { login: 'Suckzoo' } }], 'Suckzoo'), 'done');
   assert.strictEqual(n.classifyReactions([
     { content: '+1', user: { login: 'Suckzoo' } },
     { content: 'confused', user: { login: 'github-actions[bot]' } },
   ], 'Suckzoo'), 'done');
+  assert.strictEqual(n.classifyReactions([{ content: 'confused', user: { login: 'Suckzoo' } }], 'Suckzoo'), 'done');
+});
+
+test('classifyReactions: a stranger 😕 does not expire (owner/bot only)', () => {
+  assert.strictEqual(n.classifyReactions([{ content: 'confused', user: { login: 'stranger' } }], 'Suckzoo'), 'pending');
+  // a stranger 😕 must not override the owner's 👍 accept either
+  assert.strictEqual(n.classifyReactions([
+    { content: '+1', user: { login: 'Suckzoo' } },
+    { content: 'confused', user: { login: 'stranger' } },
+  ], 'Suckzoo'), 'accepted-active');
 });
 
 test('classifyReactions: a non-owner 👍 does not accept', () => {

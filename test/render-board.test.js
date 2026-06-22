@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
-const { sortListings, renderTable, renderBoard, spliceBoard, isTestPurpose, BOARD_START, BOARD_END } = require('../scripts/lib/render-board');
+const { sortListings, renderTable, renderBoard, spliceBoard, isTestPurpose, selectListingIssues, BOARD_START, BOARD_END } = require('../scripts/lib/render-board');
 
 const models = [
   { id: '3', number: 14, title: 'Tofu60', price: '70,000', status: 'paid', reserver: 'hubot', url: 'u14' },
@@ -64,6 +64,18 @@ test('spliceBoard replaces only between markers', () => {
 
 test('spliceBoard throws when markers absent', () => {
   assert.throws(() => spliceBoard('no markers', 'x'), /BOARD/);
+});
+
+test('selectListingIssues drops PRs, [Test Purpose], and non-owner issues', () => {
+  const cfg = { owner: 'Suckzoo' };
+  const issues = [
+    { title: 'Real', user: { login: 'Suckzoo' } },
+    { title: 'PR', user: { login: 'Suckzoo' }, pull_request: {} },
+    { title: '[Test Purpose] D', user: { login: 'Suckzoo' } },
+    { title: 'Stranger', user: { login: 'x' } },
+  ];
+  const out = selectListingIssues(issues, cfg).map((i) => i.title);
+  assert.deepStrictEqual(out, ['Real']);
 });
 
 test('isTestPurpose flags titles tagged [Test Purpose]', () => {

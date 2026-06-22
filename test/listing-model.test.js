@@ -46,6 +46,24 @@ test('negotiated listing shows negotiated price with 🤝 and legend note', () =
   assert.match(m.note, /네고/);
 });
 
+test('passes thumb from the listing marker', () => {
+  const issue = {
+    number: 100, title: 'PBTFans 1984', html_url: 'u',
+    labels: [{ name: '매물' }, { name: '구매 가능' }],
+    body: '<!-- market-listing: {"id":"100","price":"50,000원","thumb":"https://raw/thumbs/100.jpg"} -->',
+  };
+  assert.strictEqual(toListingModel(issue, config).thumb, 'https://raw/thumbs/100.jpg');
+});
+
+test('thumb is null when the marker has none', () => {
+  const issue = {
+    number: 9, title: '9', html_url: 'u',
+    labels: [{ name: '매물' }, { name: '구매 가능' }],
+    body: '<!-- market-listing: {"id":"9","price":"1원"} -->',
+  };
+  assert.strictEqual(toListingModel(issue, config).thumb, null);
+});
+
 test('legacy price-unknown marker still maps to 가격 미정 with the current note', () => {
   const issue = {
     number: 15, title: '15번', html_url: 'u',

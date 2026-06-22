@@ -66,3 +66,28 @@ test('buildIssue renders 비고 body column when present', () => {
   const out = buildIssue(row, config2);
   assert.match(out.body, /\*\*비고:\*\* 적정 가격 제시를 받습니다/);
 });
+
+test('buildIssue renders 비고 as a 주의사항 blockquote when notice mapping is set', () => {
+  const cfg = { ...config, csvMapping: { ...config.csvMapping, notice: '비고', body: [] } };
+  const row = { 번호: '9', 매물명: 'Glare', 비고: '사진으로 제보받은 모델명입니다.' };
+  const out = buildIssue(row, cfg);
+  assert.match(out.body, /> ⚠️ \*\*주의사항:\*\* 사진으로 제보받은 모델명입니다\./);
+  // 주의사항은 숨김 마커(market-listing)보다 앞에 온다
+  assert.ok(out.body.indexOf('주의사항') < out.body.indexOf('market-listing'));
+});
+
+test('buildIssue omits 주의사항 when notice column is empty', () => {
+  const cfg = { ...config, csvMapping: { ...config.csvMapping, notice: '비고', body: [] } };
+  const out = buildIssue({ 번호: '1', 매물명: 'X' }, cfg);
+  assert.doesNotMatch(out.body, /주의사항/);
+});
+
+test('buildIssue stores opts.thumb in the listing marker', () => {
+  const out = buildIssue({ 번호: '100', 매물명: 'PBTFans 1984' }, config, { thumb: 'https://raw/thumbs/100.jpg' });
+  assert.strictEqual(readListing(out.body).thumb, 'https://raw/thumbs/100.jpg');
+});
+
+test('buildIssue listing marker thumb is null without opts.thumb', () => {
+  const out = buildIssue({ 번호: '1', 매물명: 'X' }, config);
+  assert.strictEqual(readListing(out.body).thumb, null);
+});

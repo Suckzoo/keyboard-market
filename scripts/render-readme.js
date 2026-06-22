@@ -1,6 +1,6 @@
 const { loadConfig } = require('./lib/config');
 const { toListingModel } = require('./lib/listing-model');
-const { sortListings, renderBoard, spliceBoard, isTestPurpose } = require('./lib/render-board');
+const { sortListings, renderBoard, spliceBoard, selectListingIssues } = require('./lib/render-board');
 
 module.exports = async function run({ github, context, configPath = 'config.json' }) {
   const config = loadConfig(configPath);
@@ -9,11 +9,9 @@ module.exports = async function run({ github, context, configPath = 'config.json
   const issues = await github.paginate(github.rest.issues.listForRepo, {
     owner, repo, state: 'all', labels: config.labels.scope, per_page: 100,
   });
-  // listForRepo can include PRs; keep only issues. Hide [Test Purpose] fixtures and
-  // anything not authored by the operator (external users can open issues on a public repo).
-  const onlyIssues = issues.filter((i) =>
-    !i.pull_request && !isTestPurpose(i.title) && i.user && i.user.login === config.owner);
-  const models = sortListings(onlyIssues.map((i) => toListingModel(i, config)));
+  // listForRepo can include PRs and external-authored issues; selectListingIssues keeps
+  // only real owner-authored listings (and hides [Test Purpose] fixtures).
+  const models = sortListings(selectListingIssues(issues, config).map((i) => toListingModel(i, config)));
   const table = renderBoard(models);
 
   const current = await github.rest.repos.getContent({ owner, repo, path: 'README.md' });
