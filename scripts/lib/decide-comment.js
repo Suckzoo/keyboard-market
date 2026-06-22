@@ -1,5 +1,6 @@
 const { deriveStatus } = require('./state');
 const { readState } = require('./markers');
+const { effectivePrice, depositAmount } = require('./pricing');
 const messages = require('./messages');
 
 function isBot(author) {
@@ -8,6 +9,8 @@ function isBot(author) {
 
 function decideComment(input) {
   const { issueNumber, commentBody, commenter, labelNames, issueBody, comments, config, now } = input;
+  const listing = input.listing || {};
+  const negotiationComments = input.negotiationComments || [];
 
   const body = commentBody || '';
 
@@ -22,40 +25,38 @@ function decideComment(input) {
     return { action: 'ignore' };
   }
 
-  if (!body.includes(config.keyword)) {
-    return { action: 'ignore' };
-  }
+  if (!body.includes(config.keyword)) return { action: 'ignore' };
 
   const openAt = new Date(config.openAt);
-  if (now < openAt) {
-    return { action: 'comment_only', comment: messages.notOpenMessage(config) };
-  }
+  if (now < openAt) return { action: 'comment_only', comment: messages.notOpenMessage(config) };
 
   const status = deriveStatus(labelNames, config);
   const state = readState(issueBody);
 
-  if (status === 'paid') {
-    return { action: 'comment_only', comment: messages.soldMessage() };
-  }
+  if (status === 'paid') return { action: 'comment_only', comment: messages.soldMessage() };
 
   if (status === 'reserved') {
     if (state.reserver && state.reserver === commenter) {
-      return {
-        action: 'comment_only',
-        comment: messages.remindReserverMessage(config, issueNumber, commenter, state.reservedAt),
-      };
+      const dep = depositAmount(effectivePrice(listing));
+      return { action: 'comment_only', comment: messages.remindReserverMessage(config, issueNumber, commenter, state.reservedAt, dep) };
     }
     return { action: 'comment_only', comment: messages.reservedByOtherMessage() };
   }
 
-  // status === 'available' (or 'unknown' treated as not reservable)
-  if (status !== 'available') {
-    return { action: 'ignore' };
-  }
+  // reservable: available or negotiating
+  if (status !== 'available' && status !== 'negotiating') return { action: 'ignore' };
 
   // New reservations close at closeAt; existing reservers can still pay/remind.
   if (config.closeAt && now >= new Date(config.closeAt)) {
     return { action: 'comment_only', comment: messages.closedMessage(config) };
+  }
+
+  const effective = effectivePrice(listing);
+  if (effective === null) {
+    return { action: 'comment_only', comment: messages.priceUnknownReserveMessage(config) };
+  }
+  if (negotiationComments.some((c) => c.klass === 'accepted-active')) {
+    return { action: 'comment_only', comment: messages.reserveBlockedByNegotiationMessage() };
   }
 
   const since = state.availableSince ? new Date(state.availableSince) : openAt;
@@ -63,9 +64,7 @@ function decideComment(input) {
     .filter((c) => !isBot(c.author) && c.body && c.body.includes(config.keyword) && new Date(c.createdAt) >= since)
     .sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
 
-  if (candidates.length === 0) {
-    return { action: 'ignore' };
-  }
+  if (candidates.length === 0) return { action: 'ignore' };
 
   const winner = candidates[0].author;
   const reservedAt = candidates[0].createdAt;
@@ -73,7 +72,7 @@ function decideComment(input) {
     action: 'reserve',
     winner,
     reservedAt,
-    comment: messages.reserveConfirmMessage(config, issueNumber, winner, reservedAt),
+    comment: messages.reserveConfirmMessage(config, issueNumber, winner, reservedAt, depositAmount(effective)),
   };
 }
 
