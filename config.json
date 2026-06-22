@@ -8,7 +8,6 @@
   "formIssueEntryId": "entry.998374622",
   "formUserEntryId": "entry.1008119258",
   "depositInfo": "카카오페이로 아래 QR을 통해 송금해주세요.\n![카카오페이 송금 QR](https://raw.githubusercontent.com/Suckzoo/keyboard-market/master/assets/kakaopay-qr.jpeg)",
-  "visitIssueUrl": "https://github.com/Suckzoo/keyboard-market/issues/68",
   "csvMapping": {
     "id": "pid",
     "title": "name",
