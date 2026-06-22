@@ -78,6 +78,10 @@ test('negotiation/blocking messages exist', () => {
   assert.match(m.reserveBlockedByNegotiationMessage(), /네고/);
 });
 
+test('reservationFooter mentions negotiation', () => {
+  assert.match(m.reservationFooter(cfg), /네고|#네고희망/);
+});
+
 test('notOpenMessage includes openAt', () => {
   assert.match(m.notOpenMessage({ ...cfg, openAt: '2026-07-01T20:00:00+09:00' }), /2026-07-01/);
 });
