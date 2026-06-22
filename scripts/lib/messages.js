@@ -95,6 +95,7 @@ function reservationFooter(config) {
     '',
     `모든 매물은 네고 가능합니다. \`${config.negotiateKeyword} {희망금액(원)}\` 댓글로 제안해 주세요. (예: \`${config.negotiateKeyword} 120000\`)`,
     '운영자가 검토 후 수락하면 자동으로 예약이 잡히며, 알림이 오면 3시간 이내에 예약금을 입금해 주세요.',
+    `**가격 미정** 매물은 \`${config.keyword}\` 대신 \`${config.negotiateKeyword}\`로만 예약할 수 있습니다.`,
     '',
     '## 💳 입금 방법',
     '',
