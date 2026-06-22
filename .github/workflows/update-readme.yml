@@ -25,3 +25,9 @@ jobs:
             const run = require('./scripts/render-readme.js')
             const { changed } = await run({ github, context })
             core.info(changed ? 'README updated' : 'README unchanged')
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const run = require('./scripts/render-catalog.js')
+            const { changed } = await run({ github, context })
+            core.info(changed ? 'CATALOG updated' : 'CATALOG unchanged')
