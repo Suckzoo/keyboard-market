@@ -1,4 +1,5 @@
 const { setMarker, MARKER } = require('./markers');
+const { priceLine } = require('./pricing');
 
 function buildIssue(row, config, opts = {}) {
   const map = config.csvMapping || {};
@@ -20,7 +21,7 @@ function buildIssue(row, config, opts = {}) {
   for (const url of images) {
     if (/^https?:\/\//.test(url)) sections.push(`![](${url})`);
   }
-  if (price) sections.push(`**가격:** ${price}`);
+  if (price) sections.push(priceLine({ price }));
   for (const col of map.body || []) {
     if (row[col]) sections.push(`**${col}:** ${row[col]}`);
   }
