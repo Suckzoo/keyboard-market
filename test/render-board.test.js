@@ -3,9 +3,9 @@ const assert = require('node:assert');
 const { sortListings, renderTable, renderBoard, spliceBoard, isTestPurpose, BOARD_START, BOARD_END } = require('../scripts/lib/render-board');
 
 const models = [
-  { number: 14, title: 'Tofu60', price: '70,000', status: 'paid', reserver: 'hubot', url: 'u14' },
-  { number: 12, title: 'Keychron Q1', price: '120,000', status: 'available', reserver: null, url: 'u12' },
-  { number: 13, title: 'NK65', price: '90,000', status: 'reserved', reserver: 'octocat', url: 'u13' },
+  { id: '3', number: 14, title: 'Tofu60', price: '70,000', status: 'paid', reserver: 'hubot', url: 'u14' },
+  { id: '1', number: 12, title: 'Keychron Q1', price: '120,000', status: 'available', reserver: null, url: 'u12' },
+  { id: '2', number: 13, title: 'NK65', price: '90,000', status: 'reserved', reserver: 'octocat', url: 'u13' },
 ];
 
 test('sortListings orders available, reserved, paid', () => {
@@ -15,23 +15,32 @@ test('sortListings orders available, reserved, paid', () => {
 
 test('renderTable shows reserver as @handle or dash (no 비고 column)', () => {
   const md = renderTable(sortListings(models));
-  assert.match(md, /\| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/);
-  assert.match(md, /\| Keychron Q1 \| 120,000 \| 🟢 구매 가능 \| - \|/);
+  assert.match(md, /\| PID \| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/);
+  assert.match(md, /\| 1 \| Keychron Q1 \| 120,000 \| 🟢 구매 가능 \| - \|/);
   assert.match(md, /@octocat/);
 });
 
 test('renderBoard appends a 비고 section below the table for notes', () => {
   const md = renderBoard([
-    { number: 3, title: 'A', price: '150,000원', note: '', status: 'available', reserver: null, url: 'u3' },
-    { number: 9, title: 'B', price: '하단 비고 참조', note: '정보 확인이 어려워 적정 가격을 제시받고 있습니다', status: 'available', reserver: null, url: 'u9' },
+    { id: '1', number: 3, title: 'A', price: '150,000원', note: '', status: 'available', reserver: null, url: 'u3' },
+    {
+      id: '7',
+      number: 9,
+      title: 'B',
+      price: '가격 미정',
+      note: '정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다.',
+      status: 'available',
+      reserver: null,
+      url: 'u9',
+    },
   ]);
-  assert.match(md, /\| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/); // table has no 비고 column
+  assert.match(md, /\| PID \| 매물 \| 가격 \| 상태 \| 예약자 \| 이슈 \|/); // table has no 비고 column
   assert.match(md, /\*\*비고\*\*/);
-  assert.match(md, /정보 확인이 어려워 적정 가격을 제시받고 있습니다/);
+  assert.match(md, /정확한 가격 정보 확인이 어려운 키보드/);
 });
 
 test('renderBoard with no notes is just the table', () => {
-  const md = renderBoard([{ number: 3, title: 'A', price: '150,000원', note: '', status: 'available', reserver: null, url: 'u3' }]);
+  const md = renderBoard([{ id: '1', number: 3, title: 'A', price: '150,000원', note: '', status: 'available', reserver: null, url: 'u3' }]);
   assert.doesNotMatch(md, /비고/);
 });
 

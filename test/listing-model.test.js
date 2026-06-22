@@ -1,7 +1,7 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
 const { toListingModel } = require('../scripts/lib/listing-model');
-const { PRICE_UNKNOWN } = require('../scripts/lib/listing-import');
+const { LEGACY_PRICE_UNKNOWN, PRICE_UNKNOWN } = require('../scripts/lib/listing-import');
 
 const config = { labels: { scope: '매물', available: '구매 가능', reserved: '예약금 대기중', paid: '입금 확인 완료' } };
 
@@ -13,6 +13,7 @@ test('builds a model from an issue', () => {
   };
   const m = toListingModel(issue, config);
   assert.strictEqual(m.number, 12);
+  assert.strictEqual(m.id, '12');
   assert.strictEqual(m.title, 'Keychron Q1');
   assert.strictEqual(m.price, '120,000');
   assert.strictEqual(m.status, 'reserved');
@@ -21,13 +22,26 @@ test('builds a model from an issue', () => {
   assert.strictEqual(m.note, '');
 });
 
-test('price-unknown listing maps price to 하단 비고 참조 with the note', () => {
+test('price-unknown listing maps price to 가격 미정 with the note', () => {
   const issue = {
     number: 9, title: '9번', html_url: 'u',
     labels: [{ name: '매물' }, { name: '구매 가능' }],
     body: `<!-- market-listing: {"price":"${PRICE_UNKNOWN}"} -->`,
   };
   const m = toListingModel(issue, config);
-  assert.strictEqual(m.price, '하단 비고 참조');
+  assert.strictEqual(m.id, '9');
+  assert.strictEqual(m.price, '가격 미정');
+  assert.strictEqual(m.note, PRICE_UNKNOWN);
+});
+
+test('legacy price-unknown marker still maps to 가격 미정 with the current note', () => {
+  const issue = {
+    number: 15, title: '15번', html_url: 'u',
+    labels: [{ name: '매물' }, { name: '구매 가능' }],
+    body: `<!-- market-listing: {"id":"15","price":"${LEGACY_PRICE_UNKNOWN}"} -->`,
+  };
+  const m = toListingModel(issue, config);
+  assert.strictEqual(m.id, '15');
+  assert.strictEqual(m.price, '가격 미정');
   assert.strictEqual(m.note, PRICE_UNKNOWN);
 });
