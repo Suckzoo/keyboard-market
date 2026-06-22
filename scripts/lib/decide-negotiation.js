@@ -3,10 +3,17 @@ const { parseNegotiationAmount } = require('./negotiation');
 const messages = require('./messages');
 
 // Pure decision for a `#네고희망 {금액}` comment.
-function decideNegotiation({ commentBody, labelNames, config }) {
+function decideNegotiation({ commentBody, labelNames, config, now }) {
   const body = commentBody || '';
   if (!config.negotiateKeyword || !body.includes(config.negotiateKeyword)) {
     return { action: 'ignore' };
+  }
+  // Nego intake follows the same window as #구매신청: not before openAt, not after closeAt.
+  if (now < new Date(config.openAt)) {
+    return { action: 'comment_only', comment: messages.notOpenMessage(config) };
+  }
+  if (config.closeAt && now >= new Date(config.closeAt)) {
+    return { action: 'comment_only', comment: messages.closedMessage(config) };
   }
   const amount = parseNegotiationAmount(body, config.negotiateKeyword);
   if (amount === null) {

@@ -30,7 +30,7 @@ module.exports = async function run({ github, context, configPath = 'config.json
 
   // #네고희망 intake
   if (config.negotiateKeyword && commentBody.includes(config.negotiateKeyword)) {
-    const neg = decideNegotiation({ commentBody, labelNames, config });
+    const neg = decideNegotiation({ commentBody, labelNames, config, now });
     if (neg.action === 'ignore') return neg;
     if (neg.action === 'comment_only') {
       await github.rest.issues.createComment({ owner, repo, issue_number, body: neg.comment });

@@ -31,3 +31,30 @@ test('comment_only(not allowed) on reserved/paid', () => {
   assert.strictEqual(decideNegotiation({ commentBody: '#네고희망 100000', labelNames: ['매물', '예약금 대기중'], config }).action, 'comment_only');
   assert.strictEqual(decideNegotiation({ commentBody: '#네고희망 100000', labelNames: ['매물', '입금 확인 완료'], config }).action, 'comment_only');
 });
+
+// Nego intake follows the same window as #구매신청: rejected before openAt and after closeAt.
+const timedConfig = { ...config, openAt: '2026-06-24T03:00:00.000Z', closeAt: '2026-07-01T03:00:00.000Z' };
+
+test('rejects nego before openAt (not negotiate_open)', () => {
+  const r = decideNegotiation({ commentBody: '#네고희망 120000', labelNames: ['매물', '구매 가능'], config: timedConfig, now: new Date('2026-06-22T07:55:00.000Z') });
+  assert.strictEqual(r.action, 'comment_only');
+  assert.match(r.comment, /열리지 않았습니다/);
+});
+
+test('rejects nego after closeAt', () => {
+  const r = decideNegotiation({ commentBody: '#네고희망 120000', labelNames: ['매물', '구매 가능'], config: timedConfig, now: new Date('2026-07-02T00:00:00.000Z') });
+  assert.strictEqual(r.action, 'comment_only');
+  assert.match(r.comment, /종료/);
+});
+
+test('before openAt wins over bad-amount format', () => {
+  const r = decideNegotiation({ commentBody: '#네고희망 깎아줘', labelNames: ['매물', '구매 가능'], config: timedConfig, now: new Date('2026-06-22T07:55:00.000Z') });
+  assert.strictEqual(r.action, 'comment_only');
+  assert.match(r.comment, /열리지 않았습니다/);
+});
+
+test('negotiate_open within the open window', () => {
+  const r = decideNegotiation({ commentBody: '#네고희망 120000', labelNames: ['매물', '구매 가능'], config: timedConfig, now: new Date('2026-06-25T00:00:00.000Z') });
+  assert.strictEqual(r.action, 'negotiate_open');
+  assert.strictEqual(r.amount, 120000);
+});
