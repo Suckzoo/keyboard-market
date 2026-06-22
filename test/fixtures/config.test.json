@@ -3,11 +3,12 @@
   "owner": "Suckzoo",
   "keyword": "#구매신청",
   "paidKeyword": "#입금완료",
+  "paidConfirmKeyword": "#입금확인",
   "negotiateKeyword": "#네고희망",
   "reservationHours": 3,
   "formBaseUrl": "https://f",
   "formIssueEntryId": "entry.1",
   "formUserEntryId": "entry.2",
   "depositInfo": "BANK",
-  "labels": { "scope": "매물", "available": "구매 가능", "reserved": "예약금 대기중", "negotiating": "네고중", "paid": "입금 확인 완료" }
+  "labels": { "scope": "매물", "available": "구매 가능", "reserved": "예약금 대기중", "claimed": "예약금 확인중", "negotiating": "네고중", "paid": "입금 확인 완료" }
 }

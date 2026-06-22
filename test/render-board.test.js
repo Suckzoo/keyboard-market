@@ -39,6 +39,15 @@ test('renderBoard appends a 비고 section below the table for notes', () => {
   assert.match(md, /정확한 가격 정보 확인이 어려운 키보드/);
 });
 
+test('renderTable shows negotiating and claimed statuses', () => {
+  const md = renderTable([
+    { id: '1', number: 1, title: 'N', price: '1원', status: 'negotiating', reserver: null, url: 'u' },
+    { id: '2', number: 2, title: 'C', price: '2원', status: 'claimed', reserver: 'a', url: 'u' },
+  ]);
+  assert.match(md, /🟠 네고중/);
+  assert.match(md, /🔵 예약금 확인중/);
+});
+
 test('renderBoard with no notes is just the table', () => {
   const md = renderBoard([{ id: '1', number: 3, title: 'A', price: '150,000원', note: '', status: 'available', reserver: null, url: 'u3' }]);
   assert.doesNotMatch(md, /비고/);

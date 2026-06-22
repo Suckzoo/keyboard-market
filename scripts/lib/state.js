@@ -2,6 +2,7 @@ function deriveStatus(labelNames, config) {
   const set = new Set(labelNames || []);
   const L = config.labels;
   if (set.has(L.paid)) return 'paid';
+  if (L.claimed && set.has(L.claimed)) return 'claimed';
   if (set.has(L.reserved)) return 'reserved';
   if (L.negotiating && set.has(L.negotiating)) return 'negotiating';
   if (set.has(L.available)) return 'available';

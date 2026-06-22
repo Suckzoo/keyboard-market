@@ -2,11 +2,13 @@ const BOARD_START = '<!-- BOARD:START -->';
 const BOARD_END = '<!-- BOARD:END -->';
 const STATUS_DISPLAY = {
   available: '🟢 구매 가능',
+  negotiating: '🟠 네고중',
   reserved: '🟡 예약금 대기중',
+  claimed: '🔵 예약금 확인중',
   paid: '✅ 판매 완료',
   unknown: '❔',
 };
-const STATUS_ORDER = { available: 0, reserved: 1, paid: 2, unknown: 3 };
+const STATUS_ORDER = { available: 0, negotiating: 1, reserved: 2, claimed: 3, paid: 4, unknown: 5 };
 
 // Issues tagged "[Test Purpose]" in their title are live test fixtures kept in
 // the repo for rehearsing on production; they are hidden from the public board.
