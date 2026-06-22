@@ -22,6 +22,7 @@ function toListingModel(issue, config) {
     status: deriveStatus(labelNames, config),
     reserver: state.reserver || null,
     url: issue.html_url,
+    thumb: listing.thumb || null,
   };
 }
 module.exports = { toListingModel };

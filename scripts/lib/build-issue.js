@@ -31,7 +31,7 @@ function buildIssue(row, config, opts = {}) {
   if (opts.footer) sections.push(opts.footer);
 
   let body = sections.join('\n\n');
-  body = setMarker(body, MARKER.listing, { id: String(id), name: title, price });
+  body = setMarker(body, MARKER.listing, { id: String(id), name: title, price, thumb: opts.thumb || null });
   body = setMarker(body, MARKER.state, { reserver: null, reservedAt: null, availableSince: null });
 
   return { title, body, labels: [config.labels.scope, config.labels.available] };

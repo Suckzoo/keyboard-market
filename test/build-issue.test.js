@@ -81,3 +81,13 @@ test('buildIssue omits 주의사항 when notice column is empty', () => {
   const out = buildIssue({ 번호: '1', 매물명: 'X' }, cfg);
   assert.doesNotMatch(out.body, /주의사항/);
 });
+
+test('buildIssue stores opts.thumb in the listing marker', () => {
+  const out = buildIssue({ 번호: '100', 매물명: 'PBTFans 1984' }, config, { thumb: 'https://raw/thumbs/100.jpg' });
+  assert.strictEqual(readListing(out.body).thumb, 'https://raw/thumbs/100.jpg');
+});
+
+test('buildIssue listing marker thumb is null without opts.thumb', () => {
+  const out = buildIssue({ 번호: '1', 매물명: 'X' }, config);
+  assert.strictEqual(readListing(out.body).thumb, null);
+});
