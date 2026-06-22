@@ -164,8 +164,8 @@ tjkj555+keyboards@gmail.com
 | 68 | 68번 키보드 (상태불량) | 가격 미정 | 🟢 구매 가능 | - | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
 | 69 | Chilkey Paw65 | 50,000원 | 🟢 구매 가능 | - | [#64](https://github.com/Suckzoo/keyboard-market/issues/64) |
 | 70 | Sin65 | 250,000원 | 🟢 구매 가능 | - | [#65](https://github.com/Suckzoo/keyboard-market/issues/65) |
-| 71 | LZ CLS | 가격 미정 | 🟢 구매 가능 | - | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
 | 72 | NCR workstation keyboard | 150,000원 | 🟢 구매 가능 | - | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
+| 71 | LZ CLS | 가격 미정 | 🟠 네고중 | - | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
 
 **비고**
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
