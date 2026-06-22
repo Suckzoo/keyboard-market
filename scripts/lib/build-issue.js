@@ -22,6 +22,9 @@ function buildIssue(row, config, opts = {}) {
     if (/^https?:\/\//.test(url)) sections.push(`![](${url})`);
   }
   if (price) sections.push(priceLine({ price }));
+  if (map.notice && row[map.notice]) {
+    sections.push(`> ⚠️ **주의사항:** ${row[map.notice]}`);
+  }
   for (const col of map.body || []) {
     if (row[col]) sections.push(`**${col}:** ${row[col]}`);
   }
