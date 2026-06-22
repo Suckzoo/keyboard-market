@@ -23,6 +23,8 @@
 - 네고 댓글 다수일 때: ❌(👎) 처리해도 **미리뷰(리액션 없는) 네고 댓글이 남아있으면 `네고중` 유지**, 전부 리뷰되면 `구매 가능` 복귀.
 - 가격 표기: 이슈 본문은 원가 취소선 + 네고가 + 🤝, 현황판은 네고가 + 🤝, 표 아래 범례.
 - 판매가는 **수락된 네고 금액 중 최소가로 고정(sticky)**.
+- **승낙(👍)되고 아직 만료되지 않은 네고가 있으면 추가 `#구매신청`은 무시**(승낙된 네고가 우선 보호됨). → "잃어버린 👍" 문제 해소.
+- **승낙되어 예약으로 넘어간 네고가 입금 없이 만료되면, 봇이 그 네고 댓글에 만료 리액션 😕(`confused`)을 부착**해 만료를 표시한다. 이후 그 댓글은 "처리됨"으로 간주.
 
 ## 4. Config 추가
 
@@ -35,7 +37,7 @@
 ```
 
 - 네고가 표시 이모지는 상수 `NEGOTIATED_EMOJI = '🤝'` (lib).
-- 리액션 매핑 상수: `REACTION_ACCEPT = '+1'`, `REACTION_REJECT = '-1'`.
+- 리액션 매핑 상수: `REACTION_ACCEPT = '+1'`(👍), `REACTION_REJECT = '-1'`(👎), `REACTION_EXPIRED = 'confused'`(😕, 봇이 부착하는 만료 표시).
 
 ## 5. 데이터 모델 (마커)
 
@@ -49,7 +51,17 @@
 - `negotiatedPrice`: 확정 네고가(없으면 키 부재/null). 한 번 정해지면 sticky, 더 낮은 수락 시에만 갱신(최소가).
 - 표시 가격 = `negotiatedPrice ?? price`.
 
-`market-state` 마커는 그대로(reserver/reservedAt/availableSince/paidClaimedAt). 예약은 기존 흐름 재사용.
+`market-state` 마커 확장: `acceptedNegotiationCommentId`(nullable) — 네고 승낙으로 잡힌 예약일 때 그 네고 댓글 ID. 예약 만료 시 이 댓글에 만료 리액션을 부착하고 필드를 비운다. 일반 #구매신청 예약이면 null.
+
+예약은 기존 흐름 재사용.
+
+### 네고 댓글 분류 (리액션 기반)
+
+각 네고 댓글은 리액션으로 분류한다 (owner = 운영자, bot = github-actions):
+- **pending(미리뷰)**: owner 👍/👎 없음 AND bot 😕 없음.
+- **accepted-active(승낙·유효)**: owner 👍 있음 AND bot 😕 없음. (아직 만료 안 됨)
+- **done(처리됨)**: owner 👎 있음 OR bot 😕 있음. (거절 또는 만료)
+- owner가 👍·👎 둘 다면 👍(accept) 우선.
 
 ## 6. 상태 / 라벨
 
@@ -71,25 +83,30 @@ comment-handler 글루: `negotiate_open`이면 `available`→제거, `네고중`
 
 decide-comment(기존 `#구매신청`)도 보강:
 - 대상이 가격 미정(negotiatedPrice 없고 price가 PRICE_UNKNOWN)인데 `#구매신청` → `comment_only`로 "네고 필요" 안내(예약 차단).
-- `네고중` 상태에서 `#구매신청` → 정상 예약(선착순), `네고중` 라벨은 글루에서 제거.
+- **accepted-active 네고 댓글이 있으면 `#구매신청` 무시** → `comment_only`로 "이미 승낙된 네고 건이 진행 중" 안내(예약 차단). (승낙된 네고 우선 보호)
+- `네고중`이고 accepted-active 네고가 없으면 → 정상 예약(선착순), `네고중` 라벨은 글루에서 제거.
+- 이를 위해 글루(comment-handler)는 `#구매신청`이 `네고중` 이슈에 달릴 때 네고 댓글+리액션을 조회해 decide-comment에 `negotiationComments`로 전달한다.
 
 ### 7-2. 리액션 리콘실 (폴링) — `reconcile-negotiation.js` + sweeper
 
-순수함수 `reconcileNegotiation({ status, issueBody, negotiationComments, now, config })`:
-- 입력 `negotiationComments`: `[{ id, author, amount, ownerReaction: 'accept'|'reject'|null }]` (글루가 reactions API로 채움; ownerReaction은 owner의 👍/👎; 둘 다면 accept 우선).
+순수함수 `reconcileNegotiation({ negotiationComments })`:
+- 입력 `negotiationComments`: `[{ id, author, amount, klass: 'pending'|'accepted-active'|'done' }]` (글루가 reactions API로 분류; §5 분류 규칙).
 - 규칙:
-  - accept된 댓글이 있으면(여럿이면 **가장 이른 댓글**): `action: 'accept'`, `winner`, `amount`(min ratchet 위해 raw), `reservedAt=now`.
-  - accept 없고 **미리뷰(ownerReaction=null) 댓글 존재** → `action: 'stay_negotiating'`.
-  - accept 없고 전부 reject → `action: 'release'`(→ 구매 가능).
-- sweeper 글루: `네고중` 라벨 이슈만 대상. 각 이슈의 네고 댓글 + owner 리액션 조회 후 위 함수 호출.
-  - `accept`: `negotiatedPrice = min(기존 negotiatedPrice ?? Infinity, amount)` → 마커 갱신 + 본문 가격줄 재렌더, 라벨 `네고중`→`예약금 대기중`, state(reserver/reservedAt/paidClaimedAt=null) 기록, **예약금(=표시가의 10%) 명시 예약 안내 댓글**.
+  - accepted-active 댓글이 있으면(여럿이면 **가장 이른 댓글**): `action: 'accept'`, `winner`, `amount`, `commentId`.
+  - accepted-active 없고 **pending 댓글 존재** → `action: 'stay_negotiating'`.
+  - 그 외(전부 done) → `action: 'release'`(→ 구매 가능).
+- sweeper 글루: `네고중` 라벨 이슈만 대상. 각 이슈의 네고 댓글 + 리액션(owner 👍/👎, bot 😕) 조회·분류 후 위 함수 호출.
+  - `accept`: **쓰기 직전 라벨 재확인(still 네고중)** → `negotiatedPrice = min(기존 negotiatedPrice ?? Infinity, amount)` 마커 갱신 + 본문 가격줄 재렌더, 라벨 `네고중`→`예약금 대기중`, state(reserver=winner/reservedAt=now/paidClaimedAt=null/**acceptedNegotiationCommentId=commentId**) 기록, **예약금(=표시가의 10%) 명시 예약 안내 댓글**(즉시 입금 주의).
   - `release`: `네고중`→`구매 가능`.
   - `stay_negotiating`: 변화 없음.
-- 멱등성: accept 후엔 라벨이 `예약금 대기중`이라 다음 폴링에서 `네고중` 스캔 대상에서 빠짐.
+- 멱등성: accept 후엔 라벨이 `예약금 대기중`이라 다음 폴링 `네고중` 스캔에서 빠짐.
 
-### 7-3. 예약 만료 시 네고 복귀 — sweep-timeouts 확장
+### 7-3. 예약 만료 시 네고 복귀 + 만료 리액션 — sweep-timeouts 확장
 
-기존 만료 처리에서, 만료된 예약 이슈에 **미리뷰 네고 댓글이 있으면** `구매 가능` 대신 `네고중`으로 복귀. (글루가 네고 댓글/리액션 조회) `negotiatedPrice`는 유지(sticky).
+기존 만료 처리(3h, #입금완료 없음) 확장:
+- 만료되는 예약의 `acceptedNegotiationCommentId`가 있으면 → **그 네고 댓글에 봇 만료 리액션 😕(`confused`) 부착**, `acceptedNegotiationCommentId`는 null로 클리어. (그 댓글은 이후 done 분류)
+- 복귀 상태: 만료 후 그 이슈의 네고 댓글을 재분류하여 **pending 댓글이 남아있으면 `네고중`**, 없으면 `구매 가능`.
+- `negotiatedPrice`는 유지(sticky).
 
 ### 7-4. 가격 렌더 — `listing-import`/`build-issue`/`render-board`
 
@@ -114,10 +131,11 @@ decide-comment(기존 `#구매신청`)도 보강:
 ## 8. 상태 머신 (요약)
 
 ```
-구매가능 --#네고희망--> 네고중 --운영자 👍--> 예약금대기중(네고가) --#입금완료--> (운영자) 입금확인완료
-   |                      |  --운영자 👎(전부)--> 구매가능
-   |                      |  --#구매신청--> 예약금대기중(원가/네고가), 네고중 해제
-   --#구매신청--> 예약금대기중 --3h 만료--> (미리뷰 네고 있으면) 네고중 / (없으면) 구매가능
+구매가능 --#네고희망--> 네고중 --운영자 👍(폴링)--> 예약금대기중(네고가) --#입금완료--> (운영자) 입금확인완료
+   |                      |  --전부 done(👎/😕)--> 구매가능
+   |                      |  --#구매신청(👍 없을 때만)--> 예약금대기중, 네고중 해제
+   |                      |  --#구매신청(accepted-active 있으면)--> 무시(차단 안내)
+   --#구매신청--> 예약금대기중 --3h 만료--> [네고예약이면 댓글에 😕] → (pending 네고 있으면) 네고중 / (없으면) 구매가능
 가격미정 --#구매신청--> (차단, 네고 안내)
 ```
 
@@ -128,9 +146,10 @@ decide-comment(기존 `#구매신청`)도 보강:
 1. **스위퍼는 한 실행에서 이슈 목록 스냅샷 1개로 처리.** 각 이슈는 그 실행에서 정확히 한 갈래로만 처리된다: `네고중`이면 네고 리콘실, `예약금 대기중`이면 만료 판정. (한 이슈가 같은 실행에서 양쪽으로 전이되지 않음)
 2. **스위퍼 네고 리콘실은 `네고중` 라벨 이슈에만 적용.** 이슈가 이미 `예약금 대기중`/`입금 확인 완료`로 떠났으면 네고 리액션은 적용하지 않는다.
 3. **comment-handler의 예약은 현재 상태 기준.** `#구매신청`은 available/네고중에서만 예약 생성(→`예약금 대기중`, `네고중` 해제). `가격 미정`은 차단.
-4. **선착 규칙: 먼저 `예약금 대기중`에 도달한 쪽이 이긴다.** (즉시 예약이 지연된 👍보다 우선)
-5. **"잃어버린 👍" 허용 시맨틱:** 👍가 적용되기 전 `#구매신청`이 예약을 가져가면 그 👍는 적용되지 않는다(상태 손상 아님, 승자만 결정). 운영자는 필요 시 다시 👍.
+4. **승낙 네고 우선 보호:** accepted-active 네고 댓글이 있으면 `#구매신청`은 무시(comment_only 안내). comment-handler가 `네고중` 이슈의 `#구매신청` 처리 시 네고 댓글 리액션을 조회해 owner 👍(만료 전)를 감지 → 폴링 전이라도 보호된다. (이전의 "잃어버린 👍" 문제 없음)
+5. **선착 규칙(accepted-active 없을 때):** owner 👍가 아직 없는 `네고중`이면 `#구매신청`이 선착 예약하고 `네고중` 해제. 즉, 승낙 전 단계에서만 즉시 예약이 가능.
 6. **재확인 가드:** 스위퍼가 accept를 쓰기 직전 이슈 라벨을 재조회하여 여전히 `네고중`일 때만 적용 → 워크플로 동시 실행 창 최소화. (GitHub에 원자적 CAS 없음, last-write-wins이나 10분 주기 대비 충돌 확률 낮음)
+7. **만료 표시:** 승낙 네고 예약이 만료되면 봇이 네고 댓글에 😕 부착 → 그 댓글은 done이 되어 더 이상 `#구매신청`을 막지 않음.
 
 ## 9. 메시지 (신규/수정)
 
@@ -138,13 +157,14 @@ decide-comment(기존 `#구매신청`)도 보강:
 - `negotiateRejectedFormatMessage(config)`: 금액 파싱 실패 안내.
 - `negotiateNotAllowedMessage()`: 예약/입금 단계라 네고 불가.
 - `priceUnknownReserveMessage(config)`: 가격 미정 매물 #구매신청 차단 안내(네고 유도).
+- `reserveBlockedByNegotiationMessage()`: 승낙된 네고 진행 중이라 #구매신청 차단 안내.
 - `reserveConfirmMessage`/`remindReserverMessage`: 예약금 정확 액수 포함.
 - 네고 수락 예약 안내: `reserveConfirmMessage` 재사용 + 즉시 입금 주의 문구.
 
 ## 10. 파일 영향
 
 - 신규: `scripts/lib/decide-negotiation.js`, `scripts/lib/reconcile-negotiation.js` (+ 테스트).
-- 수정: `config.json`, `scripts/lib/markers.js`(negotiatedPrice 무관, 마커는 자유 JSON이라 변경 최소), `scripts/lib/state.js`(네고중 우선순위), `scripts/lib/listing-model.js`(displayPrice/negotiated), `scripts/lib/render-board.js`(🤝/범례, 상태표기), `scripts/render-readme.js`(owner 필터), `scripts/lib/build-issue.js`(priceLine), `scripts/lib/listing-import.js`(priceLine/displayPrice 헬퍼), `scripts/lib/messages.js`, `scripts/handle-comment.js`(네고 접수/가격미정 차단/네고중 예약 글루), `scripts/sweep-timeouts.js`(리콘실 + 만료 시 네고 복귀 글루), `.github/workflows/sweeper.yml`(권한/주석).
+- 수정: `config.json`, `scripts/lib/markers.js`(negotiatedPrice 무관, 마커는 자유 JSON이라 변경 최소), `scripts/lib/state.js`(네고중 우선순위), `scripts/lib/listing-model.js`(displayPrice/negotiated), `scripts/lib/render-board.js`(🤝/범례, 상태표기), `scripts/render-readme.js`(owner 필터), `scripts/lib/build-issue.js`(priceLine), `scripts/lib/listing-import.js`(priceLine/displayPrice 헬퍼), `scripts/lib/messages.js`, `scripts/handle-comment.js`(네고 접수/가격미정 차단/네고중 예약 글루; `#구매신청` 시 네고 댓글 리액션 조회), `scripts/sweep-timeouts.js`(네고 리콘실 + 만료 시 네고 복귀 + 만료 리액션 부착; reactions API read/create), `.github/workflows/sweeper.yml`(권한/주석).
 - README: 네고 안내 섹션.
 
 ## 11. 테스트 전략
