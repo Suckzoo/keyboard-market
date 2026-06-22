@@ -46,15 +46,19 @@ test('reservationFooter includes steps, payment (deposit), and period', () => {
   assert.match(f, /예약 기간/);
 });
 
-test('reservationFooter covers full payment, intake window, and visit option', () => {
+test('reservationFooter covers the deposit, refund policy, intake window, and visit option', () => {
   const f = m.reservationFooter({ ...cfg, visitIssueUrl: 'https://x/issues/68' });
-  assert.match(f, /전액/);                 // 물품 가액 전액 입금
+  assert.match(f, /예약금/);                // 예약금 안내
+  assert.match(f, /10%/);                   // 물품 가액의 10%
+  assert.match(f, /반환/);                  // 예약금 반환 정책
   assert.match(f, /시작 전|종료 후/);       // 접수 기간 정책
   assert.match(f, /x\/issues\/68/);         // 예약 없이 참가 링크
 });
 
-test('reserveConfirmMessage mentions full payment', () => {
-  assert.match(m.reserveConfirmMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z'), /전액/);
+test('reserveConfirmMessage mentions the 10% deposit', () => {
+  const msg = m.reserveConfirmMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z');
+  assert.match(msg, /예약금/);
+  assert.match(msg, /10%/);
 });
 
 test('notOpenMessage includes openAt', () => {
