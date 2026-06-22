@@ -63,7 +63,11 @@ function expiredMessage(config) {
 }
 
 function paidClaimedMessage(config) {
-  return `입금 확인 요청이 접수되었습니다. 운영자가 실제 입금을 확인한 뒤 처리하며, 확인 전까지 자동 해제(${config.reservationHours}시간)는 중지됩니다.`;
+  return `입금 확인 요청이 접수되어 **예약금 확인중**으로 전환되었습니다. 운영자가 실제 입금을 확인한 뒤 처리하며, 확인 전까지 자동 해제(${config.reservationHours}시간)는 중지됩니다.`;
+}
+
+function paidConfirmedMessage() {
+  return '입금이 확인되어 예약이 확정되었습니다. (입금 확인 완료) 잔액 결제 및 수령은 행사 당일 현장에서 진행됩니다. 감사합니다!';
 }
 
 function negotiateAckMessage(config, amount) {
@@ -130,7 +134,7 @@ function reservationFooter(config) {
 module.exports = {
   buildFormUrl, deadlineIso, formatKst, notOpenMessage, closedMessage, soldMessage,
   reservedByOtherMessage, remindReserverMessage, reserveConfirmMessage, expiredMessage,
-  paidClaimedMessage, reservationFooter,
+  paidClaimedMessage, paidConfirmedMessage, reservationFooter,
   negotiateAckMessage, negotiateRejectedFormatMessage, negotiateNotAllowedMessage,
   priceUnknownReserveMessage, reserveBlockedByNegotiationMessage,
 };

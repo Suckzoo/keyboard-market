@@ -5,7 +5,7 @@ const { decideComment } = require('../scripts/lib/decide-comment');
 const config = {
   openAt: '2026-07-01T11:00:00.000Z', keyword: '#구매신청', reservationHours: 3,
   depositInfo: 'BANK', formBaseUrl: 'https://f', formIssueEntryId: 'entry.1', formUserEntryId: 'entry.2',
-  labels: { scope: '매물', available: '구매 가능', reserved: '예약금 대기중', negotiating: '네고중', paid: '입금 확인 완료' },
+  labels: { scope: '매물', available: '구매 가능', reserved: '예약금 대기중', claimed: '예약금 확인중', negotiating: '네고중', paid: '입금 확인 완료' },
 };
 const { PRICE_UNKNOWN } = require('../scripts/lib/listing-import');
 const base = { issueNumber: 12, commenter: 'alice', issueBody: 'desc', listing: { price: '100,000원' }, config };
@@ -92,6 +92,24 @@ test('#입금완료 by reserver -> paid_claim (pauses sweep)', () => {
     labelNames: ['매물', '예약금 대기중'], issueBody, comments: [], now: new Date('2026-07-01T12:00:00Z') });
   assert.strictEqual(r.action, 'paid_claim');
   assert.match(r.comment, /입금/);
+});
+
+test('#입금확인 by owner confirms from reserved or claimed', () => {
+  const cfg = { ...config, owner: 'op', paidConfirmKeyword: '#입금확인' };
+  const issueBody = 'desc\n<!-- market-state: {"reserver":"alice","reservedAt":"2026-07-01T11:30:00Z","availableSince":null} -->';
+  const r1 = decideComment({ ...base, config: cfg, commenter: 'op', commentBody: '#입금확인',
+    labelNames: ['매물', '예약금 대기중'], issueBody, comments: [], now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r1.action, 'paid_confirm');
+  const r2 = decideComment({ ...base, config: cfg, commenter: 'op', commentBody: '#입금확인',
+    labelNames: ['매물', '예약금 확인중'], issueBody, comments: [], now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r2.action, 'paid_confirm');
+});
+
+test('#입금확인 by non-owner is ignored', () => {
+  const cfg = { ...config, owner: 'op', paidConfirmKeyword: '#입금확인' };
+  const r = decideComment({ ...base, config: cfg, commenter: 'alice', commentBody: '#입금확인',
+    labelNames: ['매물', '예약금 확인중'], issueBody: 'desc', comments: [], now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r.action, 'ignore');
 });
 
 test('#입금완료 by non-reserver is ignored', () => {

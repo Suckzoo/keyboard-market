@@ -96,6 +96,10 @@ test('reservationFooter notes price-unknown items are negotiation-only', () => {
   assert.match(m.reservationFooter(cfg), /가격 미정/);
 });
 
+test('paidConfirmedMessage confirms the reservation', () => {
+  assert.match(m.paidConfirmedMessage(cfg), /확정|입금.*확인|판매 완료/);
+});
+
 test('notOpenMessage includes openAt', () => {
   assert.match(m.notOpenMessage({ ...cfg, openAt: '2026-07-01T20:00:00+09:00' }), /2026-07-01/);
 });

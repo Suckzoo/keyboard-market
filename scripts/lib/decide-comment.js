@@ -14,8 +14,18 @@ function decideComment(input) {
 
   const body = commentBody || '';
 
-  // #입금완료: the reserver claims they paid -> pause the auto-sweep until an
-  // operator verifies the actual transfer. Only the current reserver counts.
+  // #입금확인: the operator confirms the transfer -> 입금 확인 완료. Owner only,
+  // from an active reservation (예약금 대기중 or 예약금 확인중).
+  if (config.paidConfirmKeyword && body.includes(config.paidConfirmKeyword)) {
+    const status = deriveStatus(labelNames, config);
+    if (commenter === config.owner && (status === 'reserved' || status === 'claimed')) {
+      return { action: 'paid_confirm', comment: messages.paidConfirmedMessage(config) };
+    }
+    return { action: 'ignore' };
+  }
+
+  // #입금완료: the reserver claims they paid -> 예약금 확인중 (auto-sweep no longer
+  // applies; the operator verifies). Only the current reserver counts.
   if (config.paidKeyword && body.includes(config.paidKeyword)) {
     const status = deriveStatus(labelNames, config);
     const state = readState(issueBody);

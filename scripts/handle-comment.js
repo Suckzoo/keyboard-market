@@ -64,11 +64,23 @@ module.exports = async function run({ github, context, configPath = 'config.json
     return result;
   }
   if (result.action === 'paid_claim') {
+    // 예약금 대기중 -> 예약금 확인중 (claimed); record the claim time too.
     const state = readState(issue.body || '');
     const newBody = setMarker(issue.body || '', MARKER.state, {
       reserver: state.reserver, reservedAt: state.reservedAt, availableSince: state.availableSince, paidClaimedAt: now.toISOString(),
     });
     await github.rest.issues.update({ owner, repo, issue_number, body: newBody });
+    await github.rest.issues.removeLabel({ owner, repo, issue_number, name: config.labels.reserved }).catch(() => {});
+    await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [config.labels.claimed] });
+    await github.rest.issues.createComment({ owner, repo, issue_number, body: result.comment });
+    return result;
+  }
+
+  if (result.action === 'paid_confirm') {
+    // operator confirmed: 예약금 대기중/확인중 -> 입금 확인 완료 (paid).
+    await github.rest.issues.removeLabel({ owner, repo, issue_number, name: config.labels.reserved }).catch(() => {});
+    await github.rest.issues.removeLabel({ owner, repo, issue_number, name: config.labels.claimed }).catch(() => {});
+    await github.rest.issues.addLabels({ owner, repo, issue_number, labels: [config.labels.paid] });
     await github.rest.issues.createComment({ owner, repo, issue_number, body: result.comment });
     return result;
   }

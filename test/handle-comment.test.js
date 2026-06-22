@@ -72,19 +72,27 @@ test('#구매신청 blocked when an accepted-active negotiation exists', async (
   assert.deepStrictEqual(calls.map((c) => c[0]), ['createComment']);
 });
 
-test('paid_claim flow: writes paidClaimedAt marker and comments, no label change', async () => {
+test('paid_claim flow: 예약금 대기중 -> 예약금 확인중, comments', async () => {
   const issueBody = 'desc\n<!-- market-state: {"reserver":"alice","reservedAt":"2026-07-01T11:00:01Z","availableSince":null} -->';
   const { github, calls } = makeFakeGithub({ comments: [] });
   const context = ctx({ body: '#입금완료', login: 'alice', labels: ['매물', '예약금 대기중'], issueBody });
   const r = await run({ github, context, configPath, now: new Date('2026-07-01T12:00:00Z') });
   assert.strictEqual(r.action, 'paid_claim');
-  const names = calls.map((c) => c[0]);
-  assert.ok(names.includes('update'));
-  assert.ok(names.includes('createComment'));
-  assert.ok(!names.includes('addLabels'));
-  const update = calls.find((c) => c[0] === 'update')[1];
-  assert.match(update.body, /"paidClaimedAt":"/);
-  assert.match(update.body, /"reserver":"alice"/);
+  assert.ok(calls.some((c) => c[0] === 'removeLabel' && c[1].name === '예약금 대기중'));
+  assert.ok(calls.some((c) => c[0] === 'addLabels' && c[1].labels.includes('예약금 확인중')));
+  assert.ok(calls.some((c) => c[0] === 'createComment'));
+});
+
+test('paid_confirm flow (#입금확인 by owner): -> 입금 확인 완료', async () => {
+  const issueBody = 'desc\n<!-- market-state: {"reserver":"alice","reservedAt":"2026-07-01T11:00:01Z","availableSince":null} -->';
+  const { github, calls } = makeFakeGithub({ comments: [] });
+  const context = ctx({ body: '#입금확인', login: 'Suckzoo', labels: ['매물', '예약금 확인중'], issueBody });
+  const r = await run({ github, context, configPath, now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r.action, 'paid_confirm');
+  const removed = calls.filter((c) => c[0] === 'removeLabel').map((c) => c[1].name);
+  assert.ok(removed.includes('예약금 확인중'));
+  assert.ok(calls.some((c) => c[0] === 'addLabels' && c[1].labels.includes('입금 확인 완료')));
+  assert.ok(calls.some((c) => c[0] === 'createComment'));
 });
 
 test('ignore flow: no keyword -> no octokit writes', async () => {
