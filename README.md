@@ -159,7 +159,6 @@ tjkj555+keyboards@gmail.com
 | 71 | LZ CLS | 가격 미정 | 🟢 구매 가능 | - | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
 | 72 | NCR workstation keyboard | 150,000원 | 🟢 구매 가능 | - | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
 
-
 **비고**
-- 정확한 가격 정보 확인이 어려운 키보드는 '가격 미정'으로 표시해두었으며, 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
+- 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
 <!-- BOARD:END -->
