@@ -9,12 +9,22 @@ function deadlineIso(reservedAt, reservationHours) {
   return new Date(new Date(reservedAt).getTime() + reservationHours * 3600 * 1000).toISOString();
 }
 
+// Render an instant in Korea Standard Time, e.g. "2026-07-01 23:00 (KST)".
+function formatKst(iso) {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+  }).formatToParts(new Date(iso));
+  const g = (t) => parts.find((p) => p.type === t).value;
+  return `${g('year')}-${g('month')}-${g('day')} ${g('hour')}:${g('minute')} (KST)`;
+}
+
 function notOpenMessage(config) {
-  return `아직 열리지 않았습니다. **${config.openAt}**부터 구매 가능합니다.`;
+  return `아직 열리지 않았습니다. **${formatKst(config.openAt)}**부터 구매 가능합니다.`;
 }
 
 function closedMessage(config) {
-  return `온라인 예약판매 기간이 종료되었습니다. (마감: **${config.closeAt}**) 남은 매물은 행사 현장에서 판매됩니다.`;
+  return `온라인 예약판매 기간이 종료되었습니다. (마감: **${formatKst(config.closeAt)}**) 남은 매물은 행사 현장에서 판매됩니다.`;
 }
 
 function soldMessage() {
@@ -32,7 +42,7 @@ function remindReserverMessage(config, issueNumber, user, reservedAt, depositStr
     ...(depositStr ? [`💰 예약금: **${depositStr}**`] : []),
     `💳 ${config.depositInfo}`,
     `📝 예약 폼: ${buildFormUrl(config, issueNumber, user)}`,
-    `⏰ 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
+    `⏰ 마감: ${formatKst(deadlineIso(reservedAt, config.reservationHours))}`,
   ].join('\n');
 }
 
@@ -44,7 +54,7 @@ function reserveConfirmMessage(config, issueNumber, winner, reservedAt, depositS
     ...(depositStr ? [`💰 예약금: **${depositStr}**`] : []),
     `💳 ${config.depositInfo}`,
     `📝 예약 폼: ${buildFormUrl(config, issueNumber, winner)}`,
-    `⏰ 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
+    `⏰ 마감: ${formatKst(deadlineIso(reservedAt, config.reservationHours))}`,
   ].join('\n');
 }
 
@@ -118,7 +128,7 @@ function reservationFooter(config) {
 }
 
 module.exports = {
-  buildFormUrl, deadlineIso, notOpenMessage, closedMessage, soldMessage,
+  buildFormUrl, deadlineIso, formatKst, notOpenMessage, closedMessage, soldMessage,
   reservedByOtherMessage, remindReserverMessage, reserveConfirmMessage, expiredMessage,
   paidClaimedMessage, reservationFooter,
   negotiateAckMessage, negotiateRejectedFormatMessage, negotiateNotAllowedMessage,

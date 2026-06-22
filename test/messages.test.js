@@ -20,6 +20,16 @@ test('deadlineIso adds reservationHours', () => {
   assert.strictEqual(new Date(out).toISOString(), '2026-07-01T14:00:00.000Z');
 });
 
+test('formatKst renders an instant in Asia/Seoul', () => {
+  assert.strictEqual(m.formatKst('2026-07-01T14:00:00.000Z'), '2026-07-01 23:00 (KST)');
+});
+
+test('reserveConfirmMessage deadline is shown in KST', () => {
+  // reservedAt 11:00Z + 3h = 14:00Z = 23:00 KST
+  const msg = m.reserveConfirmMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z', '15,000원');
+  assert.match(msg, /23:00 \(KST\)/);
+});
+
 test('reserveConfirmMessage mentions winner, deposit, form link', () => {
   const msg = m.reserveConfirmMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z');
   assert.match(msg, /@octocat/);
