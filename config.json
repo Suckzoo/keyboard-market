@@ -15,7 +15,8 @@
     "id": "pid",
     "title": "name",
     "price": "price",
-    "image": "사진",
+    "notice": "비고",
+    "photoLinks": "사진 링크",
     "body": []
   },
   "labels": {

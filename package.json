@@ -6,7 +6,10 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "test": "node --test",
-    "import": "node scripts/import-listings.js keyboard.csv"
+    "import": "node scripts/import-listings.js keyboards.csv",
+    "import:dry": "node scripts/import-listings.js keyboards.csv --dry-run",
+    "photos:keycaps": "node scripts/import-keycap-photos.js",
+    "thumbs": "node scripts/build-thumbs.js"
   },
   "devDependencies": {
     "@octokit/rest": "^21.0.0",
