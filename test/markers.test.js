@@ -22,7 +22,7 @@ test('setMarker replaces an existing marker, not duplicates it', () => {
 });
 
 test('readState supplies defaults when marker missing', () => {
-  assert.deepStrictEqual(readState('plain body'), { reserver: null, reservedAt: null, availableSince: null, paidClaimedAt: null });
+  assert.deepStrictEqual(readState('plain body'), { reserver: null, reservedAt: null, availableSince: null, paidClaimedAt: null, acceptedNegotiationCommentId: null });
 });
 
 test('readState parses paidClaimedAt when present', () => {

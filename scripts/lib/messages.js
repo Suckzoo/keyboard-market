@@ -25,21 +25,23 @@ function reservedByOtherMessage() {
   return '이미 예약 진행 중입니다. 만료되면 자동으로 다시 구매 가능 상태가 됩니다.';
 }
 
-function remindReserverMessage(config, issueNumber, user, reservedAt) {
+function remindReserverMessage(config, issueNumber, user, reservedAt, depositStr) {
   return [
     `@${user}님은 이미 예약 상태입니다.`,
     `${config.reservationHours}시간 이내에 ①물품 가액의 10%를 예약금으로 송금 ②예약 폼 작성을 완료하신 뒤, 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주시면 예약이 확정됩니다.`,
+    ...(depositStr ? [`💰 예약금: **${depositStr}**`] : []),
     `💳 ${config.depositInfo}`,
     `📝 예약 폼: ${buildFormUrl(config, issueNumber, user)}`,
     `⏰ 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
   ].join('\n');
 }
 
-function reserveConfirmMessage(config, issueNumber, winner, reservedAt) {
+function reserveConfirmMessage(config, issueNumber, winner, reservedAt, depositStr) {
   return [
     `**@${winner}**님 예약 완료 ✅`,
     `${config.reservationHours}시간 이내에 ①물품 가액의 10%를 예약금으로 송금 ②예약 폼 작성을 완료하신 뒤, 이 이슈에 \`${config.paidKeyword}\` 댓글을 남겨주시면 예약이 확정됩니다.`,
     `(${config.reservationHours}시간 내 \`${config.paidKeyword}\` 댓글이 없으면 예약은 자동 취소되어 다시 구매 가능 상태로 전환됩니다.)`,
+    ...(depositStr ? [`💰 예약금: **${depositStr}**`] : []),
     `💳 ${config.depositInfo}`,
     `📝 예약 폼: ${buildFormUrl(config, issueNumber, winner)}`,
     `⏰ 마감: ${deadlineIso(reservedAt, config.reservationHours)}`,
@@ -52,6 +54,26 @@ function expiredMessage(config) {
 
 function paidClaimedMessage(config) {
   return `입금 확인 요청이 접수되었습니다. 운영자가 실제 입금을 확인한 뒤 처리하며, 확인 전까지 자동 해제(${config.reservationHours}시간)는 중지됩니다.`;
+}
+
+function negotiateAckMessage(config, amount) {
+  return `네고 제안(${Number(amount).toLocaleString('en-US')}원)이 접수되었습니다. 운영자가 검토 후 👍 수락 / 👎 거절로 처리합니다. 수락되면 자동으로 예약이 잡히며, 알림이 오면 ${config.reservationHours}시간 이내에 예약금을 입금해 주세요.`;
+}
+
+function negotiateRejectedFormatMessage(config) {
+  return `네고 금액을 인식하지 못했습니다. 예: \`${config.negotiateKeyword} 120000\` 처럼 원화 금액을 함께 적어주세요.`;
+}
+
+function negotiateNotAllowedMessage() {
+  return '이미 예약/입금이 진행 중인 매물이라 네고를 받을 수 없습니다.';
+}
+
+function priceUnknownReserveMessage(config) {
+  return `가격 미정 매물입니다. \`${config.negotiateKeyword} {금액}\`으로 희망 가격을 제안해 주세요. 운영자 확인 후 진행됩니다.`;
+}
+
+function reserveBlockedByNegotiationMessage() {
+  return '이미 승낙된 네고 건이 진행 중이라 예약할 수 없습니다.';
 }
 
 // Footer appended to every listing issue (and mirrored in the README).
@@ -68,6 +90,11 @@ function reservationFooter(config) {
     `3시간 이내에 \`${config.paidKeyword}\` 댓글이 없을 경우 예약은 자동 취소되며, 판매글은 다시 구매 가능 상태로 전환됩니다.`,
     '',
     `입금 후 \`${config.paidKeyword}\` 댓글을 남기지 않아 예약이 취소된 사이 다른 분의 예약이 확정된 경우, 나중에 예약을 완료하신 분께 구매 권한이 있으며 기존 입금분은 수동 환불해 드립니다.`,
+    '',
+    '## 🤝 가격 협상(네고)',
+    '',
+    `모든 매물은 네고 가능합니다. \`${config.negotiateKeyword} {희망금액(원)}\` 댓글로 제안해 주세요. (예: \`${config.negotiateKeyword} 120000\`)`,
+    '운영자가 검토 후 수락하면 자동으로 예약이 잡히며, 알림이 오면 3시간 이내에 예약금을 입금해 주세요.',
     '',
     '## 💳 입금 방법',
     '',
@@ -93,4 +120,6 @@ module.exports = {
   buildFormUrl, deadlineIso, notOpenMessage, closedMessage, soldMessage,
   reservedByOtherMessage, remindReserverMessage, reserveConfirmMessage, expiredMessage,
   paidClaimedMessage, reservationFooter,
+  negotiateAckMessage, negotiateRejectedFormatMessage, negotiateNotAllowedMessage,
+  priceUnknownReserveMessage, reserveBlockedByNegotiationMessage,
 };

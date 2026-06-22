@@ -3,7 +3,7 @@ const assert = require('node:assert');
 const m = require('../scripts/lib/messages');
 
 const cfg = {
-  keyword: '#구매신청', paidKeyword: '#입금완료', reservationHours: 3, depositInfo: 'BANK 123 (홍길동)',
+  keyword: '#구매신청', paidKeyword: '#입금완료', negotiateKeyword: '#네고희망', reservationHours: 3, depositInfo: 'BANK 123 (홍길동)',
   formBaseUrl: 'https://docs.google.com/forms/d/e/ID/viewform',
   formIssueEntryId: 'entry.111', formUserEntryId: 'entry.222',
 };
@@ -62,6 +62,24 @@ test('reserveConfirmMessage mentions the 10% deposit', () => {
   const msg = m.reserveConfirmMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z');
   assert.match(msg, /예약금/);
   assert.match(msg, /10%/);
+});
+
+test('reserveConfirmMessage includes the exact deposit amount when given', () => {
+  const msg = m.reserveConfirmMessage(cfg, 12, 'octocat', '2026-07-01T11:00:00.000Z', '15,000원');
+  assert.match(msg, /15,000원/);
+  assert.match(msg, /예약금/);
+});
+
+test('negotiation/blocking messages exist', () => {
+  assert.match(m.negotiateAckMessage(cfg, 120000), /120,000/);
+  assert.match(m.negotiateRejectedFormatMessage(cfg), /#네고희망/);
+  assert.match(m.negotiateNotAllowedMessage(), /네고/);
+  assert.match(m.priceUnknownReserveMessage(cfg), /네고|가격 미정/);
+  assert.match(m.reserveBlockedByNegotiationMessage(), /네고/);
+});
+
+test('reservationFooter mentions negotiation', () => {
+  assert.match(m.reservationFooter(cfg), /네고|#네고희망/);
 });
 
 test('notOpenMessage includes openAt', () => {

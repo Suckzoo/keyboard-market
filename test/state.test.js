@@ -16,3 +16,9 @@ test('available by default', () => {
 test('unknown when no status label', () => {
   assert.strictEqual(deriveStatus(['매물'], cfg), 'unknown');
 });
+test('negotiating when 네고중 label present (below reserved, above available)', () => {
+  const c = { labels: { ...cfg.labels, negotiating: '네고중' } };
+  assert.strictEqual(deriveStatus(['매물', '네고중'], c), 'negotiating');
+  assert.strictEqual(deriveStatus(['예약금 대기중', '네고중'], c), 'reserved');
+  assert.strictEqual(deriveStatus(['구매 가능', '네고중'], c), 'negotiating');
+});

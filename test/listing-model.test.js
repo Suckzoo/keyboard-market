@@ -34,6 +34,18 @@ test('price-unknown listing maps price to 가격 미정 with the note', () => {
   assert.strictEqual(m.note, PRICE_UNKNOWN);
 });
 
+test('negotiated listing shows negotiated price with 🤝 and legend note', () => {
+  const { NEGOTIATED_EMOJI } = require('../scripts/lib/pricing');
+  const issue = {
+    number: 5, title: 'Q1', html_url: 'u',
+    labels: [{ name: '매물' }, { name: '예약금 대기중' }],
+    body: '<!-- market-listing: {"id":"5","price":"150,000원","negotiatedPrice":"120,000원"} -->',
+  };
+  const m = toListingModel(issue, config);
+  assert.strictEqual(m.price, `120,000원 ${NEGOTIATED_EMOJI}`);
+  assert.match(m.note, /네고/);
+});
+
 test('legacy price-unknown marker still maps to 가격 미정 with the current note', () => {
   const issue = {
     number: 15, title: '15번', html_url: 'u',

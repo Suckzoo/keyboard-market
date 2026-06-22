@@ -23,7 +23,7 @@ const README = '# 장터\n<!-- BOARD:START -->\nOLD\n<!-- BOARD:END -->\n';
 
 test('writes a new README when the board changes', async () => {
   const issues = [{
-    number: 12, title: 'Keychron Q1', html_url: 'u12',
+    number: 12, title: 'Keychron Q1', html_url: 'u12', user: { login: 'Suckzoo' },
     labels: [{ name: '매물' }, { name: '구매 가능' }],
     body: '<!-- market-listing: {"price":"120,000"} -->',
   }];
@@ -39,12 +39,12 @@ test('writes a new README when the board changes', async () => {
 test('excludes [Test Purpose] issues from the board', async () => {
   const issues = [
     {
-      number: 1, title: '[Test Purpose] Dummy', html_url: 'u1',
+      number: 1, title: '[Test Purpose] Dummy', html_url: 'u1', user: { login: 'Suckzoo' },
       labels: [{ name: '매물' }, { name: '구매 가능' }],
       body: '<!-- market-listing: {"price":"1"} -->',
     },
     {
-      number: 2, title: 'Real Listing', html_url: 'u2',
+      number: 2, title: 'Real Listing', html_url: 'u2', user: { login: 'Suckzoo' },
       labels: [{ name: '매물' }, { name: '구매 가능' }],
       body: '<!-- market-listing: {"price":"2"} -->',
     },
@@ -56,9 +56,23 @@ test('excludes [Test Purpose] issues from the board', async () => {
   assert.doesNotMatch(written, /Dummy/);
 });
 
+test('excludes issues authored by non-owner', async () => {
+  const issues = [
+    { number: 3, title: 'Owner Item', html_url: 'u3', user: { login: 'Suckzoo' },
+      labels: [{ name: '매물' }, { name: '구매 가능' }], body: '<!-- market-listing: {"price":"1"} -->' },
+    { number: 4, title: 'Stranger Item', html_url: 'u4', user: { login: 'stranger' },
+      labels: [{ name: '매물' }, { name: '구매 가능' }], body: '<!-- market-listing: {"price":"2"} -->' },
+  ];
+  const { github, calls } = fakeGithub(issues, README);
+  await run({ github, context, configPath });
+  const written = Buffer.from(calls.find((c) => c[0] === 'put')[1].content, 'base64').toString('utf8');
+  assert.match(written, /Owner Item/);
+  assert.doesNotMatch(written, /Stranger Item/);
+});
+
 test('does not write when the board is unchanged', async () => {
   const issues = [{
-    number: 12, title: 'Keychron Q1', html_url: 'u12',
+    number: 12, title: 'Keychron Q1', html_url: 'u12', user: { login: 'Suckzoo' },
     labels: [{ name: '매물' }, { name: '구매 가능' }],
     body: '<!-- market-listing: {"price":"120,000"} -->',
   }];

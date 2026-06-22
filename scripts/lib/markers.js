@@ -36,6 +36,7 @@ function readState(body) {
     reservedAt: s.reservedAt ?? null,
     availableSince: s.availableSince ?? null,
     paidClaimedAt: s.paidClaimedAt ?? null,
+    acceptedNegotiationCommentId: s.acceptedNegotiationCommentId ?? null,
   };
 }
 

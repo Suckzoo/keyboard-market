@@ -1,8 +1,10 @@
 {
+  "owner": "Suckzoo",
   "openAt": "2026-06-24T12:00:00+09:00",
   "closeAt": "2026-07-01T12:00:00+09:00",
   "keyword": "#구매신청",
   "paidKeyword": "#입금완료",
+  "negotiateKeyword": "#네고희망",
   "reservationHours": 3,
   "formBaseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdaATeLG6BFlXNkfdTNgKqNVfh3sCEh7j_3KRVtfEf1AwdnrA/viewform",
   "formIssueEntryId": "entry.998374622",
@@ -19,6 +21,7 @@
     "scope": "매물",
     "available": "구매 가능",
     "reserved": "예약금 대기중",
+    "negotiating": "네고중",
     "paid": "입금 확인 완료"
   }
 }

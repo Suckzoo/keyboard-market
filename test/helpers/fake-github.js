@@ -1,4 +1,4 @@
-function makeFakeGithub({ comments = [], issue = {} } = {}) {
+function makeFakeGithub({ comments = [], issue = {}, reactionsByComment = {} } = {}) {
   const calls = [];
   const rest = {
     issues: {
@@ -8,6 +8,10 @@ function makeFakeGithub({ comments = [], issue = {} } = {}) {
       removeLabel: async (p) => { calls.push(['removeLabel', p]); return { data: {} }; },
       get: async () => ({ data: issue }),
       update: async (p) => { calls.push(['update', p]); Object.assign(issue, p); return { data: {} }; },
+    },
+    reactions: {
+      listForIssueComment: async ({ comment_id }) => ({ data: reactionsByComment[comment_id] || [] }),
+      createForIssueComment: async (p) => { calls.push(['createReaction', p]); return { data: {} }; },
     },
   };
   const github = { rest, paginate: async (fn, params) => (await fn(params)).data };
