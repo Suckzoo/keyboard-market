@@ -80,7 +80,7 @@
 
 ## 🙋 예약 없이 참가
 
-예약 없이 행사에 단순 방문하고 싶으신 분은 **[예약 없이 참가 희망](https://github.com/Suckzoo/keyboard-market/issues/68)** 이슈에 댓글로 신청해 주세요.
+예약 없이 행사에 단순 방문하고 싶으신 분은 **[예약 없이 참가 신청 폼](https://docs.google.com/forms/d/e/1FAIpQLSflLBCiWlVHLb-mANOiMPtGJYMEzXhNZixEBX6zx0J6A0BwOQ/viewform?usp=publish-editor)** 을 제출해 주세요.
 행사장에는 키캡, 스위치 등 현장에서 바로 가져가실 수 있는 다양한 물건의 판매와 나눔이 예정되어 있습니다. **[(나눔 물품 예시)](https://github.com/Suckzoo/keyboard-market/issues/70)**
 
 나눔 물품의 경우 시간대별로 랜덤하게 물품을 준비해서 배치할 예정입니다.
@@ -88,6 +88,7 @@
 
 - 예약(선입금)하신 분들에 비해 **초청 우선순위가 낮습니다.**
 - 주최 측 사정(현장 수용 인원 등)에 따라 **선착순으로 마감**될 수 있습니다.
+- 확정 여부는 추후 이메일로 안내드립니다.
 
 ## 📨 문의
 
