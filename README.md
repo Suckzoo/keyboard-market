@@ -207,7 +207,7 @@ tjkj555+keyboards@gmail.com
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 104 | DCS WYSE | 80,000원 | 🟢 구매 가능 | - | [#78](https://github.com/Suckzoo/keyboard-market/issues/78) |
 | 105 | DCS Intro Beige & WoB | 100,000원 | 🟢 구매 가능 | - | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
-| 106 | GMK MTNU Modern Dolch Light | 100,000원 | 🟢 구매 가능 | - | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
+| 106 | GMK Muted | 100,000원 | 🟢 구매 가능 | - | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 107 | GMK Modo Light MTNU | 100,000원 | 🟢 구매 가능 | - | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
 | 108 | GMK Zooted | 90,000원 | 🟢 구매 가능 | - | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
