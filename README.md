@@ -145,7 +145,7 @@ tjkj555+keyboards@gmail.com
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 46 | Matias Mini Tactile Pro | 40,000원 | 🟢 구매 가능 | - | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 47 | FLX virgo | 350,000원 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
-| 48 | 4GT Silhouette | 250,000원 | 🟢 구매 가능 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
+| 48 | 4GT Silhouette 추정 | 250,000원 | 🟢 구매 가능 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 49 | TENET70 | 350,000원 | 🟢 구매 가능 | - | [#45](https://github.com/Suckzoo/keyboard-market/issues/45) |
 | 50 | Crush 80 추정 / 실물 확인 필요 | 가격 미정 | 🟢 구매 가능 | - | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 51 | tx1800 | 160,000원 | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
