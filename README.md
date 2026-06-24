@@ -217,10 +217,10 @@ tjkj555+keyboards@gmail.com
 | 106 | GMK Muted | 100,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 6 | Owlab Link65 | 170,000원 | 🔵 예약금 확인중 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
 | 21 | 루버제인 그레이 | 850,000원 | 🔵 예약금 확인중 | @cksgns0801 | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
-| 28 | QK 101 | 200,000원 | 🔵 예약금 확인중 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
 | 60 | Vault 35 추정 | 100,000원 | 🔵 예약금 확인중 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
 | 100 | PBTFans 1984 | 50,000원 | 🔵 예약금 확인중 | @creaitr | [#74](https://github.com/Suckzoo/keyboard-market/issues/74) |
 | 107 | GMK Modo Light MTNU | 100,000원 | 🔵 예약금 확인중 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
+| 28 | QK 101 | 200,000원 | ✅ 판매 완료 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
 
 **비고**
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
