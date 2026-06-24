@@ -205,12 +205,11 @@ tjkj555+keyboards@gmail.com
 | 112 | GMK Burgundy | 가격 미정 | 🟠 네고중 | - | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 117 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 5 | ABKO AR61D | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
-| 8 | Mode Encore | 200,000원 | 🟡 예약금 대기중 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 38 | TX 87 v1 추정 | 160,000원 | 🟡 예약금 대기중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 66 | RO75 | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
-| 61 | LZ Octagon V2 추정 | 120,000원 | 🔵 예약금 확인중 | @cksgns0801 | [#56](https://github.com/Suckzoo/keyboard-market/issues/56) |
+| 8 | Mode Encore | 200,000원 | 🔵 예약금 확인중 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 68 | LZ-CLSm (상태불량) | 50,000원 | 🔵 예약금 확인중 | @cksgns0801 | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
 | 71 | LZ CLS | 500,000원 | 🔵 예약금 확인중 | @cksgns0801 | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
 | 105 | DCS Intro Beige & WoB | 100,000원 | 🔵 예약금 확인중 | @cksgns0801 | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
@@ -219,6 +218,7 @@ tjkj555+keyboards@gmail.com
 | 21 | 루버제인 그레이 | 850,000원 | ✅ 판매 완료 | @cksgns0801 | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
 | 28 | QK 101 | 200,000원 | ✅ 판매 완료 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
 | 60 | Vault 35 추정 | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
+| 61 | LZ Octagon V2 추정 | 120,000원 | ✅ 판매 완료 | @cksgns0801 | [#56](https://github.com/Suckzoo/keyboard-market/issues/56) |
 | 100 | PBTFans 1984 | 50,000원 | ✅ 판매 완료 | @creaitr | [#74](https://github.com/Suckzoo/keyboard-market/issues/74) |
 | 107 | GMK Modo Light MTNU | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
 
