@@ -143,7 +143,6 @@ tjkj555+keyboards@gmail.com
 | 11 | TX87 V1 anodized pink TKL | 200,000원 | 🟢 구매 가능 | - | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
 | 12 | TX PAD pink | 80,000원 | 🟢 구매 가능 | - | [#11](https://github.com/Suckzoo/keyboard-market/issues/11) |
 | 14 | Lucky65 | 50,000원 | 🟢 구매 가능 | - | [#13](https://github.com/Suckzoo/keyboard-market/issues/13) |
-| 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟢 구매 가능 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 16 | XVX L75 Air | 50,000원 | 🟢 구매 가능 | - | [#15](https://github.com/Suckzoo/keyboard-market/issues/15) |
 | 17 | DOMIKEY LABY81 | 250,000원 | 🟢 구매 가능 | - | [#16](https://github.com/Suckzoo/keyboard-market/issues/16) |
 | 20 | GMMK numpad | 80,000원 | 🟢 구매 가능 | - | [#19](https://github.com/Suckzoo/keyboard-market/issues/19) |
@@ -174,6 +173,7 @@ tjkj555+keyboards@gmail.com
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
+| 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟠 네고중 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 29 | Geon W1-AT | 300,000원 | 🟠 네고중 | - | [#27](https://github.com/Suckzoo/keyboard-market/issues/27) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
