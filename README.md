@@ -156,7 +156,6 @@ tjkj555+keyboards@gmail.com
 | 29 | Geon W1-AT | 300,000원 | 🟢 구매 가능 | - | [#27](https://github.com/Suckzoo/keyboard-market/issues/27) |
 | 31 | Tactile Pro | 100,000원 | 🟢 구매 가능 | - | [#28](https://github.com/Suckzoo/keyboard-market/issues/28) |
 | 32 | G80-3422LAMIT 추정 | 가격 미정 | 🟢 구매 가능 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
-| 33 | CHERRY G80-1813 | 가격 미정 | 🟢 구매 가능 | - | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 34 | CHERRY G80-8113 | 가격 미정 | 🟢 구매 가능 | - | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
 | 36 | CHERRY G80-3000 | 가격 미정 | 🟢 구매 가능 | - | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 39 | TX 87 v1 추정 | 160,000원 | 🟢 구매 가능 | - | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
@@ -199,6 +198,7 @@ tjkj555+keyboards@gmail.com
 | 118 | GMK white blue | 가격 미정 | 🟢 구매 가능 | - | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 가격 미정 | 🟠 네고중 | - | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 가격 미정 | 🟠 네고중 | - | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
+| 33 | CHERRY G80-1813 | 가격 미정 | 🟠 네고중 | - | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 35 | Versakey Quest | 가격 미정 | 🟠 네고중 | - | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 37 | 37번 키보드 | 가격 미정 | 🟠 네고중 | - | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 63 | LZSQ? | 가격 미정 | 🟠 네고중 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
