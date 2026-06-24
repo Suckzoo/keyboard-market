@@ -159,7 +159,6 @@ tjkj555+keyboards@gmail.com
 | 41 | TX 87 v1 추정 | 160,000원 | 🟢 구매 가능 | - | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
 | 42 | ND75 | 40,000원 | 🟢 구매 가능 | - | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
-| 47 | 4GT Sabre | 450,000원 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
 | 49 | TENET70 | 350,000원 | 🟢 구매 가능 | - | [#45](https://github.com/Suckzoo/keyboard-market/issues/45) |
 | 50 | Crush 80 추정 / 실물 확인 필요 | 가격 미정 | 🟢 구매 가능 | - | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 51 | tx1800 | 160,000원 | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
@@ -179,6 +178,7 @@ tjkj555+keyboards@gmail.com
 | 13 | Paper80 | 200,000원 | 🟠 네고중 | - | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 400,000원 | 🟠 네고중 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 39 | TX 87 v1 추정 | 160,000원 | 🟠 네고중 | - | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
+| 47 | 4GT Sabre | 450,000원 | 🟠 네고중 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
 | 48 | 4GT Silhouette 추정 | 250,000원 | 🟠 네고중 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 53 | al.bok 추정 | 250,000원 | 🟠 네고중 | - | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 600,000원 | 🟠 네고중 | - | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
