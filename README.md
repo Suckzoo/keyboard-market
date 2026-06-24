@@ -178,7 +178,6 @@ tjkj555+keyboards@gmail.com
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | 🟡 예약금 대기중 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 13 | Paper80 | 140,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟡 예약금 대기중 | @grand2234 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
-| 39 | TX 87 v1 추정 | 120,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | 🟡 예약금 대기중 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 56 | tex yoda | 100,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 108 | GMK Zooted | 80,000원 🤝 | 🟡 예약금 대기중 | @kanghojae | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
@@ -192,6 +191,7 @@ tjkj555+keyboards@gmail.com
 | 35 | Versakey Quest | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 37 | 37번 키보드 | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 38 | TX 87 v1 추정 | 160,000원 | 🔵 예약금 확인중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
+| 39 | TX 87 v1 추정 | 120,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 43 | Paper80 | 200,000원 | 🔵 예약금 확인중 | @thisishoonlee | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
 | 46 | Matias Mini Tactile Pro | 40,000원 | 🔵 예약금 확인중 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 53 | al.bok 추정 | 250,000원 | 🔵 예약금 확인중 | @bjwoohil | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
