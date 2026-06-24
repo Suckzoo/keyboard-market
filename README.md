@@ -196,7 +196,6 @@ tjkj555+keyboards@gmail.com
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 64 | 356MINI | 3,000,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
-| 112 | GMK Burgundy | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
@@ -204,6 +203,7 @@ tjkj555+keyboards@gmail.com
 | 37 | 37번 키보드 | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 46 | Matias Mini Tactile Pro | 40,000원 | 🔵 예약금 확인중 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 59 | Macintosh Apple M0110 | 100,000원 | 🔵 예약금 확인중 | @hyemin-ht-kang | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
+| 112 | GMK Burgundy | 100,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 115 | GMK white blue (사용품) | 70,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 117 | GMK white blue | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 118 | GMK white blue | 100,000원 🤝 | 🔵 예약금 확인중 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
