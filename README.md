@@ -181,7 +181,6 @@ tjkj555+keyboards@gmail.com
 | 56 | tex yoda | 100,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 108 | GMK Zooted | 80,000원 🤝 | 🟡 예약금 대기중 | @kanghojae | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
 | 110 | GMK Metropolis | 70,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
-| 111 | GMK Solarized Dark | 170,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 113 | GMK Carbon | 200,000원 🤝 | 🟡 예약금 대기중 | @LIPHON | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | 🔵 예약금 확인중 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
@@ -201,6 +200,7 @@ tjkj555+keyboards@gmail.com
 | 64 | 356MINI | 3,000,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
 | 72 | NCR 80 추정 | 150,000원 | 🔵 예약금 확인중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
 | 104 | DCS WYSE | 80,000원 | 🔵 예약금 확인중 | @bjwoohil | [#78](https://github.com/Suckzoo/keyboard-market/issues/78) |
+| 111 | GMK Solarized Dark | 170,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 112 | GMK Burgundy | 100,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 115 | GMK white blue (사용품) | 70,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 116 | GMK white blue | 300,000원 🤝 | 🔵 예약금 확인중 | @RhRhcl | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
