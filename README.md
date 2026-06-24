@@ -195,20 +195,20 @@ tjkj555+keyboards@gmail.com
 | 115 | GMK white blue (사용품) | 가격 미정 | 🟢 구매 가능 | - | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 116 | GMK white blue | 가격 미정 | 🟢 구매 가능 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 118 | GMK white blue | 가격 미정 | 🟢 구매 가능 | - | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
-| 9 | Glare tkl 추정 / 실물 확인 필요 | 가격 미정 | 🟠 네고중 | - | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
-| 18 | LZ RV 추정 / 실물 확인 필요 | 가격 미정 | 🟠 네고중 | - | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
-| 33 | CHERRY G80-1813 | 가격 미정 | 🟠 네고중 | - | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
-| 35 | Versakey Quest | 가격 미정 | 🟠 네고중 | - | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
-| 37 | 37번 키보드 | 가격 미정 | 🟠 네고중 | - | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 63 | LZSQ? | 가격 미정 | 🟠 네고중 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 64 | 356MINI | 가격 미정 | 🟠 네고중 | - | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
-| 112 | GMK Burgundy | 가격 미정 | 🟠 네고중 | - | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 117 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 5 | ABKO AR61D | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
+| 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
+| 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
+| 33 | CHERRY G80-1813 | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
+| 35 | Versakey Quest | 100,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
+| 37 | 37번 키보드 | 100,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 38 | TX 87 v1 추정 | 160,000원 | 🟡 예약금 대기중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 66 | RO75 | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
+| 112 | GMK Burgundy | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 6 | Owlab Link65 | 170,000원 | ✅ 판매 완료 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
 | 8 | Mode Encore | 200,000원 | ✅ 판매 완료 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 21 | 루버제인 그레이 | 850,000원 | ✅ 판매 완료 | @cksgns0801 | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
@@ -224,4 +224,5 @@ tjkj555+keyboards@gmail.com
 
 **비고**
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
+- 🤝 = 네고로 조정된 가격
 <!-- BOARD:END -->
