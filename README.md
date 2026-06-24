@@ -211,7 +211,6 @@ tjkj555+keyboards@gmail.com
 | 28 | QK 101 | 200,000원 | 🟡 예약금 대기중 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
 | 38 | TX 87 v1 추정 | 160,000원 | 🟡 예약금 대기중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
-| 60 | Vault 35 추정 | 100,000원 | 🟡 예약금 대기중 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
 | 61 | LZ Octagon V2 추정 | 120,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#56](https://github.com/Suckzoo/keyboard-market/issues/56) |
 | 66 | RO75 | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
 | 68 | LZ-CLSm (상태불량) | 50,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
@@ -220,6 +219,7 @@ tjkj555+keyboards@gmail.com
 | 105 | DCS Intro Beige & WoB | 100,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
 | 106 | GMK Muted | 100,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 107 | GMK Modo Light MTNU | 100,000원 | 🟡 예약금 대기중 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
+| 60 | Vault 35 추정 | 100,000원 | 🔵 예약금 확인중 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
 
 **비고**
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
