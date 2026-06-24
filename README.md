@@ -137,7 +137,6 @@ tjkj555+keyboards@gmail.com
 <!-- BOARD:START -->
 | PID | 매물 | 가격 | 상태 | 예약자 | 이슈 |
 |---|---|---|---|---|---|
-| 3 | Jay Studio Radio75 | 150,000원 | 🟢 구매 가능 | - | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 7 | mm studio class 1800 | 350,000원 | 🟢 구매 가능 | - | [#7](https://github.com/Suckzoo/keyboard-market/issues/7) |
 | 11 | TX87 V1 anodized pink TKL | 200,000원 | 🟢 구매 가능 | - | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
 | 12 | TX PAD pink | 80,000원 | 🟢 구매 가능 | - | [#11](https://github.com/Suckzoo/keyboard-market/issues/11) |
@@ -174,6 +173,7 @@ tjkj555+keyboards@gmail.com
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
+| 3 | Jay Studio Radio75 | 150,000원 | 🟠 네고중 | - | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 13 | Paper80 | 200,000원 | 🟠 네고중 | - | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 400,000원 | 🟠 네고중 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 36 | CHERRY G80-3000 | 가격 미정 | 🟠 네고중 | - | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
