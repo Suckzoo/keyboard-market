@@ -180,11 +180,11 @@ tjkj555+keyboards@gmail.com
 | 108 | GMK Zooted | 80,000원 🤝 | 🟡 예약금 대기중 | @kanghojae | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
 | 113 | GMK Carbon | 200,000원 🤝 | 🟡 예약금 대기중 | @LIPHON | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | 🔵 예약금 확인중 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
-| 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 6 | Owlab Link65 | 170,000원 | ✅ 판매 완료 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
 | 8 | Mode Encore | 200,000원 | ✅ 판매 완료 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
+| 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | ✅ 판매 완료 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 21 | 루버제인 그레이 | 850,000원 | ✅ 판매 완료 | @cksgns0801 | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
