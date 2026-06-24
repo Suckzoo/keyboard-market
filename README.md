@@ -199,7 +199,6 @@ tjkj555+keyboards@gmail.com
 | 5 | ABKO AR61D | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
-| 19 | Rainy75 | 50,000원 | 🟡 예약금 대기중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 33 | CHERRY G80-1813 | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 35 | Versakey Quest | 100,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 37 | 37번 키보드 | 100,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
@@ -208,6 +207,7 @@ tjkj555+keyboards@gmail.com
 | 66 | RO75 | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
 | 112 | GMK Burgundy | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
+| 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 59 | Macintosh Apple M0110 | 100,000원 | 🔵 예약금 확인중 | @hyemin-ht-kang | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
 | 6 | Owlab Link65 | 170,000원 | ✅ 판매 완료 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
 | 8 | Mode Encore | 200,000원 | ✅ 판매 완료 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
