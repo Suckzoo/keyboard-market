@@ -137,7 +137,6 @@ tjkj555+keyboards@gmail.com
 <!-- BOARD:START -->
 | PID | 매물 | 가격 | 상태 | 예약자 | 이슈 |
 |---|---|---|---|---|---|
-| 1 | ASUS ROG Azoth | 150,000원 | 🟢 구매 가능 | - | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 150,000원 | 🟢 구매 가능 | - | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 7 | mm studio class 1800 | 350,000원 | 🟢 구매 가능 | - | [#7](https://github.com/Suckzoo/keyboard-market/issues/7) |
 | 11 | TX87 V1 anodized pink TKL | 200,000원 | 🟢 구매 가능 | - | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
@@ -189,6 +188,7 @@ tjkj555+keyboards@gmail.com
 | 111 | GMK Solarized Dark | 가격 미정 | 🟢 구매 가능 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 113 | GMK Carbon | 가격 미정 | 🟢 구매 가능 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
+| 1 | ASUS ROG Azoth | 150,000원 | 🟠 네고중 | - | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 63 | LZSQ? | 가격 미정 | 🟠 네고중 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 115 | GMK white blue (사용품) | 가격 미정 | 🟠 네고중 | - | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 116 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
