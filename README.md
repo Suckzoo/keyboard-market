@@ -194,10 +194,10 @@ tjkj555+keyboards@gmail.com
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 115 | GMK white blue (사용품) | 가격 미정 | 🟢 구매 가능 | - | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 116 | GMK white blue | 가격 미정 | 🟢 구매 가능 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
-| 118 | GMK white blue | 가격 미정 | 🟢 구매 가능 | - | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
 | 63 | LZSQ? | 가격 미정 | 🟠 네고중 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 64 | 356MINI | 가격 미정 | 🟠 네고중 | - | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
 | 117 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
+| 118 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
 | 5 | ABKO AR61D | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
