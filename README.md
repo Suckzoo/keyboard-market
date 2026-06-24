@@ -158,6 +158,7 @@ tjkj555+keyboards@gmail.com
 | 36 | CHERRY G80-3000 | 가격 미정 | 🟢 구매 가능 | - | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 40 | TX 87 v1 추정 | 160,000원 | 🟢 구매 가능 | - | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
 | 41 | TX 87 v1 추정 | 160,000원 | 🟢 구매 가능 | - | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
+| 42 | ND75 | 40,000원 | 🟢 구매 가능 | - | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 47 | 4GT Sabre | 450,000원 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
 | 49 | TENET70 | 350,000원 | 🟢 구매 가능 | - | [#45](https://github.com/Suckzoo/keyboard-market/issues/45) |
@@ -189,7 +190,6 @@ tjkj555+keyboards@gmail.com
 | 113 | GMK Carbon | 가격 미정 | 🟠 네고중 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 116 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | 🟡 예약금 대기중 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
-| 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
