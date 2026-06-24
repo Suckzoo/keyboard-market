@@ -190,7 +190,6 @@ tjkj555+keyboards@gmail.com
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 110 | GMK Metropolis | 100,000원 | 🟢 구매 가능 | - | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
 | 111 | GMK Solarized Dark | 가격 미정 | 🟢 구매 가능 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
-| 112 | GMK Burgundy | 가격 미정 | 🟢 구매 가능 | - | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 113 | GMK Carbon | 가격 미정 | 🟢 구매 가능 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 115 | GMK white blue (사용품) | 가격 미정 | 🟢 구매 가능 | - | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
@@ -203,6 +202,7 @@ tjkj555+keyboards@gmail.com
 | 37 | 37번 키보드 | 가격 미정 | 🟠 네고중 | - | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 63 | LZSQ? | 가격 미정 | 🟠 네고중 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 64 | 356MINI | 가격 미정 | 🟠 네고중 | - | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
+| 112 | GMK Burgundy | 가격 미정 | 🟠 네고중 | - | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
 | 117 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 5 | ABKO AR61D | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 6 | Owlab Link65 | 170,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
