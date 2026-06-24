@@ -174,10 +174,10 @@ tjkj555+keyboards@gmail.com
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
-| 36 | CHERRY G80-3000 | 가격 미정 | 🟠 네고중 | - | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | 🟡 예약금 대기중 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 13 | Paper80 | 140,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟡 예약금 대기중 | @grand2234 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
+| 36 | CHERRY G80-3000 | 50,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | 🟡 예약금 대기중 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 56 | tex yoda | 100,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 108 | GMK Zooted | 80,000원 🤝 | 🟡 예약금 대기중 | @kanghojae | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
