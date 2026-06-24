@@ -209,8 +209,8 @@ tjkj555+keyboards@gmail.com
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 66 | RO75 | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
-| 8 | Mode Encore | 200,000원 | 🔵 예약금 확인중 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 6 | Owlab Link65 | 170,000원 | ✅ 판매 완료 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
+| 8 | Mode Encore | 200,000원 | ✅ 판매 완료 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 21 | 루버제인 그레이 | 850,000원 | ✅ 판매 완료 | @cksgns0801 | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
 | 28 | QK 101 | 200,000원 | ✅ 판매 완료 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
 | 60 | Vault 35 추정 | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
