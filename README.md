@@ -174,7 +174,6 @@ tjkj555+keyboards@gmail.com
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
-| 3 | Jay Studio Radio75 | 120,000원 🤝 | 🟡 예약금 대기중 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 13 | Paper80 | 140,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟡 예약금 대기중 | @grand2234 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 36 | CHERRY G80-3000 | 50,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
@@ -184,6 +183,7 @@ tjkj555+keyboards@gmail.com
 | 110 | GMK Metropolis | 70,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
 | 111 | GMK Solarized Dark | 170,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 113 | GMK Carbon | 200,000원 🤝 | 🟡 예약금 대기중 | @LIPHON | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
+| 3 | Jay Studio Radio75 | 120,000원 🤝 | 🔵 예약금 확인중 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
