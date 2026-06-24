@@ -187,12 +187,12 @@ tjkj555+keyboards@gmail.com
 | 110 | GMK Metropolis | 100,000원 | 🟢 구매 가능 | - | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
 | 111 | GMK Solarized Dark | 가격 미정 | 🟢 구매 가능 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
-| 63 | LZSQ? | 가격 미정 | 🟠 네고중 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 113 | GMK Carbon | 가격 미정 | 🟠 네고중 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 116 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | 🟡 예약금 대기중 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 33 | CHERRY G80-1813 | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
+| 63 | LZSQ? | 510,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
