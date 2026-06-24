@@ -175,7 +175,6 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
-| 104 | DCS WYSE | 80,000원 | 🟢 구매 가능 | - | [#78](https://github.com/Suckzoo/keyboard-market/issues/78) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 15 | MONOKEI x TGR Tomo | 400,000원 | 🟠 네고중 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
@@ -184,6 +183,7 @@ tjkj555+keyboards@gmail.com
 | 53 | al.bok 추정 | 250,000원 | 🟠 네고중 | - | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 600,000원 | 🟠 네고중 | - | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
 | 56 | tex yoda | 150,000원 | 🟠 네고중 | - | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
+| 104 | DCS WYSE | 80,000원 | 🟠 네고중 | - | [#78](https://github.com/Suckzoo/keyboard-market/issues/78) |
 | 108 | GMK Zooted | 90,000원 | 🟠 네고중 | - | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
 | 110 | GMK Metropolis | 100,000원 | 🟠 네고중 | - | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
 | 111 | GMK Solarized Dark | 가격 미정 | 🟠 네고중 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
