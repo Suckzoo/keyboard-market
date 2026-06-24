@@ -166,7 +166,6 @@ tjkj555+keyboards@gmail.com
 | 51 | tx1800 | 160,000원 | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
 | 52 | 52번 키보드 | 가격 미정 | 🟢 구매 가능 | - | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
 | 55 | STARS80 | 50,000원 | 🟢 구매 가능 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
-| 56 | tex yoda | 150,000원 | 🟢 구매 가능 | - | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 58 | tx cp 추정 | 250,000원 | 🟢 구매 가능 | - | [#53](https://github.com/Suckzoo/keyboard-market/issues/53) |
 | 62 | Orbit | 450,000원 | 🟢 구매 가능 | - | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 65 | Transition Lite | 50,000원 | 🟢 구매 가능 | - | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
@@ -185,6 +184,7 @@ tjkj555+keyboards@gmail.com
 | 48 | 4GT Silhouette 추정 | 250,000원 | 🟠 네고중 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 53 | al.bok 추정 | 250,000원 | 🟠 네고중 | - | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 600,000원 | 🟠 네고중 | - | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
+| 56 | tex yoda | 150,000원 | 🟠 네고중 | - | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 108 | GMK Zooted | 90,000원 | 🟠 네고중 | - | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
 | 111 | GMK Solarized Dark | 가격 미정 | 🟠 네고중 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 113 | GMK Carbon | 가격 미정 | 🟠 네고중 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
