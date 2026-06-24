@@ -199,7 +199,6 @@ tjkj555+keyboards@gmail.com
 | 63 | LZSQ? | 510,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 64 | 356MINI | 3,000,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
 | 72 | NCR 80 추정 | 150,000원 | 🔵 예약금 확인중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
-| 104 | DCS WYSE | 80,000원 | 🔵 예약금 확인중 | @bjwoohil | [#78](https://github.com/Suckzoo/keyboard-market/issues/78) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 6 | Owlab Link65 | 170,000원 | ✅ 판매 완료 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
@@ -212,6 +211,7 @@ tjkj555+keyboards@gmail.com
 | 68 | LZ-CLSm (상태불량) | 50,000원 | ✅ 판매 완료 | @cksgns0801 | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
 | 71 | LZ CLS | 500,000원 | ✅ 판매 완료 | @cksgns0801 | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
 | 100 | PBTFans 1984 | 50,000원 | ✅ 판매 완료 | @creaitr | [#74](https://github.com/Suckzoo/keyboard-market/issues/74) |
+| 104 | DCS WYSE | 80,000원 | ✅ 판매 완료 | @bjwoohil | [#78](https://github.com/Suckzoo/keyboard-market/issues/78) |
 | 105 | DCS Intro Beige & WoB | 100,000원 | ✅ 판매 완료 | @cksgns0801 | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
 | 106 | GMK Muted | 100,000원 | ✅ 판매 완료 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 107 | GMK Modo Light MTNU | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
