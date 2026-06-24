@@ -151,7 +151,6 @@ tjkj555+keyboards@gmail.com
 | 25 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#23](https://github.com/Suckzoo/keyboard-market/issues/23) |
 | 26 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#24](https://github.com/Suckzoo/keyboard-market/issues/24) |
 | 27 | TX 87 v1 추정 | 160,000원 | 🟢 구매 가능 | - | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
-| 29 | Geon W1-AT | 300,000원 | 🟢 구매 가능 | - | [#27](https://github.com/Suckzoo/keyboard-market/issues/27) |
 | 31 | Tactile Pro | 100,000원 | 🟢 구매 가능 | - | [#28](https://github.com/Suckzoo/keyboard-market/issues/28) |
 | 32 | G80-3422LAMIT 추정 | 가격 미정 | 🟢 구매 가능 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
 | 34 | CHERRY G80-8113 | 가격 미정 | 🟢 구매 가능 | - | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
@@ -178,6 +177,7 @@ tjkj555+keyboards@gmail.com
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 15 | MONOKEI x TGR Tomo | 400,000원 | 🟠 네고중 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
+| 29 | Geon W1-AT | 300,000원 | 🟠 네고중 | - | [#27](https://github.com/Suckzoo/keyboard-market/issues/27) |
 | 39 | TX 87 v1 추정 | 160,000원 | 🟠 네고중 | - | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 48 | 4GT Silhouette 추정 | 250,000원 | 🟠 네고중 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 53 | al.bok 추정 | 250,000원 | 🟠 네고중 | - | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
