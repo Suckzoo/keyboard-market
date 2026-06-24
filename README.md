@@ -147,7 +147,6 @@ tjkj555+keyboards@gmail.com
 | 15 | MONOKEI x TGR Tomo | 400,000원 | 🟢 구매 가능 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 16 | XVX L75 Air | 50,000원 | 🟢 구매 가능 | - | [#15](https://github.com/Suckzoo/keyboard-market/issues/15) |
 | 17 | DOMIKEY LABY81 | 250,000원 | 🟢 구매 가능 | - | [#16](https://github.com/Suckzoo/keyboard-market/issues/16) |
-| 19 | Rainy75 | 50,000원 | 🟢 구매 가능 | - | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 20 | GMMK numpad | 80,000원 | 🟢 구매 가능 | - | [#19](https://github.com/Suckzoo/keyboard-market/issues/19) |
 | 23 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#21](https://github.com/Suckzoo/keyboard-market/issues/21) |
 | 24 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#22](https://github.com/Suckzoo/keyboard-market/issues/22) |
@@ -201,6 +200,7 @@ tjkj555+keyboards@gmail.com
 | 5 | ABKO AR61D | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
+| 19 | Rainy75 | 50,000원 | 🟡 예약금 대기중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 33 | CHERRY G80-1813 | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 35 | Versakey Quest | 100,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 37 | 37번 키보드 | 100,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
