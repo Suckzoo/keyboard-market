@@ -175,7 +175,6 @@ tjkj555+keyboards@gmail.com
 | 55 | STARS80 | 50,000원 | 🟢 구매 가능 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
 | 56 | tex yoda | 150,000원 | 🟢 구매 가능 | - | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 58 | tx cp 추정 | 250,000원 | 🟢 구매 가능 | - | [#53](https://github.com/Suckzoo/keyboard-market/issues/53) |
-| 59 | Macintosh Apple M0110 | 100,000원 | 🟢 구매 가능 | - | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
 | 62 | Orbit | 450,000원 | 🟢 구매 가능 | - | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 65 | Transition Lite | 50,000원 | 🟢 구매 가능 | - | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
 | 67 | 67번 키보드 | 가격 미정 | 🟢 구매 가능 | - | [#62](https://github.com/Suckzoo/keyboard-market/issues/62) |
@@ -206,6 +205,7 @@ tjkj555+keyboards@gmail.com
 | 37 | 37번 키보드 | 100,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 38 | TX 87 v1 추정 | 160,000원 | 🟡 예약금 대기중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
+| 59 | Macintosh Apple M0110 | 100,000원 | 🟡 예약금 대기중 | @hyemin-ht-kang | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
 | 66 | RO75 | 50,000원 | 🟡 예약금 대기중 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
 | 112 | GMK Burgundy | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
