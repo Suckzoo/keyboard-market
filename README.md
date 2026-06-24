@@ -176,7 +176,6 @@ tjkj555+keyboards@gmail.com
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 13 | Paper80 | 140,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟡 예약금 대기중 | @grand2234 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
-| 36 | CHERRY G80-3000 | 50,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | 🟡 예약금 대기중 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 56 | tex yoda | 100,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 108 | GMK Zooted | 80,000원 🤝 | 🟡 예약금 대기중 | @kanghojae | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
@@ -188,6 +187,7 @@ tjkj555+keyboards@gmail.com
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 33 | CHERRY G80-1813 | 100,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 35 | Versakey Quest | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
+| 36 | CHERRY G80-3000 | 50,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 37 | 37번 키보드 | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 38 | TX 87 v1 추정 | 160,000원 | 🔵 예약금 확인중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 39 | TX 87 v1 추정 | 120,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
