@@ -191,6 +191,7 @@ tjkj555+keyboards@gmail.com
 | 8 | Mode Encore | 200,000원 | ✅ 판매 완료 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 21 | 루버제인 그레이 | 850,000원 | ✅ 판매 완료 | @cksgns0801 | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
 | 28 | QK 101 | 200,000원 | ✅ 판매 완료 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
+| 33 | CHERRY G80-1813 | 100,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 35 | Versakey Quest | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 36 | CHERRY G80-3000 | 50,000원 🤝 | ✅ 판매 완료 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 37 | 37번 키보드 | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
@@ -220,7 +221,6 @@ tjkj555+keyboards@gmail.com
 | 116 | GMK white blue | 300,000원 🤝 | ✅ 판매 완료 | @RhRhcl | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 117 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 118 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
-| 33 | CHERRY G80-1813 | 100,000원 🤝 | ❔ | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 
 **비고**
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
