@@ -184,7 +184,6 @@ tjkj555+keyboards@gmail.com
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
-| 33 | CHERRY G80-1813 | 100,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 110 | GMK Metropolis | 70,000원 🤝 | 🔵 예약금 확인중 | @HyungdukSeo | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
@@ -221,6 +220,7 @@ tjkj555+keyboards@gmail.com
 | 116 | GMK white blue | 300,000원 🤝 | ✅ 판매 완료 | @RhRhcl | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 117 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 118 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
+| 33 | CHERRY G80-1813 | 100,000원 🤝 | ❔ | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 
 **비고**
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
