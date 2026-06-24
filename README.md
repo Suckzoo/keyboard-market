@@ -192,13 +192,13 @@ tjkj555+keyboards@gmail.com
 | 38 | TX 87 v1 추정 | 160,000원 | 🔵 예약금 확인중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 39 | TX 87 v1 추정 | 120,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 43 | Paper80 | 200,000원 | 🔵 예약금 확인중 | @thisishoonlee | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
-| 46 | Matias Mini Tactile Pro | 40,000원 | 🔵 예약금 확인중 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 6 | Owlab Link65 | 170,000원 | ✅ 판매 완료 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
 | 8 | Mode Encore | 200,000원 | ✅ 판매 완료 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 21 | 루버제인 그레이 | 850,000원 | ✅ 판매 완료 | @cksgns0801 | [#20](https://github.com/Suckzoo/keyboard-market/issues/20) |
 | 28 | QK 101 | 200,000원 | ✅ 판매 완료 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
+| 46 | Matias Mini Tactile Pro | 40,000원 | ✅ 판매 완료 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 53 | al.bok 추정 | 250,000원 | ✅ 판매 완료 | @bjwoohil | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 470,000원 🤝 | ✅ 판매 완료 | @hanian253 | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
 | 59 | Macintosh Apple M0110 | 100,000원 | ✅ 판매 완료 | @hyemin-ht-kang | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
