@@ -202,7 +202,6 @@ tjkj555+keyboards@gmail.com
 | 104 | DCS WYSE | 80,000원 | 🔵 예약금 확인중 | @bjwoohil | [#78](https://github.com/Suckzoo/keyboard-market/issues/78) |
 | 111 | GMK Solarized Dark | 170,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 112 | GMK Burgundy | 100,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
-| 115 | GMK white blue (사용품) | 70,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 116 | GMK white blue | 300,000원 🤝 | 🔵 예약금 확인중 | @RhRhcl | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
@@ -219,6 +218,7 @@ tjkj555+keyboards@gmail.com
 | 105 | DCS Intro Beige & WoB | 100,000원 | ✅ 판매 완료 | @cksgns0801 | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
 | 106 | GMK Muted | 100,000원 | ✅ 판매 완료 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 107 | GMK Modo Light MTNU | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
+| 115 | GMK white blue (사용품) | 70,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 117 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 118 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
 
