@@ -148,6 +148,7 @@ tjkj555+keyboards@gmail.com
 | 24 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#22](https://github.com/Suckzoo/keyboard-market/issues/22) |
 | 25 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#23](https://github.com/Suckzoo/keyboard-market/issues/23) |
 | 26 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#24](https://github.com/Suckzoo/keyboard-market/issues/24) |
+| 27 | TX 87 v1 추정 | 120,000원 🤝 | 🟢 구매 가능 | @Suckzoo | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
 | 29 | Geon W1-AT | 300,000원 | 🟢 구매 가능 | - | [#27](https://github.com/Suckzoo/keyboard-market/issues/27) |
 | 31 | Tactile Pro | 100,000원 | 🟢 구매 가능 | - | [#28](https://github.com/Suckzoo/keyboard-market/issues/28) |
 | 32 | G80-3422LAMIT 추정 | 가격 미정 | 🟢 구매 가능 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
@@ -173,7 +174,6 @@ tjkj555+keyboards@gmail.com
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 13 | Paper80 | 140,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟡 예약금 대기중 | @grand2234 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
-| 27 | TX 87 v1 추정 | 120,000원 🤝 | 🟡 예약금 대기중 | @Suckzoo | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
 | 40 | TX 87 v1 추정 | 120,000원 🤝 | 🟡 예약금 대기중 | @Suckzoo | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
 | 41 | TX 87 v1 추정 | 120,000원 🤝 | 🟡 예약금 대기중 | @Suckzoo | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | 🟡 예약금 대기중 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
@@ -223,6 +223,6 @@ tjkj555+keyboards@gmail.com
 | 118 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
 
 **비고**
-- 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
 - 🤝 = 네고로 조정된 가격
+- 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
 <!-- BOARD:END -->
