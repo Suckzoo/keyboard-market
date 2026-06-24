@@ -174,7 +174,7 @@ tjkj555+keyboards@gmail.com
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
-| 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
+| 114 | GMK Rubrehose | 250,000원 | 🟠 네고중 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟡 예약금 대기중 | @grand2234 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 31 | Tactile Pro | 30,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#28](https://github.com/Suckzoo/keyboard-market/issues/28) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | 🟡 예약금 대기중 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
