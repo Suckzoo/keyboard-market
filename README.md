@@ -215,11 +215,11 @@ tjkj555+keyboards@gmail.com
 | 68 | LZ-CLSm (상태불량) | 50,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
 | 71 | LZ CLS | 500,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
-| 100 | PBTFans 1984 | 50,000원 | 🟡 예약금 대기중 | @creaitr | [#74](https://github.com/Suckzoo/keyboard-market/issues/74) |
 | 105 | DCS Intro Beige & WoB | 100,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
 | 106 | GMK Muted | 100,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 28 | QK 101 | 200,000원 | 🔵 예약금 확인중 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
 | 60 | Vault 35 추정 | 100,000원 | 🔵 예약금 확인중 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
+| 100 | PBTFans 1984 | 50,000원 | 🔵 예약금 확인중 | @creaitr | [#74](https://github.com/Suckzoo/keyboard-market/issues/74) |
 | 107 | GMK Modo Light MTNU | 100,000원 | 🔵 예약금 확인중 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
 
 **비고**
