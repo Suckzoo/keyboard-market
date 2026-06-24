@@ -191,13 +191,13 @@ tjkj555+keyboards@gmail.com
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | 🟡 예약금 대기중 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 33 | CHERRY G80-1813 | 100,000원 🤝 | 🟡 예약금 대기중 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
 | 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @creaitr | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
-| 43 | Paper80 | 200,000원 | 🟡 예약금 대기중 | @thisishoonlee | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 35 | Versakey Quest | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 37 | 37번 키보드 | 100,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 38 | TX 87 v1 추정 | 160,000원 | 🔵 예약금 확인중 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
+| 43 | Paper80 | 200,000원 | 🔵 예약금 확인중 | @thisishoonlee | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
 | 46 | Matias Mini Tactile Pro | 40,000원 | 🔵 예약금 확인중 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 59 | Macintosh Apple M0110 | 100,000원 | 🔵 예약금 확인중 | @hyemin-ht-kang | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
 | 63 | LZSQ? | 510,000원 🤝 | 🔵 예약금 확인중 | @donate0204 | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
