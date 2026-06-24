@@ -183,9 +183,9 @@ tjkj555+keyboards@gmail.com
 | 108 | GMK Zooted | 90,000원 | 🟢 구매 가능 | - | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 110 | GMK Metropolis | 100,000원 | 🟢 구매 가능 | - | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
-| 111 | GMK Solarized Dark | 가격 미정 | 🟢 구매 가능 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 54 | Cloudnine | 600,000원 | 🟠 네고중 | - | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
+| 111 | GMK Solarized Dark | 가격 미정 | 🟠 네고중 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 113 | GMK Carbon | 가격 미정 | 🟠 네고중 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 116 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | 🟡 예약금 대기중 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
