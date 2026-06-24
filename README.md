@@ -190,9 +190,9 @@ tjkj555+keyboards@gmail.com
 | 111 | GMK Solarized Dark | 가격 미정 | 🟢 구매 가능 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 113 | GMK Carbon | 가격 미정 | 🟢 구매 가능 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
-| 115 | GMK white blue (사용품) | 가격 미정 | 🟢 구매 가능 | - | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 63 | LZSQ? | 가격 미정 | 🟠 네고중 | - | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 64 | 356MINI | 가격 미정 | 🟠 네고중 | - | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
+| 115 | GMK white blue (사용품) | 가격 미정 | 🟠 네고중 | - | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 116 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
 | 117 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 118 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
