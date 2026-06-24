@@ -152,7 +152,6 @@ tjkj555+keyboards@gmail.com
 | 31 | Tactile Pro | 100,000원 | 🟢 구매 가능 | - | [#28](https://github.com/Suckzoo/keyboard-market/issues/28) |
 | 32 | G80-3422LAMIT 추정 | 가격 미정 | 🟢 구매 가능 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
 | 34 | CHERRY G80-8113 | 가격 미정 | 🟢 구매 가능 | - | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
-| 40 | TX 87 v1 추정 | 160,000원 | 🟢 구매 가능 | - | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
 | 42 | ND75 | 40,000원 | 🟢 구매 가능 | - | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 47 | 4GT Sabre | 350,000원 🤝 | 🟢 구매 가능 | @Suckzoo | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
@@ -173,6 +172,7 @@ tjkj555+keyboards@gmail.com
 | 109 | GMK Olivia N3 | 120,000원 | 🟢 구매 가능 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 114 | GMK Rubrehose | 250,000원 | 🟢 구매 가능 | - | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 27 | TX 87 v1 추정 | 160,000원 | 🟠 네고중 | - | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
+| 40 | TX 87 v1 추정 | 160,000원 | 🟠 네고중 | - | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
 | 41 | TX 87 v1 추정 | 160,000원 | 🟠 네고중 | - | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
 | 13 | Paper80 | 140,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟡 예약금 대기중 | @grand2234 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
