@@ -182,7 +182,6 @@ tjkj555+keyboards@gmail.com
 | 67 | 67번 키보드 | 가격 미정 | 🟢 구매 가능 | - | [#62](https://github.com/Suckzoo/keyboard-market/issues/62) |
 | 69 | Chilkey Paw65 | 50,000원 | 🟢 구매 가능 | - | [#64](https://github.com/Suckzoo/keyboard-market/issues/64) |
 | 70 | Sin65 | 250,000원 | 🟢 구매 가능 | - | [#65](https://github.com/Suckzoo/keyboard-market/issues/65) |
-| 100 | PBTFans 1984 | 50,000원 | 🟢 구매 가능 | - | [#74](https://github.com/Suckzoo/keyboard-market/issues/74) |
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
@@ -216,6 +215,7 @@ tjkj555+keyboards@gmail.com
 | 68 | LZ-CLSm (상태불량) | 50,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
 | 71 | LZ CLS | 500,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#66](https://github.com/Suckzoo/keyboard-market/issues/66) |
 | 72 | NCR 80 추정 | 150,000원 | 🟡 예약금 대기중 | @donate0204 | [#67](https://github.com/Suckzoo/keyboard-market/issues/67) |
+| 100 | PBTFans 1984 | 50,000원 | 🟡 예약금 대기중 | @creaitr | [#74](https://github.com/Suckzoo/keyboard-market/issues/74) |
 | 105 | DCS Intro Beige & WoB | 100,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
 | 106 | GMK Muted | 100,000원 | 🟡 예약금 대기중 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 28 | QK 101 | 200,000원 | 🔵 예약금 확인중 | @gytkk | [#26](https://github.com/Suckzoo/keyboard-market/issues/26) |
