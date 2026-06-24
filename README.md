@@ -179,7 +179,7 @@ tjkj555+keyboards@gmail.com
 | 36 | CHERRY G80-3000 | 가격 미정 | 🟠 네고중 | - | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 39 | TX 87 v1 추정 | 160,000원 | 🟠 네고중 | - | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 47 | 4GT Sabre | 450,000원 | 🟠 네고중 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
-| 48 | 4GT Silhouette 추정 | 250,000원 | 🟠 네고중 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
+| 48 | 4GT Silhouette 추정 | 200,000원 🤝 | 🟡 예약금 대기중 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 56 | tex yoda | 100,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 108 | GMK Zooted | 80,000원 🤝 | 🟡 예약금 대기중 | @kanghojae | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
 | 110 | GMK Metropolis | 70,000원 🤝 | 🟡 예약금 대기중 | @HyungdukSeo | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
