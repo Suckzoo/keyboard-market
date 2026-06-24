@@ -180,7 +180,6 @@ tjkj555+keyboards@gmail.com
 | 39 | TX 87 v1 추정 | 160,000원 | 🟠 네고중 | - | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 47 | 4GT Sabre | 450,000원 | 🟠 네고중 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
 | 48 | 4GT Silhouette 추정 | 250,000원 | 🟠 네고중 | - | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
-| 53 | al.bok 추정 | 250,000원 | 🟠 네고중 | - | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 600,000원 | 🟠 네고중 | - | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
 | 56 | tex yoda | 150,000원 | 🟠 네고중 | - | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 108 | GMK Zooted | 90,000원 | 🟠 네고중 | - | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
@@ -188,6 +187,7 @@ tjkj555+keyboards@gmail.com
 | 111 | GMK Solarized Dark | 가격 미정 | 🟠 네고중 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 113 | GMK Carbon | 가격 미정 | 🟠 네고중 | - | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 116 | GMK white blue | 가격 미정 | 🟠 네고중 | - | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
+| 53 | al.bok 추정 | 250,000원 | 🟡 예약금 대기중 | @bjwoohil | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | 🔵 예약금 확인중 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
