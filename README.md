@@ -219,8 +219,8 @@ tjkj555+keyboards@gmail.com
 | 105 | DCS Intro Beige & WoB | 100,000원 | ✅ 판매 완료 | @cksgns0801 | [#79](https://github.com/Suckzoo/keyboard-market/issues/79) |
 | 106 | GMK Muted | 100,000원 | ✅ 판매 완료 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 107 | GMK Modo Light MTNU | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
+| 117 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 | 118 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
-| 117 | GMK white blue | 100,000원 🤝 | ❔ | @cksgns0801 | [#91](https://github.com/Suckzoo/keyboard-market/issues/91) |
 
 **비고**
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
