@@ -173,7 +173,7 @@ tjkj555+keyboards@gmail.com
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟠 네고중 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 34 | CHERRY G80-8113 | 가격 미정 | 🟠 네고중 | - | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
 | 62 | Orbit | 450,000원 | 🟠 네고중 | - | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
-| 27 | TX 87 v1 추정 | 120,000원 🤝 | 🟡 예약금 대기중 | @LIPHON | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
+| 27 | TX 87 v1 추정 | 120,000원 🤝 | 🔵 예약금 확인중 | @LIPHON | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
