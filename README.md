@@ -167,7 +167,7 @@ tjkj555+keyboards@gmail.com
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟠 네고중 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
-| 34 | CHERRY G80-8113 | 40,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
+| 34 | CHERRY G80-8113 | 40,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
 | 62 | Orbit | 210,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
