@@ -149,7 +149,6 @@ tjkj555+keyboards@gmail.com
 | 24 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#22](https://github.com/Suckzoo/keyboard-market/issues/22) |
 | 25 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#23](https://github.com/Suckzoo/keyboard-market/issues/23) |
 | 26 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#24](https://github.com/Suckzoo/keyboard-market/issues/24) |
-| 27 | TX 87 v1 추정 | 120,000원 🤝 | 🟢 구매 가능 | - | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
 | 32 | G80-3422LAMIT 추정 | 가격 미정 | 🟢 구매 가능 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
 | 40 | TX 87 v1 추정 | 120,000원 🤝 | 🟢 구매 가능 | - | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
 | 41 | TX 87 v1 추정 | 120,000원 🤝 | 🟢 구매 가능 | - | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
@@ -174,6 +173,7 @@ tjkj555+keyboards@gmail.com
 | 15 | MONOKEI x TGR Tomo | 320,000원 🤝 | 🟠 네고중 | - | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 34 | CHERRY G80-8113 | 가격 미정 | 🟠 네고중 | - | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
 | 62 | Orbit | 450,000원 | 🟠 네고중 | - | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
+| 27 | TX 87 v1 추정 | 120,000원 🤝 | 🟡 예약금 대기중 | @LIPHON | [#25](https://github.com/Suckzoo/keyboard-market/issues/25) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
@@ -225,6 +225,6 @@ tjkj555+keyboards@gmail.com
 | 118 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
 
 **비고**
-- 🤝 = 네고로 조정된 가격
 - 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
+- 🤝 = 네고로 조정된 가격
 <!-- BOARD:END -->
