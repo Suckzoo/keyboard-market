@@ -217,7 +217,7 @@ tjkj555+keyboards@gmail.com
 | 110 | GMK Metropolis | 70,000원 🤝 | ✅ 판매 완료 | @HyungdukSeo | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
 | 111 | GMK Solarized Dark | 170,000원 🤝 | ✅ 판매 완료 | @bang015 | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 112 | GMK Burgundy | 100,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
-| 113 | GMK Carbon | 200,000원 🤝 | ✅ 판매 완료 | @LIPHON | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
+| 113 | GMK Carbon | 100,000원 🤝 | ✅ 판매 완료 | @LIPHON | [#87](https://github.com/Suckzoo/keyboard-market/issues/87) |
 | 114 | GMK Rubrehose | 140,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#88](https://github.com/Suckzoo/keyboard-market/issues/88) |
 | 115 | GMK white blue (사용품) | 70,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#89](https://github.com/Suckzoo/keyboard-market/issues/89) |
 | 116 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @RhRhcl | [#90](https://github.com/Suckzoo/keyboard-market/issues/90) |
