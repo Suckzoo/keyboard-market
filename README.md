@@ -169,7 +169,6 @@ tjkj555+keyboards@gmail.com
 | 62 | Orbit | 450,000원 | 🟠 네고중 | - | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟠 네고중 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 34 | CHERRY G80-8113 | 40,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
-| 14 | Lucky65 | 30,000원 🤝 | 🔵 예약금 확인중 | @v1r4m | [#13](https://github.com/Suckzoo/keyboard-market/issues/13) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
@@ -178,6 +177,7 @@ tjkj555+keyboards@gmail.com
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 11 | TX87 V1 anodized pink TKL | 100,000원 🤝 | ✅ 판매 완료 | @imhappyman | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
 | 13 | Paper80 | 140,000원 🤝 | ✅ 판매 완료 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
+| 14 | Lucky65 | 30,000원 🤝 | ✅ 판매 완료 | @v1r4m | [#13](https://github.com/Suckzoo/keyboard-market/issues/13) |
 | 15 | MONOKEI x TGR Tomo | 300,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | ✅ 판매 완료 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
