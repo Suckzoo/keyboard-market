@@ -167,12 +167,12 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
-| 11 | TX87 V1 anodized pink TKL | 200,000원 | 🟠 네고중 | - | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
 | 34 | CHERRY G80-8113 | 가격 미정 | 🟠 네고중 | - | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
 | 62 | Orbit | 450,000원 | 🟠 네고중 | - | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟠 네고중 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
-| 111 | GMK Solarized Dark | 170,000원 🤝 | 🟠 네고중 | - | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
+| 11 | TX87 V1 anodized pink TKL | 100,000원 🤝 | 🟡 예약금 대기중 | @imhappyman | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
 | 14 | Lucky65 | 30,000원 🤝 | 🟡 예약금 대기중 | @v1r4m | [#13](https://github.com/Suckzoo/keyboard-market/issues/13) |
+| 111 | GMK Solarized Dark | 170,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 120,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
