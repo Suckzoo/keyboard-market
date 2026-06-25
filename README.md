@@ -190,7 +190,7 @@ tjkj555+keyboards@gmail.com
 | 35 | Versakey Quest | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 36 | CHERRY G80-3000 | 50,000원 🤝 | ✅ 판매 완료 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 37 | 37번 키보드 | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
-| 38 | TX 87 v1 추정 | 160,000원 | ✅ 판매 완료 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
+| 38 | TX 87 v1 추정 | 120,000원 | ✅ 판매 완료 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 39 | TX 87 v1 추정 | 120,000원 🤝 | ✅ 판매 완료 | @bang015 | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 40 | TX 87 v1 추정 | 120,000원 🤝 | ✅ 판매 완료 | @LIPHON | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
 | 43 | Paper80 | 200,000원 | ✅ 판매 완료 | @thisishoonlee | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
