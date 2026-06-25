@@ -23,6 +23,11 @@ test('classifyReactions: accepted-active when owner 👍 and no expiry', () => {
   assert.strictEqual(n.classifyReactions([{ content: '+1', user: { login: 'Suckzoo' } }], 'Suckzoo'), 'accepted-active');
 });
 
+test('classifyReactions: accepted-active when additional operator 👍 and no expiry', () => {
+  const cfg = { owner: 'Suckzoo', operators: ['Suckzoo', '0x1f440'] };
+  assert.strictEqual(n.classifyReactions([{ content: '+1', user: { login: '0x1f440' } }], cfg), 'accepted-active');
+});
+
 test('classifyReactions: done when owner 👎 or owner/bot 😕', () => {
   assert.strictEqual(n.classifyReactions([{ content: '-1', user: { login: 'Suckzoo' } }], 'Suckzoo'), 'done');
   assert.strictEqual(n.classifyReactions([

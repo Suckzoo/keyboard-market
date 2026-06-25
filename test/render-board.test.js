@@ -66,16 +66,17 @@ test('spliceBoard throws when markers absent', () => {
   assert.throws(() => spliceBoard('no markers', 'x'), /BOARD/);
 });
 
-test('selectListingIssues drops PRs, [Test Purpose], and non-owner issues', () => {
-  const cfg = { owner: 'Suckzoo' };
+test('selectListingIssues drops PRs, [Test Purpose], and non-operator issues', () => {
+  const cfg = { owner: 'Suckzoo', operators: ['Suckzoo', '0x1f440'] };
   const issues = [
     { title: 'Real', user: { login: 'Suckzoo' } },
+    { title: 'Additional Operator', user: { login: '0x1f440' } },
     { title: 'PR', user: { login: 'Suckzoo' }, pull_request: {} },
     { title: '[Test Purpose] D', user: { login: 'Suckzoo' } },
     { title: 'Stranger', user: { login: 'x' } },
   ];
   const out = selectListingIssues(issues, cfg).map((i) => i.title);
-  assert.deepStrictEqual(out, ['Real']);
+  assert.deepStrictEqual(out, ['Real', 'Additional Operator']);
 });
 
 test('isTestPurpose flags titles tagged [Test Purpose]', () => {

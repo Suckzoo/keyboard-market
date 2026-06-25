@@ -9,6 +9,7 @@ const STATUS_DISPLAY = {
   unknown: '❔',
 };
 const STATUS_ORDER = { available: 0, negotiating: 1, reserved: 2, claimed: 3, paid: 4, unknown: 5 };
+const { isOperator } = require('./operators');
 
 // Issues tagged "[Test Purpose]" in their title are live test fixtures kept in
 // the repo for rehearsing on production; they are hidden from the public board.
@@ -16,10 +17,10 @@ function isTestPurpose(title) {
   return typeof title === 'string' && title.includes('[Test Purpose]');
 }
 
-// Public board scope: real owner-authored listing issues only.
+// Public board scope: real operator-authored listing issues only.
 function selectListingIssues(issues, config) {
   return (issues || []).filter((i) =>
-    !i.pull_request && !isTestPurpose(i.title) && i.user && i.user.login === config.owner);
+    !i.pull_request && !isTestPurpose(i.title) && i.user && isOperator(i.user.login, config));
 }
 
 function sortListings(models) {

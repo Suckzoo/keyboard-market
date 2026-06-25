@@ -30,7 +30,7 @@ GitHub Actions로 무인 처리하고 README 현황판 + CATALOG 카탈로그를
 
 ## 운영자 운영 (런북)
 
-봇이 대부분 자동 처리하고, 운영자(=`config.owner`)가 직접 하는 일은 다음과 같다.
+봇이 대부분 자동 처리하고, 운영자(=`config.owner` 및 `config.operators`)가 직접 하는 일은 다음과 같다.
 
 - **입금 확인**: 구매자가 `#입금완료` 댓글을 남기면 `예약금 확인중`으로 전환된다. 폼 응답 시트로 입금자명을
   대조한 뒤 해당 이슈에 `#입금확인` 댓글을 남기면 `입금 확인 완료` 라벨이 붙어 현황판에 ✅ 판매 완료로 표기된다.
@@ -46,6 +46,7 @@ GitHub Actions로 무인 처리하고 README 현황판 + CATALOG 카탈로그를
 - **공개 전환**: `gh repo edit Suckzoo/keyboard-market --visibility public --accept-visibility-change-consequences`.
 
 ### config.json 운영값
+- `owner`/`operators`: 입금 확인과 네고 리액션 처리 권한을 가진 GitHub 로그인.
 - `openAt`/`closeAt`: 접수 기간(KST). 기간 밖에서는 `#구매신청`/`#네고희망`을 거절한다.
 - `depositInfo`: 입금 안내(카카오페이 QR). `formBaseUrl`/`formIssueEntryId`/`formUserEntryId`: 예약 구글폼
   (이슈번호·GitHub 아이디 prefill).
