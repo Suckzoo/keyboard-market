@@ -105,6 +105,13 @@ test('#입금확인 by owner confirms from reserved or claimed', () => {
   assert.strictEqual(r2.action, 'paid_confirm');
 });
 
+test('#입금확인 by additional operator confirms', () => {
+  const cfg = { ...config, owner: 'op', operators: ['op', '0x1f440'], paidConfirmKeyword: '#입금확인' };
+  const r = decideComment({ ...base, config: cfg, commenter: '0x1f440', commentBody: '#입금확인',
+    labelNames: ['매물', '예약금 확인중'], issueBody: 'desc', comments: [], now: new Date('2026-07-01T12:00:00Z') });
+  assert.strictEqual(r.action, 'paid_confirm');
+});
+
 test('#입금확인 by non-owner is ignored', () => {
   const cfg = { ...config, owner: 'op', paidConfirmKeyword: '#입금확인' };
   const r = decideComment({ ...base, config: cfg, commenter: 'alice', commentBody: '#입금확인',

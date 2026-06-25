@@ -15,7 +15,7 @@ async function classifiedNegotiations(github, owner, repo, rawComments, config) 
     const amount = parseNegotiationAmount(c.body, config.negotiateKeyword);
     if (amount === null) continue;
     const reactions = await github.paginate(github.rest.reactions.listForIssueComment, { owner, repo, comment_id: c.id, per_page: 100 });
-    out.push({ id: c.id, author, amount, createdAt: c.created_at, klass: classifyReactions(reactions, config.owner) });
+    out.push({ id: c.id, author, amount, createdAt: c.created_at, klass: classifyReactions(reactions, config) });
   }
   return out.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
 }

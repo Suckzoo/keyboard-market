@@ -1,5 +1,6 @@
 {
   "owner": "Suckzoo",
+  "operators": ["Suckzoo", "0x1f440"],
   "openAt": "2026-06-24T12:00:00+09:00",
   "closeAt": "2026-07-01T12:00:00+09:00",
   "keyword": "#구매신청",

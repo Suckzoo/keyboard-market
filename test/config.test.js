@@ -8,6 +8,7 @@ test('loadConfig reads the repo config.json', () => {
   assert.strictEqual(cfg.keyword, '#구매신청');
   assert.strictEqual(cfg.labels.available, '구매 가능');
   assert.strictEqual(cfg.reservationHours, 3);
+  assert.deepStrictEqual(cfg.operators, ['Suckzoo', '0x1f440']);
 });
 
 test('validateConfig throws when a required key is missing', () => {

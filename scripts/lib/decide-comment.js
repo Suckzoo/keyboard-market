@@ -1,6 +1,7 @@
 const { deriveStatus } = require('./state');
 const { readState } = require('./markers');
 const { effectivePrice, depositAmount } = require('./pricing');
+const { isOperator } = require('./operators');
 const messages = require('./messages');
 
 function isBot(author) {
@@ -18,7 +19,7 @@ function decideComment(input) {
   // from an active reservation (예약금 대기중 or 예약금 확인중).
   if (config.paidConfirmKeyword && body.includes(config.paidConfirmKeyword)) {
     const status = deriveStatus(labelNames, config);
-    if (commenter === config.owner && (status === 'reserved' || status === 'claimed')) {
+    if (isOperator(commenter, config) && (status === 'reserved' || status === 'claimed')) {
       return { action: 'paid_confirm', comment: messages.paidConfirmedMessage(config) };
     }
     return { action: 'ignore' };

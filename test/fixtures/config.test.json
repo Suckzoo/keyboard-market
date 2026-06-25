@@ -1,6 +1,7 @@
 {
   "openAt": "2026-07-01T11:00:00.000Z",
   "owner": "Suckzoo",
+  "operators": ["Suckzoo", "0x1f440"],
   "keyword": "#구매신청",
   "paidKeyword": "#입금완료",
   "paidConfirmKeyword": "#입금확인",
