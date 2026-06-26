@@ -152,7 +152,6 @@ tjkj555+keyboards@gmail.com
 | 42 | ND75 | 40,000원 | 🟢 구매 가능 | - | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 47 | 4GT Sabre | 350,000원 🤝 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
-| 49 | TENET70 | 350,000원 | 🟢 구매 가능 | - | [#45](https://github.com/Suckzoo/keyboard-market/issues/45) |
 | 50 | Crush 80 추정 / 실물 확인 필요 | 가격 미정 | 🟢 구매 가능 | - | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 51 | tx1800 | 160,000원 | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
 | 52 | 52번 키보드 | 가격 미정 | 🟢 구매 가능 | - | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
@@ -195,6 +194,7 @@ tjkj555+keyboards@gmail.com
 | 43 | Paper80 | 200,000원 | ✅ 판매 완료 | @thisishoonlee | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
 | 46 | Matias Mini Tactile Pro | 40,000원 | ✅ 판매 완료 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | ✅ 판매 완료 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
+| 49 | TENET70 | 350,000원 | ✅ 판매 완료 | @운영자소장 | [#45](https://github.com/Suckzoo/keyboard-market/issues/45) |
 | 53 | al.bok 추정 | 250,000원 | ✅ 판매 완료 | @bjwoohil | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 470,000원 🤝 | ✅ 판매 완료 | @hanian253 | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
 | 56 | tex yoda | 100,000원 🤝 | ✅ 판매 완료 | @HyungdukSeo | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
