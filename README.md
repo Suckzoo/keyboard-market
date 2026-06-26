@@ -167,8 +167,6 @@ tjkj555+keyboards@gmail.com
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 7 | mm studio class 1800 | 350,000원 | 🟠 네고중 | - | [#7](https://github.com/Suckzoo/keyboard-market/issues/7) |
 | 109 | GMK Olivia N3 | 120,000원 | 🟠 네고중 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
-| 34 | CHERRY G80-8113 | 40,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
-| 62 | Orbit | 210,000원 🤝 | 🔵 예약금 확인중 | @cksgns0801 | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
@@ -187,6 +185,7 @@ tjkj555+keyboards@gmail.com
 | 29 | Geon W1-AT | 200,000원 🤝 | ✅ 판매 완료 | @Jocastafinal | [#27](https://github.com/Suckzoo/keyboard-market/issues/27) |
 | 31 | Tactile Pro | 30,000원 🤝 | ✅ 판매 완료 | @HyungdukSeo | [#28](https://github.com/Suckzoo/keyboard-market/issues/28) |
 | 33 | CHERRY G80-1813 | 100,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#30](https://github.com/Suckzoo/keyboard-market/issues/30) |
+| 34 | CHERRY G80-8113 | 40,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
 | 35 | Versakey Quest | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 36 | CHERRY G80-3000 | 50,000원 🤝 | ✅ 판매 완료 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
 | 37 | 37번 키보드 | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
@@ -202,6 +201,7 @@ tjkj555+keyboards@gmail.com
 | 59 | Macintosh Apple M0110 | 100,000원 | ✅ 판매 완료 | @hyemin-ht-kang | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
 | 60 | Vault 35 추정 | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
 | 61 | LZ Octagon V2 추정 | 120,000원 | ✅ 판매 완료 | @cksgns0801 | [#56](https://github.com/Suckzoo/keyboard-market/issues/56) |
+| 62 | Orbit | 210,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 63 | LZSQ? | 510,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 64 | 356MINI | 1,450,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
 | 66 | RO75 | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
