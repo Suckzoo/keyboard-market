@@ -153,7 +153,6 @@ tjkj555+keyboards@gmail.com
 | 42 | ND75 | 40,000원 | 🟢 구매 가능 | - | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 47 | 4GT Sabre | 350,000원 🤝 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
-| 50 | Crush 80 추정 / 실물 확인 필요 | 가격 미정 | 🟢 구매 가능 | - | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 51 | tx1800 | 160,000원 | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
 | 55 | STARS80 | 50,000원 | 🟢 구매 가능 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
 | 58 | tx cp 추정 | 250,000원 | 🟢 구매 가능 | - | [#53](https://github.com/Suckzoo/keyboard-market/issues/53) |
@@ -162,6 +161,7 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
+| 50 | Crush 80 추정 / 실물 확인 필요 | 가격 미정 | 🟠 네고중 | - | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 52 | 52번 키보드 | 가격 미정 | 🟠 네고중 | - | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
 | 65 | Transition Lite | 50,000원 | 🟠 네고중 | - | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
 | 69 | Chilkey Paw65 | 50,000원 | 🟠 네고중 | - | [#64](https://github.com/Suckzoo/keyboard-market/issues/64) |
