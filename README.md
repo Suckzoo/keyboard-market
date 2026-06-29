@@ -181,7 +181,7 @@ tjkj555+keyboards@gmail.com
 | 34 | CHERRY G80-8113 | 40,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#31](https://github.com/Suckzoo/keyboard-market/issues/31) |
 | 35 | Versakey Quest | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#32](https://github.com/Suckzoo/keyboard-market/issues/32) |
 | 36 | CHERRY G80-3000 | 50,000원 🤝 | ✅ 판매 완료 | @bang015 | [#33](https://github.com/Suckzoo/keyboard-market/issues/33) |
-| 37 | 37번 키보드 | 100,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
+| 37 | 37번 키보드 | 50,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#34](https://github.com/Suckzoo/keyboard-market/issues/34) |
 | 38 | TX 87 v1 추정 | 120,000원 | ✅ 판매 완료 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 39 | TX 87 v1 추정 | 120,000원 🤝 | ✅ 판매 완료 | @bang015 | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 40 | TX 87 v1 추정 | 120,000원 🤝 | ✅ 판매 완료 | @LIPHON | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
@@ -213,7 +213,7 @@ tjkj555+keyboards@gmail.com
 | 106 | GMK Muted | 100,000원 | ✅ 판매 완료 | @cksgns0801 | [#80](https://github.com/Suckzoo/keyboard-market/issues/80) |
 | 107 | GMK Modo Light MTNU | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#81](https://github.com/Suckzoo/keyboard-market/issues/81) |
 | 108 | GMK Zooted | 80,000원 🤝 | ✅ 판매 완료 | @kanghojae | [#82](https://github.com/Suckzoo/keyboard-market/issues/82) |
-| 109 | GMK Olivia N3 | 60,000원 🤝 | ✅ 판매 완료 | @gytkk | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
+| 109 | GMK Olivia N3 | 80,000원 🤝 | ✅ 판매 완료 | @gytkk | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 110 | GMK Metropolis | 70,000원 🤝 | ✅ 판매 완료 | @HyungdukSeo | [#84](https://github.com/Suckzoo/keyboard-market/issues/84) |
 | 111 | GMK Solarized Dark | 120,000원 🤝 | ✅ 판매 완료 | @DKK31 | [#85](https://github.com/Suckzoo/keyboard-market/issues/85) |
 | 112 | GMK Burgundy | 100,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#86](https://github.com/Suckzoo/keyboard-market/issues/86) |
