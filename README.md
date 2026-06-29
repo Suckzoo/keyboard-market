@@ -161,7 +161,6 @@ tjkj555+keyboards@gmail.com
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 50 | Crush 80 추정 / 실물 확인 필요 | 20,000원 🤝 | 🔵 예약금 확인중 | @teikeu57-sketch | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
-| 65 | Transition Lite | 20,000원 🤝 | 🔵 예약금 확인중 | @teikeu57-sketch | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
 | 109 | GMK Olivia N3 | 60,000원 🤝 | 🔵 예약금 확인중 | @gytkk | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
@@ -203,6 +202,7 @@ tjkj555+keyboards@gmail.com
 | 62 | Orbit | 210,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#57](https://github.com/Suckzoo/keyboard-market/issues/57) |
 | 63 | LZSQ? | 510,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#58](https://github.com/Suckzoo/keyboard-market/issues/58) |
 | 64 | 356MINI | 1,450,000원 🤝 | ✅ 판매 완료 | @donate0204 | [#59](https://github.com/Suckzoo/keyboard-market/issues/59) |
+| 65 | Transition Lite | 20,000원 🤝 | ✅ 판매 완료 | @teikeu57-sketch | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
 | 66 | RO75 | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#61](https://github.com/Suckzoo/keyboard-market/issues/61) |
 | 68 | LZ-CLSm (상태불량) | 50,000원 | ✅ 판매 완료 | @cksgns0801 | [#63](https://github.com/Suckzoo/keyboard-market/issues/63) |
 | 69 | Chilkey Paw65 | 20,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#64](https://github.com/Suckzoo/keyboard-market/issues/64) |
