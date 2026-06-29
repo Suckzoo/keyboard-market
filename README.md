@@ -159,11 +159,11 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
-| 7 | mm studio class 1800 | 200,000원 🤝 | 🔵 예약금 확인중 | @HyungdukSeo | [#7](https://github.com/Suckzoo/keyboard-market/issues/7) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
 | 6 | Owlab Link65 | 170,000원 | ✅ 판매 완료 | @cksgns0801 | [#6](https://github.com/Suckzoo/keyboard-market/issues/6) |
+| 7 | mm studio class 1800 | 200,000원 🤝 | ✅ 판매 완료 | @HyungdukSeo | [#7](https://github.com/Suckzoo/keyboard-market/issues/7) |
 | 8 | Mode Encore | 200,000원 | ✅ 판매 완료 | @creaitr | [#8](https://github.com/Suckzoo/keyboard-market/issues/8) |
 | 9 | Glare tkl 추정 / 실물 확인 필요 | 600,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#9](https://github.com/Suckzoo/keyboard-market/issues/9) |
 | 11 | TX87 V1 anodized pink TKL | 100,000원 🤝 | ✅ 판매 완료 | @imhappyman | [#10](https://github.com/Suckzoo/keyboard-market/issues/10) |
