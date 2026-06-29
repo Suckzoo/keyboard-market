@@ -160,11 +160,11 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
-| 41 | TX 87 v1 추정 | 80,000원 🤝 | 🟡 예약금 대기중 | @bang015 | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
 | 50 | Crush 80 추정 / 실물 확인 필요 | 20,000원 🤝 | 🟡 예약금 대기중 | @teikeu57-sketch | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 52 | 52번 키보드 | 30,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
 | 65 | Transition Lite | 20,000원 🤝 | 🟡 예약금 대기중 | @teikeu57-sketch | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
 | 109 | GMK Olivia N3 | 60,000원 🤝 | 🟡 예약금 대기중 | @teikeu57-sketch | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
+| 41 | TX 87 v1 추정 | 80,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
