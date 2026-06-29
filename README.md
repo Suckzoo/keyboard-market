@@ -160,7 +160,6 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
-| 50 | Crush 80 추정 / 실물 확인 필요 | 20,000원 🤝 | 🔵 예약금 확인중 | @teikeu57-sketch | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 109 | GMK Olivia N3 | 60,000원 🤝 | 🔵 예약금 확인중 | @gytkk | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
@@ -192,6 +191,7 @@ tjkj555+keyboards@gmail.com
 | 46 | Matias Mini Tactile Pro | 40,000원 | ✅ 판매 완료 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | ✅ 판매 완료 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
 | 49 | TENET70 | 350,000원 | ✅ 판매 완료 | @운영자소장 | [#45](https://github.com/Suckzoo/keyboard-market/issues/45) |
+| 50 | Crush 80 추정 / 실물 확인 필요 | 20,000원 🤝 | ✅ 판매 완료 | @teikeu57-sketch | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 52 | 52번 키보드 | 30,000원 🤝 | ✅ 판매 완료 | @Vector94680 | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
 | 53 | al.bok 추정 | 250,000원 | ✅ 판매 완료 | @bjwoohil | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 470,000원 🤝 | ✅ 판매 완료 | @hanian253 | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
