@@ -164,7 +164,6 @@ tjkj555+keyboards@gmail.com
 | 52 | 52번 키보드 | 30,000원 🤝 | 🟡 예약금 대기중 | @Vector94680 | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
 | 65 | Transition Lite | 20,000원 🤝 | 🟡 예약금 대기중 | @teikeu57-sketch | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
 | 109 | GMK Olivia N3 | 60,000원 🤝 | 🟡 예약금 대기중 | @teikeu57-sketch | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
-| 41 | TX 87 v1 추정 | 80,000원 🤝 | 🔵 예약금 확인중 | @bang015 | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
@@ -190,6 +189,7 @@ tjkj555+keyboards@gmail.com
 | 38 | TX 87 v1 추정 | 120,000원 | ✅ 판매 완료 | @donate0204 | [#35](https://github.com/Suckzoo/keyboard-market/issues/35) |
 | 39 | TX 87 v1 추정 | 120,000원 🤝 | ✅ 판매 완료 | @bang015 | [#36](https://github.com/Suckzoo/keyboard-market/issues/36) |
 | 40 | TX 87 v1 추정 | 120,000원 🤝 | ✅ 판매 완료 | @LIPHON | [#37](https://github.com/Suckzoo/keyboard-market/issues/37) |
+| 41 | TX 87 v1 추정 | 80,000원 🤝 | ✅ 판매 완료 | @bang015 | [#38](https://github.com/Suckzoo/keyboard-market/issues/38) |
 | 43 | Paper80 | 200,000원 | ✅ 판매 완료 | @thisishoonlee | [#40](https://github.com/Suckzoo/keyboard-market/issues/40) |
 | 46 | Matias Mini Tactile Pro | 40,000원 | ✅ 판매 완료 | @hyemin-ht-kang | [#42](https://github.com/Suckzoo/keyboard-market/issues/42) |
 | 48 | 4GT Silhouette 추정 | 200,000원 🤝 | ✅ 판매 완료 | @DKK31 | [#44](https://github.com/Suckzoo/keyboard-market/issues/44) |
