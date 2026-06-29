@@ -139,7 +139,6 @@ tjkj555+keyboards@gmail.com
 <!-- BOARD:START -->
 | PID | 매물 | 가격 | 상태 | 예약자 | 이슈 |
 |---|---|---|---|---|---|
-| 12 | TX PAD pink | 80,000원 | 🟢 구매 가능 | - | [#11](https://github.com/Suckzoo/keyboard-market/issues/11) |
 | 16 | XVX L75 Air | 50,000원 | 🟢 구매 가능 | - | [#15](https://github.com/Suckzoo/keyboard-market/issues/15) |
 | 17 | DOMIKEY LABY81 | 250,000원 | 🟢 구매 가능 | - | [#16](https://github.com/Suckzoo/keyboard-market/issues/16) |
 | 20 | GMMK numpad | 80,000원 | 🟢 구매 가능 | - | [#19](https://github.com/Suckzoo/keyboard-market/issues/19) |
@@ -159,6 +158,7 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
+| 12 | TX PAD pink | 80,000원 | 🟠 네고중 | - | [#11](https://github.com/Suckzoo/keyboard-market/issues/11) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
