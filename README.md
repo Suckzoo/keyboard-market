@@ -160,7 +160,7 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
-| 109 | GMK Olivia N3 | 60,000원 🤝 | 🟡 예약금 대기중 | @teikeu57-sketch | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
+| 109 | GMK Olivia N3 | 60,000원 🤝 | 🟠 네고중 | - | [#83](https://github.com/Suckzoo/keyboard-market/issues/83) |
 | 50 | Crush 80 추정 / 실물 확인 필요 | 20,000원 🤝 | 🔵 예약금 확인중 | @teikeu57-sketch | [#46](https://github.com/Suckzoo/keyboard-market/issues/46) |
 | 65 | Transition Lite | 20,000원 🤝 | 🔵 예약금 확인중 | @teikeu57-sketch | [#60](https://github.com/Suckzoo/keyboard-market/issues/60) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
