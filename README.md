@@ -141,7 +141,6 @@ tjkj555+keyboards@gmail.com
 |---|---|---|---|---|---|
 | 16 | XVX L75 Air | 50,000원 | 🟢 구매 가능 | - | [#15](https://github.com/Suckzoo/keyboard-market/issues/15) |
 | 17 | DOMIKEY LABY81 | 250,000원 | 🟢 구매 가능 | - | [#16](https://github.com/Suckzoo/keyboard-market/issues/16) |
-| 20 | GMMK numpad | 80,000원 | 🟢 구매 가능 | - | [#19](https://github.com/Suckzoo/keyboard-market/issues/19) |
 | 23 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#21](https://github.com/Suckzoo/keyboard-market/issues/21) |
 | 24 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#22](https://github.com/Suckzoo/keyboard-market/issues/22) |
 | 25 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#23](https://github.com/Suckzoo/keyboard-market/issues/23) |
@@ -156,6 +155,7 @@ tjkj555+keyboards@gmail.com
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 55 | STARS80 | 50,000원 | 🟠 네고중 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
+| 20 | GMMK numpad | 80,000원 | 🟡 예약금 대기중 | @Suckzoo | [#19](https://github.com/Suckzoo/keyboard-market/issues/19) |
 | 32 | G80-3422LAMIT 추정 | 40,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
 | 101 | Deadline studio DOYS P2 | 15,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
