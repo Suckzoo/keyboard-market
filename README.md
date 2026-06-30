@@ -155,8 +155,8 @@ tjkj555+keyboards@gmail.com
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
 | 55 | STARS80 | 50,000원 | 🟠 네고중 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
 | 32 | G80-3422LAMIT 추정 | 40,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
-| 42 | ND75 | 40,000원 | 🟡 예약금 대기중 | @0x1f440 | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 101 | Deadline studio DOYS P2 | 15,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
+| 42 | ND75 | 40,000원 | 🔵 예약금 확인중 | @0x1f440 | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
