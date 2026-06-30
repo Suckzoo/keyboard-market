@@ -148,12 +148,12 @@ tjkj555+keyboards@gmail.com
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 47 | 4GT Sabre | 350,000원 🤝 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
 | 51 | tx1800 | 160,000원 | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
+| 55 | STARS80 | 50,000원 | 🟢 구매 가능 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
 | 58 | tx cp 추정 | 250,000원 | 🟢 구매 가능 | - | [#53](https://github.com/Suckzoo/keyboard-market/issues/53) |
 | 67 | 67번 키보드 | 가격 미정 | 🟢 구매 가능 | - | [#62](https://github.com/Suckzoo/keyboard-market/issues/62) |
 | 70 | Sin65 | 250,000원 | 🟢 구매 가능 | - | [#65](https://github.com/Suckzoo/keyboard-market/issues/65) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
-| 55 | STARS80 | 50,000원 | 🟠 네고중 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
 | 32 | G80-3422LAMIT 추정 | 40,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
 | 101 | Deadline studio DOYS P2 | 15,000원 🤝 | 🟡 예약금 대기중 | @cksgns0801 | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
