@@ -146,7 +146,6 @@ tjkj555+keyboards@gmail.com
 | 24 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#22](https://github.com/Suckzoo/keyboard-market/issues/22) |
 | 25 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#23](https://github.com/Suckzoo/keyboard-market/issues/23) |
 | 26 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#24](https://github.com/Suckzoo/keyboard-market/issues/24) |
-| 32 | G80-3422LAMIT 추정 | 가격 미정 | 🟢 구매 가능 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
 | 42 | ND75 | 40,000원 | 🟢 구매 가능 | - | [#39](https://github.com/Suckzoo/keyboard-market/issues/39) |
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 47 | 4GT Sabre | 350,000원 🤝 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
@@ -158,6 +157,7 @@ tjkj555+keyboards@gmail.com
 | 101 | Deadline studio DOYS P2 | 30,000원 | 🟢 구매 가능 | - | [#75](https://github.com/Suckzoo/keyboard-market/issues/75) |
 | 102 | FBB S9000 | 30,000원 | 🟢 구매 가능 | - | [#76](https://github.com/Suckzoo/keyboard-market/issues/76) |
 | 103 | FBB S9000 Black | 30,000원 | 🟢 구매 가능 | - | [#77](https://github.com/Suckzoo/keyboard-market/issues/77) |
+| 32 | G80-3422LAMIT 추정 | 가격 미정 | 🟠 네고중 | - | [#29](https://github.com/Suckzoo/keyboard-market/issues/29) |
 | 1 | ASUS ROG Azoth | 140,000원 🤝 | ✅ 판매 완료 | @leesera | [#3](https://github.com/Suckzoo/keyboard-market/issues/3) |
 | 3 | Jay Studio Radio75 | 100,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#4](https://github.com/Suckzoo/keyboard-market/issues/4) |
 | 5 | ABKO AR61D | 50,000원 | ✅ 판매 완료 | @Tsukano-Git | [#5](https://github.com/Suckzoo/keyboard-market/issues/5) |
@@ -225,6 +225,6 @@ tjkj555+keyboards@gmail.com
 | 118 | GMK white blue | 100,000원 🤝 | ✅ 판매 완료 | @KRMKGOLD | [#92](https://github.com/Suckzoo/keyboard-market/issues/92) |
 
 **비고**
-- 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
 - 🤝 = 네고로 조정된 가격
+- 정확한 가격 정보 확인이 어려운 키보드는 적정 가격을 제안받아 확인 후 가격을 확정할 예정입니다. 가격 제안은 해당 판매글 댓글이나 문의 이메일로 남겨 주세요.
 <!-- BOARD:END -->
