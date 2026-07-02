@@ -149,7 +149,6 @@ tjkj555+keyboards@gmail.com
 | 44 | Vortex | 100,000원 | 🟢 구매 가능 | - | [#41](https://github.com/Suckzoo/keyboard-market/issues/41) |
 | 47 | 4GT Sabre | 350,000원 🤝 | 🟢 구매 가능 | - | [#43](https://github.com/Suckzoo/keyboard-market/issues/43) |
 | 51 | tx1800 | 160,000원 | 🟢 구매 가능 | - | [#47](https://github.com/Suckzoo/keyboard-market/issues/47) |
-| 55 | STARS80 | 50,000원 | 🟢 구매 가능 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
 | 58 | tx cp 추정 | 250,000원 | 🟢 구매 가능 | - | [#53](https://github.com/Suckzoo/keyboard-market/issues/53) |
 | 67 | 67번 키보드 | 가격 미정 | 🟢 구매 가능 | - | [#62](https://github.com/Suckzoo/keyboard-market/issues/62) |
 | 70 | Sin65 | 250,000원 | 🟢 구매 가능 | - | [#65](https://github.com/Suckzoo/keyboard-market/issues/65) |
@@ -195,6 +194,7 @@ tjkj555+keyboards@gmail.com
 | 52 | 52번 키보드 | 30,000원 🤝 | ✅ 판매 완료 | @Vector94680 | [#48](https://github.com/Suckzoo/keyboard-market/issues/48) |
 | 53 | al.bok 추정 | 250,000원 | ✅ 판매 완료 | @bjwoohil | [#49](https://github.com/Suckzoo/keyboard-market/issues/49) |
 | 54 | Cloudnine | 470,000원 🤝 | ✅ 판매 완료 | @hanian253 | [#50](https://github.com/Suckzoo/keyboard-market/issues/50) |
+| 55 | STARS80 | 50,000원 | ✅ 판매 완료 | - | [#51](https://github.com/Suckzoo/keyboard-market/issues/51) |
 | 56 | tex yoda | 100,000원 🤝 | ✅ 판매 완료 | @HyungdukSeo | [#52](https://github.com/Suckzoo/keyboard-market/issues/52) |
 | 59 | Macintosh Apple M0110 | 100,000원 | ✅ 판매 완료 | @hyemin-ht-kang | [#54](https://github.com/Suckzoo/keyboard-market/issues/54) |
 | 60 | Vault 35 추정 | 100,000원 | ✅ 판매 완료 | @byungyoonc | [#55](https://github.com/Suckzoo/keyboard-market/issues/55) |
