@@ -141,7 +141,6 @@ tjkj555+keyboards@gmail.com
 <!-- BOARD:START -->
 | PID | 매물 | 가격 | 상태 | 예약자 | 이슈 |
 |---|---|---|---|---|---|
-| 16 | XVX L75 Air | 50,000원 | 🟢 구매 가능 | - | [#15](https://github.com/Suckzoo/keyboard-market/issues/15) |
 | 17 | DOMIKEY LABY81 | 250,000원 | 🟢 구매 가능 | - | [#16](https://github.com/Suckzoo/keyboard-market/issues/16) |
 | 23 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#21](https://github.com/Suckzoo/keyboard-market/issues/21) |
 | 24 | TX 넘패드 | 80,000원 | 🟢 구매 가능 | - | [#22](https://github.com/Suckzoo/keyboard-market/issues/22) |
@@ -168,6 +167,7 @@ tjkj555+keyboards@gmail.com
 | 13 | Paper80 | 140,000원 🤝 | ✅ 판매 완료 | @Vector94680 | [#12](https://github.com/Suckzoo/keyboard-market/issues/12) |
 | 14 | Lucky65 | 30,000원 🤝 | ✅ 판매 완료 | @v1r4m | [#13](https://github.com/Suckzoo/keyboard-market/issues/13) |
 | 15 | MONOKEI x TGR Tomo | 300,000원 🤝 | ✅ 판매 완료 | @mainkey082 | [#14](https://github.com/Suckzoo/keyboard-market/issues/14) |
+| 16 | XVX L75 Air | 50,000원 | ✅ 판매 완료 | - | [#15](https://github.com/Suckzoo/keyboard-market/issues/15) |
 | 18 | LZ RV 추정 / 실물 확인 필요 | 200,000원 🤝 | ✅ 판매 완료 | @cksgns0801 | [#17](https://github.com/Suckzoo/keyboard-market/issues/17) |
 | 19 | Rainy75 | 50,000원 | ✅ 판매 완료 | @hhosu107 | [#18](https://github.com/Suckzoo/keyboard-market/issues/18) |
 | 20 | GMMK numpad | 80,000원 | ✅ 판매 완료 | @운영자소장 | [#19](https://github.com/Suckzoo/keyboard-market/issues/19) |
